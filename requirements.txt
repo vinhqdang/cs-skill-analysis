@@ -1,0 +1,11 @@
+requests
+beautifulsoup4
+pandas
+openpyxl
+python-jobspy
+spacy
+scikit-learn
+matplotlib
+seaborn
+jupyter
+notebook
