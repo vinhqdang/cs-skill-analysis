@@ -1,37 +1,48 @@
-import requests
-from bs4 import BeautifulSoup
+import cloudscraper
 import pandas as pd
 import time
+from bs4 import BeautifulSoup
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; research-bot/1.0)"
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 BASE_URL = "https://itviec.com"
+scraper = cloudscraper.create_scraper()
 
 def get_job_links(keyword="it", pages=20):
     links = []
     for page in range(1, pages + 1):
         url = f"{BASE_URL}/it-jobs/{keyword}?page={page}"
-        r = requests.get(url, headers=HEADERS)
-        soup = BeautifulSoup(r.text, "html.parser")
-        cards = soup.select("[data-search--job-selection-job-url]")
-        for card in cards:
-            path = card.get("data-search--job-selection-job-url")
-            if path:
-                links.append(BASE_URL + path)
-        time.sleep(1.5)
+        try:
+            r = scraper.get(url)
+            soup = BeautifulSoup(r.text, "html.parser")
+            cards = soup.select(".job-card")
+            for card in cards:
+                uri = card.get("data-search--job-selection-job-url-value")
+                if uri and "/content" in uri:
+                    uri = uri.split("/content")[0]
+                    links.append(BASE_URL + uri)
+            time.sleep(1.5)
+        except Exception as e:
+            print(f"Error fetching list page {page}: {e}")
     return list(set(links))
 
 def get_job_detail(url):
-    r = requests.get(url, headers=HEADERS)
+    r = scraper.get(url)
     soup = BeautifulSoup(r.text, "html.parser")
+    title_el = soup.select_one("h1")
+    company_el = soup.select_one(".employer-name, .company-name, .employer-long-overview__name")
+    desc_el = soup.select_one(".job-details__paragraph, .paragraph, .job-description")
+    tags = soup.select(".itag, .tag-item, .job-details__tag")
+    loc_el = soup.select_one(".address, .job-details__overview .text-truncate")
+
     return {
         "url": url,
-        "title": soup.select_one("h1").text.strip() if soup.select_one("h1") else "",
-        "company": soup.select_one(".company-name").text.strip() if soup.select_one(".company-name") else "",
-        "description": soup.select_one(".job-description").text.strip() if soup.select_one(".job-description") else "",
-        "skills_tags": [t.text.strip() for t in soup.select(".tag-item")],
-        "location": soup.select_one(".address").text.strip() if soup.select_one(".address") else "",
+        "title": title_el.text.strip() if title_el else "",
+        "company": company_el.text.strip() if company_el else "",
+        "description": desc_el.text.strip() if desc_el else "",
+        "skills_tags": [t.text.strip() for t in tags] if tags else [],
+        "location": loc_el.text.strip() if loc_el else "",
     }
 
 if __name__ == "__main__":
@@ -47,7 +58,11 @@ if __name__ == "__main__":
                 all_jobs.append(job)
                 time.sleep(1)
             except Exception as e:
-                print(f"Error: {e}")
-    df = pd.DataFrame(all_jobs).drop_duplicates(subset="url")
-    df.to_csv("data/raw/job_postings/itviec.csv", index=False)
-    print(f"Saved {len(df)} jobs")
+                print(f"Error reading detail: {e}")
+    
+    if all_jobs:
+        df = pd.DataFrame(all_jobs).drop_duplicates(subset="url")
+        df.to_json("data/raw/job_postings/itviec.json", orient="records", indent=4)
+        print(f"Saved {len(df)} jobs")
+    else:
+        print("No jobs found")

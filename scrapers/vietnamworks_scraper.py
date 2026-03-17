@@ -54,5 +54,5 @@ if __name__ == "__main__":
     else:
         print("Using HTML fallback for VietnamWorks since API key might need manual updating.")
         df = scrape_html_fallback(keyword="it", pages=10)
-    df.to_csv("data/raw/job_postings/vietnamworks.csv", index=False)
+    df.to_json("data/raw/job_postings/vietnamworks.json", orient="records", indent=4)
     print(f"Saved {len(df)} jobs")
