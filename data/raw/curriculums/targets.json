@@ -1,0 +1,57 @@
+[
+  {
+    "university": "MIT",
+    "region": "Global",
+    "url": "https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/"
+  },
+  {
+    "university": "Stanford",
+    "region": "Global",
+    "url": "https://cs.stanford.edu/academics/undergraduate/requirements-curriculum"
+  },
+  {
+    "university": "Carnegie Mellon University",
+    "region": "Global",
+    "url": "https://csd.cmu.edu/academics/undergraduate/requirements"
+  },
+  {
+    "university": "University of Oxford",
+    "region": "Global",
+    "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/computer-science"
+  },
+  {
+    "university": "National University of Singapore (NUS)",
+    "region": "Asia",
+    "url": "https://comp.nus.edu.sg/programmes/ug/cs/curr/"
+  },
+  {
+    "university": "Nanyang Technological University (NTU)",
+    "region": "Asia",
+    "url": "https://www.ntu.edu.sg/computing/admissions/undergraduate-programmes/computer-science"
+  },
+  {
+    "university": "University of Tokyo",
+    "region": "Asia",
+    "url": "https://www.s.u-tokyo.ac.jp/en/admission/undergraduate/"
+  },
+  {
+    "university": "Chulalongkorn University (Thailand)",
+    "region": "Southeast Asia",
+    "url": "https://www.cp.eng.chula.ac.th/en/about/departments/cp/"
+  },
+  {
+    "university": "Hanoi University of Science and Technology (HUST)",
+    "region": "Vietnam",
+    "url": "https://soict.hust.edu.vn/en/programs/it1-computer-science.html"
+  },
+  {
+    "university": "FPT University",
+    "region": "Vietnam",
+    "url": "https://international.fpt.edu.vn/software-engineering"
+  },
+  {
+    "university": "RMIT University Vietnam",
+    "region": "Vietnam",
+    "url": "https://www.rmit.edu.vn/study-at-rmit/bachelor-degrees/bachelor-of-information-technology"
+  }
+]

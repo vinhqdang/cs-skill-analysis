@@ -1,0 +1,111 @@
+university,region,skill
+MIT,Global,computer science
+MIT,Global,engineering
+MIT,Global,machine learning
+MIT,Global,computational science
+MIT,Global,artificial intelligence
+MIT,Global,information systems
+MIT,Global,technology
+MIT,Global,operations research
+MIT,Global,financial engineering
+MIT,Global,nanotechnologies
+MIT,Global,internet policy
+MIT,Global,collective intelligence
+MIT,Global,computational engineering
+Carnegie Mellon University,Global,algorithms
+Carnegie Mellon University,Global,artificial intelligence
+Carnegie Mellon University,Global,graphics
+Carnegie Mellon University,Global,sound
+Carnegie Mellon University,Global,software engineering
+Carnegie Mellon University,Global,human-computer interaction
+Carnegie Mellon University,Global,programming languages
+Carnegie Mellon University,Global,parallel computing
+Carnegie Mellon University,Global,sequential computing
+Carnegie Mellon University,Global,computability
+Carnegie Mellon University,Global,symbolic reasoning
+Carnegie Mellon University,Global,probabilistic reasoning
+Carnegie Mellon University,Global,machine learning
+Carnegie Mellon University,Global,optimization
+Carnegie Mellon University,Global,perception
+Carnegie Mellon University,Global,natural language processing
+Carnegie Mellon University,Global,deep learning
+Carnegie Mellon University,Global,collective intelligence
+Carnegie Mellon University,Global,neural computation
+Carnegie Mellon University,Global,robot kinematics
+Carnegie Mellon University,Global,robot dynamics
+Carnegie Mellon University,Global,computer vision
+Carnegie Mellon University,Global,computational biology
+Carnegie Mellon University,Global,computer music
+Carnegie Mellon University,Global,computer security
+Carnegie Mellon University,Global,computer graphics
+Carnegie Mellon University,Global,complexity theory
+Carnegie Mellon University,Global,logic
+Carnegie Mellon University,Global,mechanized reasoning
+Carnegie Mellon University,Global,software foundations
+Carnegie Mellon University,Global,privacy
+Carnegie Mellon University,Global,constructive logic
+Carnegie Mellon University,Global,automated program verification
+Carnegie Mellon University,Global,program analysis
+Carnegie Mellon University,Global,category theory
+Carnegie Mellon University,Global,processor architecture
+Carnegie Mellon University,Global,networks
+Carnegie Mellon University,Global,storage
+Carnegie Mellon University,Global,concurrency
+Carnegie Mellon University,Global,operating system design
+Carnegie Mellon University,Global,compiler design
+Carnegie Mellon University,Global,parallel computer architecture
+Carnegie Mellon University,Global,distributed systems
+Carnegie Mellon University,Global,networking
+Carnegie Mellon University,Global,internet
+Carnegie Mellon University,Global,database systems
+Carnegie Mellon University,Global,imperative computation
+Carnegie Mellon University,Global,functional programming
+Carnegie Mellon University,Global,data structures
+Carnegie Mellon University,Global,linear algebra
+Carnegie Mellon University,Global,calculus
+Carnegie Mellon University,Global,matrix theory
+University of Oxford,Global,computer science
+University of Oxford,Global,mathematical reasoning
+University of Oxford,Global,software technologies
+University of Oxford,Global,hardware technologies
+University of Oxford,Global,problem-solving
+University of Oxford,Global,programme design
+National University of Singapore (NUS),Asia,computer science
+National University of Singapore (NUS),Asia,programming methodology
+National University of Singapore (NUS),Asia,data structures
+National University of Singapore (NUS),Asia,algorithms
+National University of Singapore (NUS),Asia,computer organisation
+National University of Singapore (NUS),Asia,software engineering
+National University of Singapore (NUS),Asia,operating systems
+National University of Singapore (NUS),Asia,artificial intelligence
+National University of Singapore (NUS),Asia,machine learning
+National University of Singapore (NUS),Asia,discrete structures
+National University of Singapore (NUS),Asia,calculus
+National University of Singapore (NUS),Asia,linear algebra
+National University of Singapore (NUS),Asia,probability
+National University of Singapore (NUS),Asia,statistics
+National University of Singapore (NUS),Asia,digital ethics
+National University of Singapore (NUS),Asia,data privacy
+National University of Singapore (NUS),Asia,database systems
+National University of Singapore (NUS),Asia,computer graphics
+National University of Singapore (NUS),Asia,computer security
+National University of Singapore (NUS),Asia,multimedia information retrieval
+National University of Singapore (NUS),Asia,networking
+National University of Singapore (NUS),Asia,distributed systems
+National University of Singapore (NUS),Asia,parallel computing
+National University of Singapore (NUS),Asia,programming languages
+National University of Singapore (NUS),Asia,design and analysis of algorithms
+Nanyang Technological University (NTU),Asia,computer science
+Nanyang Technological University (NTU),Asia,data science
+Chulalongkorn University (Thailand),Southeast Asia,computer engineering
+Chulalongkorn University (Thailand),Southeast Asia,computer science
+Chulalongkorn University (Thailand),Southeast Asia,software engineering
+Hanoi University of Science and Technology (HUST),Vietnam,computer science
+Hanoi University of Science and Technology (HUST),Vietnam,computer engineering
+Hanoi University of Science and Technology (HUST),Vietnam,artificial intelligence
+Hanoi University of Science and Technology (HUST),Vietnam,cybersecurity
+Hanoi University of Science and Technology (HUST),Vietnam,software engineering
+Hanoi University of Science and Technology (HUST),Vietnam,distributed computing
+Hanoi University of Science and Technology (HUST),Vietnam,computer systems
+Hanoi University of Science and Technology (HUST),Vietnam,network technology
+Hanoi University of Science and Technology (HUST),Vietnam,communication technology

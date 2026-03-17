@@ -1,0 +1,5246 @@
+hard_skills,job_count,demand_pct
+Python,246,12.3
+Java,187,9.35
+CI/CD,180,9.0
+AWS,169,8.450000000000001
+JavaScript,136,6.800000000000001
+Git,120,6.0
+SQL,118,5.8999999999999995
+Kubernetes,108,5.4
+Docker,107,5.35
+React,100,5.0
+DevOps,94,4.7
+TypeScript,90,4.5
+MySQL,83,4.15
+Azure,78,3.9
+Terraform,76,3.8
+AI,73,3.65
+PostgreSQL,70,3.5000000000000004
+RESTful APIs,63,3.15
+Cybersecurity,62,3.1
+Linux,62,3.1
+HTML,62,3.1
+CSS,60,3.0
+Node.js,60,3.0
+Machine learning,57,2.85
+Microservices,57,2.85
+Angular,57,2.85
+Machine Learning,56,2.8000000000000003
+C++,54,2.7
+C#,51,2.55
+Jenkins,51,2.55
+Data analysis,45,2.25
+Ansible,43,2.15
+Kafka,43,2.15
+CI/CD pipelines,41,2.0500000000000003
+Distributed systems,41,2.0500000000000003
+Automation,41,2.0500000000000003
+MongoDB,40,2.0
+Redis,38,1.9
+GCP,38,1.9
+API development,38,1.9
+Spring Boot,36,1.7999999999999998
+.NET,36,1.7999999999999998
+NoSQL,35,1.7500000000000002
+Kotlin,35,1.7500000000000002
+Swift,34,1.7000000000000002
+Software development,33,1.6500000000000001
+Generative AI,32,1.6
+DevSecOps,32,1.6
+Go,32,1.6
+Data engineering,31,1.55
+REST APIs,31,1.55
+Software engineering,30,1.5
+Golang,30,1.5
+HTML5,30,1.5
+Agile,29,1.4500000000000002
+Jira,29,1.4500000000000002
+JSON,29,1.4500000000000002
+PHP,28,1.4000000000000001
+Next.js,27,1.35
+Bash,27,1.35
+Data modeling,27,1.35
+Android development,26,1.3
+Cloud infrastructure,26,1.3
+APIs,26,1.3
+ReactJS,25,1.25
+MVVM,25,1.25
+iOS development,25,1.25
+Data pipelines,25,1.25
+Unit testing,25,1.25
+CSS3,25,1.25
+Networking,24,1.2
+LLMs,24,1.2
+Vue,24,1.2
+Backend development,23,1.15
+SQL Server,23,1.15
+Ruby on Rails,22,1.0999999999999999
+GraphQL,21,1.05
+GitHub Actions,21,1.05
+Prototyping,21,1.05
+Infrastructure as Code,21,1.05
+Android,21,1.05
+Prometheus,20,1.0
+React Native,20,1.0
+Objective-C,20,1.0
+AI tools,20,1.0
+iOS,20,1.0
+ETL,20,1.0
+API integration,20,1.0
+Elixir,20,1.0
+AI/ML,19,0.95
+LLM,19,0.95
+Salesforce CRM,18,0.8999999999999999
+System design,18,0.8999999999999999
+Grafana,18,0.8999999999999999
+Security,18,0.8999999999999999
+Debugging,18,0.8999999999999999
+FastAPI,18,0.8999999999999999
+PowerShell,18,0.8999999999999999
+Azure DevOps,18,0.8999999999999999
+NLP,18,0.8999999999999999
+Javascript,18,0.8999999999999999
+Web development,18,0.8999999999999999
+Vue.js,18,0.8999999999999999
+Spark,18,0.8999999999999999
+GitHub,17,0.8500000000000001
+React.js,17,0.8500000000000001
+Spring,17,0.8500000000000001
+REST,17,0.8500000000000001
+Selenium,17,0.8500000000000001
+Analytics,17,0.8500000000000001
+API testing,17,0.8500000000000001
+Automated testing,16,0.8
+Playwright,16,0.8
+Full stack development,16,0.8
+CloudFormation,16,0.8
+IAM,16,0.8
+MVC,16,0.8
+GitLab CI,16,0.8
+C,16,0.8
+Containerization,16,0.8
+Flutter,16,0.8
+GitLab,16,0.8
+NodeJS,16,0.8
+Software Engineering,16,0.8
+Salesforce,16,0.8
+Software testing,15,0.75
+Performance optimization,15,0.75
+Artificial Intelligence,15,0.75
+Windows Server,15,0.75
+API design,15,0.75
+PyTorch,15,0.75
+Data analytics,15,0.75
+Agile/Scrum,15,0.75
+Electrical engineering,15,0.75
+S3,15,0.75
+Big Data,14,0.7000000000000001
+Elasticsearch,14,0.7000000000000001
+REST API,14,0.7000000000000001
+Oracle,14,0.7000000000000001
+Cloud,14,0.7000000000000001
+Cloud platforms,14,0.7000000000000001
+UIKit,14,0.7000000000000001
+Data Engineering,14,0.7000000000000001
+Algorithms,14,0.7000000000000001
+Cloud computing,14,0.7000000000000001
+cybersecurity,14,0.7000000000000001
+SRE,14,0.7000000000000001
+Redux,14,0.7000000000000001
+Storage,14,0.7000000000000001
+Monitoring,13,0.65
+Xcode,13,0.65
+Performance testing,13,0.65
+Test automation,13,0.65
+Testing,13,0.65
+Manual testing,13,0.65
+OOP,13,0.65
+Data Science,13,0.65
+Laravel,13,0.65
+MLOps,13,0.65
+Troubleshooting,13,0.65
+GenAI,13,0.65
+SIEM,13,0.65
+.NET Core,13,0.65
+Software design,12,0.6
+Splunk,12,0.6
+Airflow,12,0.6
+Data center infrastructure,12,0.6
+Frontend development,12,0.6
+Data science,12,0.6
+Integration testing,12,0.6
+Network security,12,0.6
+Deep Learning,12,0.6
+Figma,12,0.6
+SaaS,12,0.6
+Flask,12,0.6
+Database management,12,0.6
+Natural language processing,12,0.6
+Bootstrap,12,0.6
+Automation testing,12,0.6
+JIRA,12,0.6
+Data structures,12,0.6
+Google Cloud,12,0.6
+UI/UX design,12,0.6
+Mobile development,11,0.5499999999999999
+networking,11,0.5499999999999999
+UX design,11,0.5499999999999999
+EKS,11,0.5499999999999999
+Google Cloud Platform,11,0.5499999999999999
+Hibernate,11,0.5499999999999999
+TCP/IP,11,0.5499999999999999
+Webpack,11,0.5499999999999999
+System architecture,11,0.5499999999999999
+TensorFlow,11,0.5499999999999999
+Firebase,11,0.5499999999999999
+Deep learning,11,0.5499999999999999
+Hadoop,11,0.5499999999999999
+IT infrastructure,11,0.5499999999999999
+jQuery,11,0.5499999999999999
+Risk management,11,0.5499999999999999
+Project management,11,0.5499999999999999
+IoT,11,0.5499999999999999
+Agile methodology,10,0.5
+Coding,10,0.5
+Data governance,10,0.5
+Active Directory,10,0.5
+EC2,10,0.5
+Cloud architecture,10,0.5
+Clean Architecture,10,0.5
+SDLC,10,0.5
+SVN,10,0.5
+Django,10,0.5
+Full-stack development,10,0.5
+Software architecture,10,0.5
+machine learning,10,0.5
+Snowflake,10,0.5
+TypeORM,10,0.5
+Infrastructure as Code (IaC),10,0.5
+distributed systems,10,0.5
+Data collection,10,0.5
+Scala,10,0.5
+Postgres,10,0.5
+Hive,9,0.44999999999999996
+Full Stack Development,9,0.44999999999999996
+JWT,9,0.44999999999999996
+XML,9,0.44999999999999996
+Observability,9,0.44999999999999996
+AutoCAD,9,0.44999999999999996
+Power BI,9,0.44999999999999996
+Scrum,9,0.44999999999999996
+unit testing,9,0.44999999999999996
+Functional testing,9,0.44999999999999996
+Version control,9,0.44999999999999996
+Typescript,9,0.44999999999999996
+Data visualization,9,0.44999999999999996
+cloud infrastructure,9,0.44999999999999996
+Cypress,9,0.44999999999999996
+Rust,9,0.44999999999999996
+Gradle,9,0.44999999999999996
+IaC,9,0.44999999999999996
+PySpark,9,0.44999999999999996
+Unity,9,0.44999999999999996
+Front-end development,9,0.44999999999999996
+J2EE,8,0.4
+JUnit,8,0.4
+Infrastructure design,8,0.4
+Quality assurance,8,0.4
+Auto Layout,8,0.4
+SAP Business Data Cloud,8,0.4
+SAP BW,8,0.4
+SAP BI,8,0.4
+Application development,8,0.4
+SAC Planning,8,0.4
+Robotics,8,0.4
+Prompt engineering,8,0.4
+SAP Datasphere,8,0.4
+OAuth2,8,0.4
+Bitbucket,8,0.4
+C/C++,8,0.4
+Data architecture,8,0.4
+DNS,8,0.4
+User research,8,0.4
+Data integration,8,0.4
+Cyber Security,8,0.4
+UI design,8,0.4
+Confluence,8,0.4
+ECS,8,0.4
+Web application development,8,0.4
+System testing,8,0.4
+Windows,8,0.4
+Embedded systems,8,0.4
+Postman,8,0.4
+RabbitMQ,8,0.4
+Software Development,8,0.4
+Agentic AI,8,0.4
+Unix,8,0.4
+RESTful API,8,0.4
+Maven,8,0.4
+Microsoft Azure,8,0.4
+Mechanical engineering,8,0.4
+Data warehousing,7,0.35000000000000003
+Design patterns,7,0.35000000000000003
+Vulnerability assessment,7,0.35000000000000003
+VPN,7,0.35000000000000003
+GitLab CI/CD,7,0.35000000000000003
+Cloud security,7,0.35000000000000003
+SCADA,7,0.35000000000000003
+Data storage,7,0.35000000000000003
+3D modeling,7,0.35000000000000003
+Lambda,7,0.35000000000000003
+system design,7,0.35000000000000003
+RAG,7,0.35000000000000003
+gRPC,7,0.35000000000000003
+Database,7,0.35000000000000003
+Entity Framework,7,0.35000000000000003
+Power Automate,7,0.35000000000000003
+Databricks,7,0.35000000000000003
+Vite,7,0.35000000000000003
+SAP,7,0.35000000000000003
+WordPress,7,0.35000000000000003
+SwiftUI,7,0.35000000000000003
+Cloud Computing,7,0.35000000000000003
+Virtualization,7,0.35000000000000003
+iOS SDK,7,0.35000000000000003
+Ruby,7,0.35000000000000003
+Product management,7,0.35000000000000003
+Tableau,7,0.35000000000000003
+NestJS,7,0.35000000000000003
+Infrastructure-as-Code,7,0.35000000000000003
+Computer Vision,7,0.35000000000000003
+SOLID principles,7,0.35000000000000003
+Data Warehouse,7,0.35000000000000003
+Navisworks,7,0.35000000000000003
+ETL/ELT,7,0.35000000000000003
+Dart,7,0.35000000000000003
+SOAP,7,0.35000000000000003
+Blockchain,7,0.35000000000000003
+web development,7,0.35000000000000003
+data analysis,7,0.35000000000000003
+BigQuery,7,0.35000000000000003
+Data mining,7,0.35000000000000003
+CloudWatch,7,0.35000000000000003
+Penetration testing,6,0.3
+Cloud Infrastructure,6,0.3
+Mockito,6,0.3
+Encryption,6,0.3
+SystemVerilog,6,0.3
+R,6,0.3
+Systems engineering,6,0.3
+troubleshooting,6,0.3
+Code review,6,0.3
+AKS,6,0.3
+Wireframing,6,0.3
+Electrical distribution systems,6,0.3
+Cloud-native systems,6,0.3
+System integration,6,0.3
+AI integration,6,0.3
+Solution design,6,0.3
+Apex,6,0.3
+product management,6,0.3
+Process engineering,6,0.3
+Incident response,6,0.3
+debugging,6,0.3
+dbt,6,0.3
+ITSM,6,0.3
+software development,6,0.3
+SEO,6,0.3
+AWS Lambda,6,0.3
+data modeling,6,0.3
+data engineering,6,0.3
+Security architecture,6,0.3
+Helm,6,0.3
+testing,6,0.3
+Shell scripting,6,0.3
+Shopify,6,0.3
+GitOps,6,0.3
+SCADA protection,6,0.3
+AI infrastructure,6,0.3
+EDR,6,0.3
+ArgoCD,6,0.3
+project management,6,0.3
+algorithms,6,0.3
+Zustand,6,0.3
+Statistics,6,0.3
+Technical documentation,6,0.3
+Infrastructure management,6,0.3
+P&IDs,6,0.3
+VPC,6,0.3
+Database design,6,0.3
+Data migration,6,0.3
+version control,6,0.3
+Regression testing,6,0.3
+5G,6,0.3
+Data processing,6,0.3
+Amazon Connect,6,0.3
+UAT,6,0.3
+Test Automation,6,0.3
+Mobile application development,6,0.3
+VMware,6,0.3
+UVM,6,0.3
+OpenShift,6,0.3
+Relational databases,6,0.3
+Agile methodologies,6,0.3
+UI/UX,6,0.3
+data science,5,0.25
+FEED,5,0.25
+Big data infrastructure,5,0.25
+Big data,5,0.25
+Datadog,5,0.25
+Power Apps,5,0.25
+Swagger,5,0.25
+software engineering,5,0.25
+RBAC,5,0.25
+integration testing,5,0.25
+XCTest,5,0.25
+RAG systems,5,0.25
+DAST,5,0.25
+Network engineering,5,0.25
+Data management,5,0.25
+Coroutines,5,0.25
+Appium,5,0.25
+SAP Fiori,5,0.25
+Architecture design,5,0.25
+full-stack development,5,0.25
+CI/CD tools,5,0.25
+NextJS,5,0.25
+Software Defined Networking (SDN),5,0.25
+Site Reliability Engineering (SRE),5,0.25
+Data quality monitoring,5,0.25
+GitHub Copilot,5,0.25
+Mobile app development,5,0.25
+Cryptography,5,0.25
+JavaScript (ES6+),5,0.25
+Jest,5,0.25
+ServiceNow,5,0.25
+RDS,5,0.25
+OAuth,5,0.25
+Vector databases,5,0.25
+Program management,5,0.25
+SAST,5,0.25
+Bluebeam,5,0.25
+Power Platform,5,0.25
+SAP SAC,5,0.25
+IT systems,5,0.25
+Architecture,5,0.25
+Apache Spark,5,0.25
+SketchUp,5,0.25
+ITIL,5,0.25
+Talend,5,0.25
+Recommendation systems,5,0.25
+API Gateway,5,0.25
+WebSockets,5,0.25
+WebSocket,5,0.25
+electrical systems,5,0.25
+TDD,5,0.25
+Configuration management,5,0.25
+CloudTrail,5,0.25
+Logging,5,0.25
+Log analysis,5,0.25
+Tailwind,5,0.25
+Tailwind CSS,5,0.25
+Linguistic annotation,5,0.25
+Cloud technology,5,0.25
+Infrastructure automation,5,0.25
+Data Lake,5,0.25
+Requirement analysis,5,0.25
+OpenAI,5,0.25
+microservices,5,0.25
+API,5,0.25
+DynamoDB,5,0.25
+ERP,5,0.25
+ELK,5,0.25
+SQLite,5,0.25
+Telecommunications,5,0.25
+Web API,5,0.25
+ASP.NET Core,5,0.25
+Risk Management Framework (RMF),5,0.25
+Disaster recovery,5,0.25
+LangChain,5,0.25
+MATLAB,5,0.25
+BIM360,5,0.25
+Ubuntu,5,0.25
+Algorithm design,5,0.25
+Containers,5,0.25
+Room,5,0.25
+Cloud technologies,5,0.25
+virtualization,5,0.25
+UI/UX Design,4,0.2
+Data infrastructure,4,0.2
+Scripting,4,0.2
+Medium Voltage Transformer,4,0.2
+VCS,4,0.2
+Building Management System (BMS),4,0.2
+SharePoint,4,0.2
+data structures,4,0.2
+Backend services,4,0.2
+Backend engineering,4,0.2
+Presto,4,0.2
+HTTP,4,0.2
+UX Design,4,0.2
+Unit Testing,4,0.2
+PaaS,4,0.2
+Network operations,4,0.2
+regression testing,4,0.2
+Preventive maintenance,4,0.2
+VMWare,4,0.2
+UI5,4,0.2
+BI,4,0.2
+Unix/Linux,4,0.2
+BIM,4,0.2
+PAM,4,0.2
+Security engineering,4,0.2
+.Net,4,0.2
+Cybersecurity engineering,4,0.2
+containerization,4,0.2
+Process simulation,4,0.2
+Search systems,4,0.2
+Security testing,4,0.2
+Microsoft Office,4,0.2
+Data ingestion,4,0.2
+Dynatrace,4,0.2
+Google Sheets,4,0.2
+Fastlane,4,0.2
+Failure analysis,4,0.2
+Struts,4,0.2
+ClickHouse,4,0.2
+Express,4,0.2
+Cloud Architecture,4,0.2
+Pandas,4,0.2
+Deployment,4,0.2
+Design Patterns,4,0.2
+Excel,4,0.2
+Synthetic data generation,4,0.2
+Visualforce,4,0.2
+Medium Voltage Switchgear,4,0.2
+A/B testing,4,0.2
+System engineering,4,0.2
+VueJS,4,0.2
+Perl,4,0.2
+Vuejs,4,0.2
+AWS CLI,4,0.2
+Vulnerability management,4,0.2
+AWS Bedrock,4,0.2
+Distributed computing,4,0.2
+Performance tuning,4,0.2
+WebGL,4,0.2
+Electrical Engineering,4,0.2
+ETL/ELT pipelines,4,0.2
+Computer vision,4,0.2
+Payments infrastructure,4,0.2
+Fastify,4,0.2
+Chef,4,0.2
+Smoke testing,4,0.2
+YAML,4,0.2
+CAD,4,0.2
+AWS Config,4,0.2
+Cursor,4,0.2
+Data validation,4,0.2
+Data warehouse construction,4,0.2
+Nodejs,4,0.2
+backend development,4,0.2
+Nuxt.js,4,0.2
+automation,4,0.2
+Solution architecture,4,0.2
+GIS,4,0.2
+OAuth 2.0,4,0.2
+ASP.NET,4,0.2
+Microsoft 365,4,0.2
+EBS,4,0.2
+AI architecture,4,0.2
+Verdi,4,0.2
+RDBMS,4,0.2
+Spring Cloud,4,0.2
+Calibration,4,0.2
+Core Java,4,0.2
+Spring Framework,4,0.2
+Cassandra,4,0.2
+Firewalls,4,0.2
+Dataverse,4,0.2
+Firewall,4,0.2
+Storage systems,4,0.2
+Object-oriented programming,4,0.2
+Google Cloud Platform (GCP),4,0.2
+JDBC,4,0.2
+Redshift,4,0.2
+Android SDK,4,0.2
+Responsive design,4,0.2
+Automation systems,4,0.2
+mechanical systems,4,0.2
+Artifactory,4,0.2
+Reinforcement learning,4,0.2
+Revit,4,0.2
+Artificial intelligence,4,0.2
+LLMOps,4,0.2
+Realm,4,0.2
+Product Management,4,0.2
+iOS Development,4,0.2
+SDKs,4,0.2
+Interface Builder,4,0.2
+Access control,4,0.2
+Kibana,4,0.2
+Mission critical facility design,4,0.2
+Agile development,4,0.2
+Ranking algorithms,4,0.2
+LVM,4,0.2
+Adobe Photoshop,4,0.2
+AdMob,4,0.2
+Application Development,4,0.2
+SCSS,4,0.2
+Mechatronics,4,0.2
+Product design,4,0.2
+Automation scripting,4,0.2
+JMeter,4,0.2
+Auth,4,0.2
+Apigee,4,0.2
+RxJS,4,0.2
+Puppet,4,0.2
+observability,4,0.2
+MSSQL,4,0.2
+Full Stack Engineering,3,0.15
+GMS,3,0.15
+ML,3,0.15
+Real-time stream computing,3,0.15
+GIT,3,0.15
+Full Stack Web Development,3,0.15
+K6,3,0.15
+Cloud migration,3,0.15
+Core Data,3,0.15
+CRM,3,0.15
+Test cases,3,0.15
+Microservices architecture,3,0.15
+systems engineering,3,0.15
+3DS,3,0.15
+Speech Algorithm,3,0.15
+Middleware,3,0.15
+network engineering,3,0.15
+ABAP,3,0.15
+Web design,3,0.15
+Jetpack Compose,3,0.15
+Reactjs,3,0.15
+responsive web design,3,0.15
+SCCM,3,0.15
+UI Design,3,0.15
+CDN,3,0.15
+Modeling,3,0.15
+Power management,3,0.15
+CAP,3,0.15
+logging,3,0.15
+Software Development Life Cycle,3,0.15
+Data strategy,3,0.15
+MS SQL,3,0.15
+C5ISR,3,0.15
+Software Defined Networking,3,0.15
+quality assurance,3,0.15
+RMF compliance,3,0.15
+VTS,3,0.15
+LangGraph,3,0.15
+system architecture,3,0.15
+Validation,3,0.15
+Amazon Web Services,3,0.15
+Vector Search,3,0.15
+Real-time bidding systems,3,0.15
+CI/CD automation,3,0.15
+AI development,3,0.15
+system integration,3,0.15
+Amazon S3,3,0.15
+AI coding assistants,3,0.15
+Trello,3,0.15
+Software development lifecycle,3,0.15
+Computing systems,3,0.15
+Game Development,3,0.15
+System monitoring,3,0.15
+Cloud environments,3,0.15
+KMS,3,0.15
+prototyping,3,0.15
+XSLT,3,0.15
+LAN,3,0.15
+MDM,3,0.15
+Polarion,3,0.15
+Threat Detection,3,0.15
+Developer tools,3,0.15
+natural language processing,3,0.15
+SAC,3,0.15
+Threat detection,3,0.15
+System Architecture,3,0.15
+SAML,3,0.15
+OpenTofu,3,0.15
+Mechanical Engineering,3,0.15
+MuleSoft,3,0.15
+Digital Commerce,3,0.15
+Digital Infrastructure,3,0.15
+Application metrics,3,0.15
+Event-driven architecture,3,0.15
+App Exchange,3,0.15
+Expo,3,0.15
+OpenTelemetry,3,0.15
+LLM evaluation,3,0.15
+LLM integration,3,0.15
+SQLAlchemy,3,0.15
+Digital authentication,3,0.15
+Vulnerability scanning,3,0.15
+Cloud Security,3,0.15
+Test plans,3,0.15
+Claude,3,0.15
+LLM training,3,0.15
+Content creation,3,0.15
+security,3,0.15
+API integrations,3,0.15
+Change management,3,0.15
+Root cause analysis,3,0.15
+Spring Batch,3,0.15
+Delta Lake,3,0.15
+Kanban,3,0.15
+Recoil,3,0.15
+MES,3,0.15
+Video surveillance,3,0.15
+Operational resilience,3,0.15
+Entra ID,3,0.15
+SAP BTP,3,0.15
+OIDC,3,0.15
+AngularJS,3,0.15
+CUDA,3,0.15
+CTS,3,0.15
+Transformers,3,0.15
+Frontend engineering,3,0.15
+Fraud detection,3,0.15
+Spring MVC,3,0.15
+Change Management,3,0.15
+Flink,3,0.15
+Equipment sizing,3,0.15
+Distributed data processing,3,0.15
+Mobile architecture,3,0.15
+System administration,3,0.15
+Key Vault,3,0.15
+Kerberos,3,0.15
+Cloud engineering,3,0.15
+Formal verification,3,0.15
+Capacity planning,3,0.15
+Spring framework,3,0.15
+Agile Scrum,3,0.15
+Mechanical design,3,0.15
+aSPICE compliance,3,0.15
+Spring Security,3,0.15
+Nextjs,3,0.15
+UI development,3,0.15
+scikit-learn,3,0.15
+Data cleaning,3,0.15
+UPS systems,3,0.15
+data pipelines,3,0.15
+Scripting languages,3,0.15
+Data collection design,3,0.15
+Magento 2,3,0.15
+Orchestration,3,0.15
+R4J,3,0.15
+data integration,3,0.15
+data visualization,3,0.15
+IT operations,3,0.15
+IT security,3,0.15
+PLC,3,0.15
+Responsive Design,3,0.15
+PL/SQL,3,0.15
+AWS S3,3,0.15
+Product algorithms,3,0.15
+UX/UI design,3,0.15
+Release management,3,0.15
+front-end development,3,0.15
+Network infrastructure,3,0.15
+Bicep,3,0.15
+Reverse engineering,3,0.15
+ICT infrastructure,3,0.15
+DHCP,3,0.15
+Proxy,3,0.15
+data governance,3,0.15
+Bazel,3,0.15
+UPF,3,0.15
+Rest Assured,3,0.15
+software development lifecycle,3,0.15
+Microsoft SQL Server,3,0.15
+TLS,3,0.15
+Cloudflare,3,0.15
+SOAR,3,0.15
+Data lakes,3,0.15
+Edge Functions,3,0.15
+Network administration,3,0.15
+Unreal,3,0.15
+Line hydraulics,3,0.15
+Command and control systems,3,0.15
+Information Assurance,3,0.15
+Information Security,3,0.15
+Information retrieval,3,0.15
+Industrial control systems,3,0.15
+Information security,3,0.15
+Infrastructure,3,0.15
+Quality control,3,0.15
+Data Modeling,3,0.15
+Technical assessment,3,0.15
+ETL pipelines,3,0.15
+SaaS development,3,0.15
+enterprise architecture,3,0.15
+MinIO,3,0.15
+Image Algorithm,3,0.15
+Natural Language Processing,3,0.15
+Usability testing,3,0.15
+Data annotation,3,0.15
+Identity management,3,0.15
+Process automation,3,0.15
+Illustrator,3,0.15
+OutSystems,3,0.15
+RTL,3,0.15
+Data Architecture,3,0.15
+Incident Management,3,0.15
+microservices architecture,3,0.15
+Elastic Load Balancing,3,0.15
+Lightning components,3,0.15
+SPM,3,0.15
+performance testing,3,0.15
+data center design,3,0.15
+Hugging Face,3,0.15
+NIST,3,0.15
+AI solutions,3,0.15
+Autodesk Revit,3,0.15
+Network topology,3,0.15
+JPA,3,0.15
+HPC,3,0.15
+Shell,3,0.15
+Telecommunications system design,3,0.15
+HDFS,3,0.15
+mobile application development,3,0.15
+Perforce,3,0.15
+Telemetry,3,0.15
+Data preprocessing,3,0.15
+Jama,3,0.15
+Data privacy,3,0.15
+Predictive Analytics,3,0.15
+SDK development,3,0.15
+SD-WAN,3,0.15
+MVVM/MVC,3,0.15
+Systems administration,3,0.15
+Smart City Technology,3,0.15
+Systems Engineering,3,0.15
+Business Analysis,3,0.15
+Auto Scaling,3,0.15
+Computational linguistics,3,0.15
+Data quality management,3,0.15
+QA automation,3,0.15
+SoC design,3,0.15
+ASP.NET MVC,3,0.15
+Business process modeling,3,0.15
+NewRelic,3,0.15
+RESTful API design,3,0.15
+Workflow orchestration,3,0.15
+AI technologies,3,0.15
+VIPER,3,0.15
+Sentry,3,0.15
+Hilt,3,0.15
+NPM,3,0.15
+Sentinel,3,0.15
+Biometric authentication,3,0.15
+Microsoft Intune,3,0.15
+Machine Translation,3,0.15
+MobX,3,0.15
+web applications,3,0.15
+Data mapping,3,0.15
+Hardware design,3,0.15
+Rapid prototyping,3,0.15
+DCS,3,0.15
+EFS,3,0.15
+DBT,3,0.15
+Memcached,3,0.15
+configuration management,3,0.15
+DB2,3,0.15
+Adobe Creative Suite,3,0.15
+EDA tools,2,0.1
+ERP systems,2,0.1
+Technical security,2,0.1
+Pulumi,2,0.1
+Technical design,2,0.1
+OpenID Connect,2,0.1
+Logstash,2,0.1
+Redmine,2,0.1
+ES6+,2,0.1
+Technical support,2,0.1
+Payments systems,2,0.1
+Low-power design,2,0.1
+Loki,2,0.1
+LlamaIndex,2,0.1
+Pulsar,2,0.1
+Load balancers,2,0.1
+Load Balancing,2,0.1
+EMR,2,0.1
+Reliability engineering,2,0.1
+Drupal,2,0.1
+Low-latency systems,2,0.1
+Liquid cooling systems,2,0.1
+Log Analytics,2,0.1
+Test planning,2,0.1
+Load testing,2,0.1
+EDI,2,0.1
+Load balancing,2,0.1
+Technical writing,2,0.1
+OpenShift Container Platform,2,0.1
+OpenStack,2,0.1
+Technical discovery,2,0.1
+ELK stack,2,0.1
+Payment systems,2,0.1
+Test management,2,0.1
+Infrastructure maintenance,2,0.1
+Disaster Recovery,2,0.1
+Red Hat OpenShift,2,0.1
+UPS,2,0.1
+PLCs,2,0.1
+UNIX/Linux,2,0.1
+Magento,2,0.1
+Machine translation,2,0.1
+Ranking,2,0.1
+Data lineage,2,0.1
+Ranorex,2,0.1
+Data mesh,2,0.1
+Machine Learning (ML),2,0.1
+Data pipeline,2,0.1
+Oracle DB,2,0.1
+Data platform management,2,0.1
+Mobile App Development,2,0.1
+Data platforms,2,0.1
+PWA,2,0.1
+QA engineering,2,0.1
+Quantity surveys,2,0.1
+MVP,2,0.1
+MVI,2,0.1
+Optimization methods,2,0.1
+Data development,2,0.1
+Microsoft Sentinel,2,0.1
+Data center operations,2,0.1
+Data Transformation,2,0.1
+Data Management,2,0.1
+Unity Catalog,2,0.1
+RPA,2,0.1
+Data Pipelines,2,0.1
+PCI,2,0.1
+RPC,2,0.1
+Data Platforms,2,0.1
+PCF,2,0.1
+Manufacturing processes,2,0.1
+Manufacturing engineering,2,0.1
+Qlik,2,0.1
+RTL design,2,0.1
+Data Warehouses,2,0.1
+UX/UI principles,2,0.1
+RTOS,2,0.1
+UX/UI Design,2,0.1
+Data calculation,2,0.1
+Data center controls,2,0.1
+Data center design,2,0.1
+Data center engineering,2,0.1
+QA Engineering,2,0.1
+Data security,2,0.1
+QA,2,0.1
+Threat hunting,2,0.1
+Demand forecasting,2,0.1
+Tomcat,2,0.1
+Depth sensing,2,0.1
+Design System,2,0.1
+Design Systems,2,0.1
+Recommendation algorithms,2,0.1
+Design systems,2,0.1
+Design verification,2,0.1
+Detox,2,0.1
+Digital Signal Processing (DSP),2,0.1
+Realtime,2,0.1
+Material Design,2,0.1
+Patch management,2,0.1
+Testing strategies,2,0.1
+Patching,2,0.1
+MCP,2,0.1
+Digital identity,2,0.1
+TestRail,2,0.1
+Digital marketing,2,0.1
+TestNG,2,0.1
+DeFi,2,0.1
+Dataset construction,2,0.1
+MS Office,2,0.1
+Database administration,2,0.1
+Quality Assurance,2,0.1
+Data warehouse,2,0.1
+Data warehouses,2,0.1
+MQTT,2,0.1
+UDP,2,0.1
+MQ,2,0.1
+UART,2,0.1
+RHEL,2,0.1
+Pytorch,2,0.1
+Optimization,2,0.1
+Dataflow,2,0.1
+Operations management,2,0.1
+ML infrastructure,2,0.1
+OpenAPI,2,0.1
+Database optimization,2,0.1
+Database querying,2,0.1
+MIP,2,0.1
+Operations,2,0.1
+Database testing,2,0.1
+Databases,2,0.1
+Turbopack,2,0.1
+Routing,2,0.1
+Reporting,2,0.1
+Silicon design,2,0.1
+Google Gemini,2,0.1
+Networking protocols,2,0.1
+Smart contracts,2,0.1
+Governance,2,0.1
+REST web services,2,0.1
+Networking architecture,2,0.1
+Grails,2,0.1
+Graphic Design,2,0.1
+Sketch,2,0.1
+Simulation tools,2,0.1
+Gurobi,2,0.1
+HBase,2,0.1
+SDK,2,0.1
+Google Cloud AI,2,0.1
+SDK design,2,0.1
+HVAC,2,0.1
+JSP,2,0.1
+SDN,2,0.1
+Hardware development,2,0.1
+Hardware validation,2,0.1
+Server configuration,2,0.1
+Product lifecycle management,2,0.1
+Harness,2,0.1
+Hbase,2,0.1
+Heat and Material Balance,2,0.1
+JS,2,0.1
+REST Assured,2,0.1
+PowerMock,2,0.1
+Semiconductor design,2,0.1
+NFPA,2,0.1
+SAST/DAST,2,0.1
+Production scheduling,2,0.1
+Gatling,2,0.1
+Gen AI,2,0.1
+Nutanix,2,0.1
+NumPy,2,0.1
+Multithreading,2,0.1
+Generators,2,0.1
+Geolocation,2,0.1
+Power distribution,2,0.1
+NATS,2,0.1
+NEC,2,0.1
+Java EE,2,0.1
+Mechanical troubleshooting,2,0.1
+NodeJs,2,0.1
+Java 8+,2,0.1
+Github,2,0.1
+Gitlab,2,0.1
+Software Development Lifecycle,2,0.1
+Glue,2,0.1
+Nginx,2,0.1
+SCIP,2,0.1
+NgRx,2,0.1
+Migration strategies,2,0.1
+Google Apps Script,2,0.1
+Nexus,2,0.1
+Semiconductor process technology,2,0.1
+High-Performance Computing,2,0.1
+Linux administration,2,0.1
+Indexing,2,0.1
+IaaS,2,0.1
+Iceberg,2,0.1
+Identity Security,2,0.1
+Identity and Access Management,2,0.1
+Identity and Access Management (IAM),2,0.1
+Network architecture,2,0.1
+Imaging/Video algorithms,2,0.1
+Impala,2,0.1
+SOLID,2,0.1
+Incident investigation,2,0.1
+Incident management,2,0.1
+Instrumentation,2,0.1
+Industrial Engineering,2,0.1
+SMTP,2,0.1
+Network Security,2,0.1
+Infrastructure-as-Code (IaC),2,0.1
+Industry 4.0,2,0.1
+Inference services,2,0.1
+SSR,2,0.1
+Neo4j,2,0.1
+SSL/TLS,2,0.1
+SSIS,2,0.1
+Network Engineering,2,0.1
+Nessus,2,0.1
+Procurement,2,0.1
+Infrastructure security,2,0.1
+SNMP,2,0.1
+Data Loss Prevention,2,0.1
+Product development,2,0.1
+JADE,2,0.1
+Semgrep,2,0.1
+JQuery,2,0.1
+Prisma,2,0.1
+Segment,2,0.1
+JFrog,2,0.1
+ICS/SCADA,2,0.1
+Security controls,2,0.1
+Security best practices,2,0.1
+Security automation,2,0.1
+JCL,2,0.1
+Security Engineering,2,0.1
+IPS/Threats modules,2,0.1
+ISO 9001,2,0.1
+SLA/OLA management,2,0.1
+Secrets management,2,0.1
+IT Infrastructure,2,0.1
+Istio,2,0.1
+Product Security,2,0.1
+Inventory control,2,0.1
+Intrusion detection systems,2,0.1
+IT infrastructure management,2,0.1
+Scikit-learn,2,0.1
+Intrusion detection,2,0.1
+IT solutions,2,0.1
+SLA management,2,0.1
+Problem Management,2,0.1
+Software security,2,0.1
+GPU compute,2,0.1
+Solidity,2,0.1
+LP,2,0.1
+RFC,2,0.1
+Endpoint security,2,0.1
+Modeling and simulation,2,0.1
+Perimeter defense,2,0.1
+System observability,2,0.1
+Engineering calculations,2,0.1
+RESTful services,2,0.1
+System maintenance,2,0.1
+System hardware,2,0.1
+Pinecone,2,0.1
+Enterprise data architecture,2,0.1
+Enterprise monitoring tools,2,0.1
+Root Cause Analysis,2,0.1
+Embedded software development,2,0.1
+RAG pipelines,2,0.1
+System analysis,2,0.1
+Equipment maintenance,2,0.1
+Object-Oriented Programming (OOP),2,0.1
+Object recognition,2,0.1
+System Engineering,2,0.1
+Espresso,2,0.1
+Switching,2,0.1
+Switchgear,2,0.1
+Plumbing,2,0.1
+Supply chain management,2,0.1
+Exploratory testing,2,0.1
+System simulation,2,0.1
+Risk assessment,2,0.1
+Solr,2,0.1
+Electrical Power Monitoring System (EPMS),2,0.1
+Requirements analysis,2,0.1
+Eclipse,2,0.1
+Task scheduling,2,0.1
+Public cloud-native systems,2,0.1
+Edge AI,2,0.1
+Edge computing,2,0.1
+Requirements management tools,2,0.1
+Elastic Search,2,0.1
+Elastic Stack,2,0.1
+Lifecycle management,2,0.1
+Pub/Sub,2,0.1
+Electrical Power Monitoring,2,0.1
+TFS,2,0.1
+Language perception,2,0.1
+Electrical power monitoring system (EPMS),2,0.1
+Retrieval-Augmented Generation (RAG),2,0.1
+Electrical troubleshooting,2,0.1
+Rigging,2,0.1
+Open Shift,2,0.1
+TCL,2,0.1
+T24,2,0.1
+Systems integration,2,0.1
+Risk Management,2,0.1
+Large Language Models (LLMs),2,0.1
+Systems design,2,0.1
+Large Language Models,2,0.1
+Object Oriented Programming,2,0.1
+Express.js,2,0.1
+Supervised learning,2,0.1
+OData services,2,0.1
+Springboot,2,0.1
+ONNX,2,0.1
+Flux,2,0.1
+Flyway,2,0.1
+Mechanical product development,2,0.1
+Kafka Streams,2,0.1
+Front-End Development,2,0.1
+Front-end architecture,2,0.1
+Kafka Connect,2,0.1
+Frontend Development,2,0.1
+Programming,2,0.1
+Milvus,2,0.1
+OData,2,0.1
+Project Management,2,0.1
+SAS,2,0.1
+Full-stack engineering,2,0.1
+SASS,2,0.1
+Functional specification writing,2,0.1
+Sovereign Cloud,2,0.1
+GA4,2,0.1
+SonarQube,2,0.1
+Jmeter,2,0.1
+GCS,2,0.1
+GLS,2,0.1
+Multimodal models,2,0.1
+Solution Architecture,2,0.1
+Firmware,2,0.1
+Statistical analysis,2,0.1
+Programming languages,2,0.1
+Firestore,2,0.1
+Monitoring tools,2,0.1
+FFIEC,2,0.1
+S/4HANA,2,0.1
+Superset,2,0.1
+FMEA,2,0.1
+Supabase,2,0.1
+FPGA,2,0.1
+OWASP ZAP,2,0.1
+Facilities management,2,0.1
+Styled Components,2,0.1
+LDAP,2,0.1
+Fargate,2,0.1
+Maya,2,0.1
+Stripe,2,0.1
+Streaming processing,2,0.1
+Streaming pipelines,2,0.1
+Streaming Pipelines,2,0.1
+Financial platform development,2,0.1
+SAFe,2,0.1
+Stored Procedures,2,0.1
+Fine-tuning,2,0.1
+Step Functions,2,0.1
+Fintech infrastructure,2,0.1
+OR-Tools,2,0.1
+Statistical modeling,2,0.1
+RISC-V,2,0.1
+PCIe,2,0.1
+Data Lakes,2,0.1
+Cloud AI,2,0.1
+Cisco,2,0.1
+Cisco UCS,2,0.1
+AWS EMR,2,0.1
+Clean architecture,2,0.1
+AWS EKS,2,0.1
+CleverTap,2,0.1
+Workforce planning,2,0.1
+AWS CodeCommit,2,0.1
+project planning,2,0.1
+AWS Cloud,2,0.1
+AWS WAF,2,0.1
+Cloud Functions,2,0.1
+AWS CDK,2,0.1
+Cloud Run,2,0.1
+Cloud Storage,2,0.1
+WooCommerce,2,0.1
+Wix,2,0.1
+Wireshark,2,0.1
+Cloud networking,2,0.1
+ASIC design,2,0.1
+AWS SageMaker,2,0.1
+CircleCI,2,0.1
+Context API,2,0.1
+Campaign management,2,0.1
+antenna design,2,0.1
+Advanced analytics,2,0.1
+analytics,2,0.1
+Adobe Target,2,0.1
+Caching,2,0.1
+Adobe Illustrator,2,0.1
+penetration testing,2,0.1
+Camel,2,0.1
+Adobe AEM,2,0.1
+Zero Trust,2,0.1
+process automation,2,0.1
+platform engineering,2,0.1
+Account infrastructure,2,0.1
+Zend,2,0.1
+Ceph,2,0.1
+Charles Proxy,2,0.1
+ChatGPT,2,0.1
+Access Control,2,0.1
+Chatbot development,2,0.1
+Chillers,2,0.1
+ASIC Digital Design,2,0.1
+reporting,2,0.1
+ARM Cortex,2,0.1
+Confluent Platform,2,0.1
+Wealth Management platforms,2,0.1
+AI-driven automation,2,0.1
+Compute Virtualization,2,0.1
+Waterfall,2,0.1
+Computer science,2,0.1
+AI-assisted tools,2,0.1
+software configuration,2,0.1
+WCAG,2,0.1
+WAN,2,0.1
+software test engineering,2,0.1
+Wi-Fi,2,0.1
+Constraint programming,2,0.1
+AI systems,2,0.1
+Construction Design Documents,2,0.1
+AI strategy,2,0.1
+Container platforms,2,0.1
+Container technologies,2,0.1
+AI platforms,2,0.1
+storage,2,0.1
+AI modeling tools,2,0.1
+AI-native product building,2,0.1
+AI-powered tools,2,0.1
+Web Development,2,0.1
+Web Services,2,0.1
+White-box testing,2,0.1
+Cloud-based data platforms,2,0.1
+API services,2,0.1
+API security,2,0.1
+root cause analysis,2,0.1
+Cloud-native development,2,0.1
+Web3,2,0.1
+Web/App Development,2,0.1
+Web technologies,2,0.1
+CocoaPods,2,0.1
+Web socket,2,0.1
+ALM,2,0.1
+scripting,2,0.1
+security architecture,2,0.1
+security controls,2,0.1
+Web applications,2,0.1
+Collaboration,2,0.1
+Combine,2,0.1
+CompTIA Security+,2,0.1
+npm,2,0.1
+CSM,2,0.1
+CPLEX,2,0.1
+cryptography,2,0.1
+firewalls,2,0.1
+Batch processing,2,0.1
+functional testing,2,0.1
+Automated Testing,2,0.1
+generative AI,2,0.1
+Beats,2,0.1
+Audit,2,0.1
+cybersecurity engineering,2,0.1
+Big data platform,2,0.1
+Blazor,2,0.1
+Application Insights,2,0.1
+Blender,2,0.1
+incident response,2,0.1
+AppsFlyer,2,0.1
+information retrieval,2,0.1
+infrastructure architecture,2,0.1
+infrastructure as code,2,0.1
+Applied AI,2,0.1
+Applications,2,0.1
+infrastructure management,2,0.1
+Bash scripting,2,0.1
+Automation testing framework,2,0.1
+Automation tools,2,0.1
+data ingestion,2,0.1
+edge computing,2,0.1
+BAPI,2,0.1
+distributed computing,2,0.1
+embedded software,2,0.1
+disaster recovery,2,0.1
+digital authentication,2,0.1
+design verification,2,0.1
+Azure Pipeline,2,0.1
+Azure OpenAI,2,0.1
+Azure Monitor,2,0.1
+deployment,2,0.1
+Azure Functions,2,0.1
+Azure Data Factory,2,0.1
+database systems,2,0.1
+Azure AI,2,0.1
+Azure AD,2,0.1
+Backend architecture,2,0.1
+Backlog,2,0.1
+data security,2,0.1
+Application security,2,0.1
+AppDynamics,2,0.1
+network architecture,2,0.1
+modeling,2,0.1
+Android Development,2,0.1
+budgeting,2,0.1
+Analytics tools,2,0.1
+CDS Views,2,0.1
+mobile app development,2,0.1
+backend software engineering,2,0.1
+Amazon EC2,2,0.1
+CICD,2,0.1
+Amazon Bedrock,2,0.1
+monitoring,2,0.1
+App Services,2,0.1
+monitoring tools,2,0.1
+Algorithm development,2,0.1
+Alerting,2,0.1
+CISSP,2,0.1
+CLI tools,2,0.1
+CMDB,2,0.1
+CMS,2,0.1
+COBOL,2,0.1
+audit and compliance,2,0.1
+cloud architecture,2,0.1
+memory management,2,0.1
+Android Studio,2,0.1
+mechanical engineering,2,0.1
+App Insights,2,0.1
+App Engine,2,0.1
+k6,2,0.1
+ksqlDB,2,0.1
+Apache Kafka,2,0.1
+Apache Iceberg,2,0.1
+Apache Flink,2,0.1
+Apache,2,0.1
+low-latency systems,2,0.1
+Bugzilla,2,0.1
+AngularJs,2,0.1
+machine translation,2,0.1
+cloud services,2,0.1
+Angular CLI,2,0.1
+Building management system (BMS),2,0.1
+cloud security,2,0.1
+Building monitoring systems,2,0.1
+manual testing,2,0.1
+Business analysis,2,0.1
+AI model evaluation,2,0.1
+product development,2,0.1
+AI APIs,2,0.1
+AI development tools,2,0.1
+vulnerability research,2,0.1
+Crashlytics,2,0.1
+Data & Analytics,2,0.1
+Visual Studio,2,0.1
+ADFS,2,0.1
+Vertex AI,2,0.1
+.NET 8,2,0.1
+test automation,2,0.1
+Value Selling Process,2,0.1
+VNets,2,0.1
+threat modeling,2,0.1
+Visio,2,0.1
+Copilot Studio,2,0.1
+AI Agents,2,0.1
+AI coding tools,2,0.1
+wireframing,2,0.1
+Crossplane,2,0.1
+DSP,2,0.1
+web application development,2,0.1
+DAX,2,0.1
+D3.js,2,0.1
+system testing,2,0.1
+Unsupervised learning,2,0.1
+technical support,2,0.1
+technical solution delivery,2,0.1
+Data Center Engineering,2,0.1
+AEM,2,0.1
+Cycle time studies,2,0.1
+ACAS,2,0.1
+ABP.io,2,0.1
+Data Analysis,2,0.1
+Data Center Design,2,0.1
+Cost control,2,0.1
+ADF,2,0.1
+.NET Framework 4.8,2,0.1
+DDD,2,0.1
+Data Lakehouse,2,0.1
+system administration,2,0.1
+3GPP standards,2,0.1
+Data Integration,2,0.1
+VB.NET,2,0.1
+Cost estimation,2,0.1
+VBA,2,0.1
+Continuous Integration,2,0.1
+Continuous deployment,2,0.1
+VMware vSphere,2,0.1
+AI engineering,2,0.1
+Control software,2,0.1
+web scraping,2,0.1
+AI agents,2,0.1
+Control systems,2,0.1
+Video processing,2,0.1
+vulnerability analysis,2,0.1
+VS Code,2,0.1
+Continuous integration,2,0.1
+Continuous monitoring,2,0.1
+VPNs,2,0.1
+Dashboard creation,2,0.1
+material handling equipment,1,0.05
+manual software testing,1,0.05
+virtual machines,1,0.05
+video products,1,0.05
+malware analysis,1,0.05
+Research,1,0.05
+Research methodologies,1,0.05
+Responsive prototyping,1,0.05
+Retrieval,1,0.05
+matplotlib,1,0.05
+manufacturing processes,1,0.05
+vector databases,1,0.05
+video analytics,1,0.05
+Resilience engineering,1,0.05
+market analysis,1,0.05
+Reverse Engineering,1,0.05
+Retrofit,1,0.05
+Resource Billing,1,0.05
+vc_formal,1,0.05
+Resource allocation,1,0.05
+Resource planning,1,0.05
+manufacturing automation,1,0.05
+synthetic data generation,1,0.05
+virtual networking,1,0.05
+line hydraulics,1,0.05
+latest technologies,1,0.05
+large language models (LLMs),1,0.05
+Root cause isolation,1,0.05
+Root cause resolution,1,0.05
+visualization,1,0.05
+language processing,1,0.05
+Root-cause analysis,1,0.05
+Rotor dynamics,1,0.05
+Route tables,1,0.05
+Routers,1,0.05
+Palo Alto firewalls,1,0.05
+Palo Alto,1,0.05
+Routing platforms,1,0.05
+Row-Level Security,1,0.05
+Row-level security,1,0.05
+lab debugging,1,0.05
+visualization tools,1,0.05
+Runway,1,0.05
+Paginated Reports,1,0.05
+life safety,1,0.05
+Rollup,1,0.05
+maintenance,1,0.05
+Role-based access control,1,0.05
+Parcel,1,0.05
+machine system architecture,1,0.05
+machine learning integration,1,0.05
+Parallel programming,1,0.05
+Panel boards,1,0.05
+low-latency networking,1,0.05
+low-code/no-code development,1,0.05
+logs,1,0.05
+Riverpod,1,0.05
+Roadmap development,1,0.05
+vSphere,1,0.05
+Roadmapping,1,0.05
+Robolectric,1,0.05
+Robot Framework,1,0.05
+Robotic Process Automation,1,0.05
+Robotic Process Automation (RPA),1,0.05
+logistics,1,0.05
+log ingestion,1,0.05
+Rock mechanics,1,0.05
+mechatronics,1,0.05
+Remediation,1,0.05
+Payment gateway integration,1,0.05
+Red Hat Enterprise Linux (RHEL),1,0.05
+navigation systems,1,0.05
+transaction processing,1,0.05
+Reconciliation,1,0.05
+n8n,1,0.05
+Pentest,1,0.05
+Recruitment metrics,1,0.05
+Recruitment module,1,0.05
+multithreading,1,0.05
+Red Hat Enterprise Linux,1,0.05
+usability testing,1,0.05
+modeling and simulation,1,0.05
+multimodal foundation models,1,0.05
+multi-thread programming,1,0.05
+Red Team,1,0.05
+RedHat,1,0.05
+Penetration Testing,1,0.05
+user interfaces,1,0.05
+Redis Enterprise,1,0.05
+Pega DCO,1,0.05
+motors,1,0.05
+People Analytics,1,0.05
+network administration,1,0.05
+Recommendation Algorithm,1,0.05
+Perfetto,1,0.05
+Real-time bidding,1,0.05
+network protocols,1,0.05
+network programming,1,0.05
+Real-time control systems,1,0.05
+Real-time data analysis,1,0.05
+Real-time data ingestion,1,0.05
+network orchestration,1,0.05
+Real-time data integration,1,0.05
+Real-time data pipelines,1,0.05
+Real-time inference systems,1,0.05
+network operations,1,0.05
+network monitoring,1,0.05
+Real-time streaming,1,0.05
+network management,1,0.05
+network infrastructure,1,0.05
+transaction managers,1,0.05
+network design,1,0.05
+Rebar detailing,1,0.05
+network analysis,1,0.05
+Pega App Studio,1,0.05
+Refactoring,1,0.05
+merchant onboarding,1,0.05
+microgrid controls,1,0.05
+migration strategies,1,0.05
+Release workflows,1,0.05
+Reliability Engineering,1,0.05
+middleware,1,0.05
+Reliability test development,1,0.05
+user research,1,0.05
+Reliability testing,1,0.05
+RxSwift,1,0.05
+Remote Config,1,0.05
+microcontrollers,1,0.05
+Regex,1,0.05
+Payment technology,1,0.05
+Requirement documentation,1,0.05
+Requirement gathering,1,0.05
+Requirements Engineering,1,0.05
+vLLM,1,0.05
+metrology,1,0.05
+Requirements development,1,0.05
+metrics,1,0.05
+Requirements management,1,0.05
+mitmproxy,1,0.05
+Release Management,1,0.05
+"Relational databases (PostgreSQL, MySQL, SQL Server)",1,0.05
+Relational databases (MySQL/PostgreSQL),1,0.05
+Regression analysis,1,0.05
+Pega,1,0.05
+model training,1,0.05
+Payroll,1,0.05
+Paypal Braintree,1,0.05
+Regulatory compliance,1,0.05
+"Regulatory standards (FCC, CE/RED, ISED, etc.)",1,0.05
+model deployment,1,0.05
+Reinforcement Learning,1,0.05
+user profiling,1,0.05
+model compression,1,0.05
+mobile-first design,1,0.05
+Reinforcement-concrete structures,1,0.05
+Relational Databases,1,0.05
+mobile solutions,1,0.05
+mobile security,1,0.05
+mobile development,1,0.05
+mobile applications,1,0.05
+Payments modernization,1,0.05
+RxJava,1,0.05
+Packer,1,0.05
+jOOQ,1,0.05
+evaluation,1,0.05
+SIL,1,0.05
+SIT,1,0.05
+SKM modeling,1,0.05
+fact-checking,1,0.05
+exploit development,1,0.05
+SLAM,1,0.05
+execution framework,1,0.05
+SMF,1,0.05
+event-driven design,1,0.05
+esbuild,1,0.05
+SIGINT,1,0.05
+SOAP APIs,1,0.05
+SOAP/RESTful,1,0.05
+SOAPUI,1,0.05
+equipment specification,1,0.05
+SOC,1,0.05
+equipment sizing,1,0.05
+SOC Engineering,1,0.05
+SOC analysis,1,0.05
+SOC platforms,1,0.05
+PLC SCADA networks,1,0.05
+factory acceptance testing,1,0.05
+Pact,1,0.05
+PLC programming,1,0.05
+frontend engineering,1,0.05
+SDWAN,1,0.05
+frontend development,1,0.05
+flow control,1,0.05
+firmware design,1,0.05
+SECS,1,0.05
+SEM/SEO,1,0.05
+web performance optimization,1,0.05
+firewall rules,1,0.05
+SEMI SECS/GEM,1,0.05
+feature testing,1,0.05
+firewall,1,0.05
+SFDX,1,0.05
+SFTP,1,0.05
+SGLang,1,0.05
+fire and life-safety systems,1,0.05
+financial infrastructure,1,0.05
+fibre routing,1,0.05
+SIEM (ELK),1,0.05
+SIG technologies,1,0.05
+SOP,1,0.05
+SPC tools,1,0.05
+SPF,1,0.05
+SSL certificates,1,0.05
+PEALD,1,0.05
+SSD development,1,0.05
+embedded software engineering,1,0.05
+SSD domain expertise,1,0.05
+SSD testing,1,0.05
+PDMS,1,0.05
+SSDLC,1,0.05
+xUnit,1,0.05
+xUnit/NUnit/MSTest,1,0.05
+embedded programming,1,0.05
+SPFx,1,0.05
+embedded firmware,1,0.05
+SSM,1,0.05
+embedded devices,1,0.05
+electronic security,1,0.05
+SSO,1,0.05
+SSO/ADFS,1,0.05
+SSOM,1,0.05
+edge environments,1,0.05
+SSRS,1,0.05
+SRS,1,0.05
+embedding strategies,1,0.05
+SRE practices,1,0.05
+end-to-end testing,1,0.05
+SPI,1,0.05
+enterprise technology strategy,1,0.05
+SPL,1,0.05
+enterprise data warehousing,1,0.05
+SPS requirements,1,0.05
+enterprise AI,1,0.05
+workflow management,1,0.05
+engineering technical principles,1,0.05
+PHPUnit,1,0.05
+SQL Reporting Services,1,0.05
+engineering domain knowledge,1,0.05
+SQL/MI,1,0.05
+xPaaS Ops,1,0.05
+xPath,1,0.05
+PERL,1,0.05
+engineering design,1,0.05
+energy trading,1,0.05
+energy resilience,1,0.05
+PECVD,1,0.05
+SDTM,1,0.05
+frontend frameworks,1,0.05
+full stack development,1,0.05
+SAP ECC,1,0.05
+SAP Business Technology Platform,1,0.05
+information architecture,1,0.05
+SAP Business Technology Platform (BTP),1,0.05
+PaaS/IaaS,1,0.05
+industrial systems engineering,1,0.05
+industrial security,1,0.05
+SAP Commerce,1,0.05
+SAP DMS,1,0.05
+industrial automation,1,0.05
+vulnerability remediation,1,0.05
+image optimization,1,0.05
+web APIs,1,0.05
+incident management,1,0.05
+SAP HANA,1,0.05
+incident investigation,1,0.05
+SAP RAP,1,0.05
+SAP S/4HANA,1,0.05
+incident analysis,1,0.05
+SAP UI5,1,0.05
+SAPNP,1,0.05
+Pacemaker,1,0.05
+Packaging design,1,0.05
+Packaging process,1,0.05
+infrastructure assessment,1,0.05
+S3 security,1,0.05
+interaction design,1,0.05
+Packet Analysis,1,0.05
+integration solutions,1,0.05
+integration,1,0.05
+infrastructure systems,1,0.05
+infrastructure products,1,0.05
+SAML 2.0,1,0.05
+infrastructure planning,1,0.05
+SANS,1,0.05
+SANS-GIAC,1,0.05
+voice communications,1,0.05
+infrastructure networking,1,0.05
+SAP ABAP,1,0.05
+SAP AI SAAS,1,0.05
+Reactnative,1,0.05
+SAP Analytics Cloud,1,0.05
+SAP ArchiveLink,1,0.05
+vulnerability assessment,1,0.05
+SAPUI5,1,0.05
+SASE,1,0.05
+full-set accounting,1,0.05
+ggplot,1,0.05
+SCPs,1,0.05
+hardware design,1,0.05
+hardware datasheets,1,0.05
+hardware configuration,1,0.05
+go-to-market strategy,1,0.05
+SDET,1,0.05
+go-to-market planning,1,0.05
+git,1,0.05
+POS devices,1,0.05
+PM2,1,0.05
+image algorithms,1,0.05
+SDK/API tools,1,0.05
+PLSQL,1,0.05
+general ledger,1,0.05
+gdb,1,0.05
+PLM,1,0.05
+functional safety,1,0.05
+full-stack software engineering,1,0.05
+SDRD/FSD documentation,1,0.05
+SDS,1,0.05
+SCOM,1,0.05
+hardware interfaces,1,0.05
+hardware security,1,0.05
+hazard analysis,1,0.05
+image algorithm,1,0.05
+identity management,1,0.05
+iPhone/iPad development,1,0.05
+iOS programming,1,0.05
+SAST tools,1,0.05
+PUG,1,0.05
+iOS engineering,1,0.05
+iOS (Swift/Objective-C),1,0.05
+SBA,1,0.05
+iJTAG,1,0.05
+hydrocarbon project management,1,0.05
+SBOM,1,0.05
+high-performance computing,1,0.05
+high-concurrency systems,1,0.05
+SCA,1,0.05
+high-availability systems,1,0.05
+high performance computing,1,0.05
+SCADA system design,1,0.05
+PSDS,1,0.05
+Real-person authentication,1,0.05
+traffic management,1,0.05
+network system management,1,0.05
+secure configurations,1,0.05
+Program Protection Plans (PPP),1,0.05
+technical debt management,1,0.05
+security frameworks,1,0.05
+Programmable Logic Controllers (PLC),1,0.05
+Power Automation,1,0.05
+security engineering,1,0.05
+technical documentation,1,0.05
+Programming fundamentals,1,0.05
+Programming language implementation,1,0.05
+secure configuration management,1,0.05
+Profiler,1,0.05
+scripting languages,1,0.05
+technical engagement,1,0.05
+scheduling systems,1,0.05
+Project planning,1,0.05
+Project scheduling,1,0.05
+Project specifications,1,0.05
+scheduling,1,0.05
+sales pipeline management,1,0.05
+Prompt Engineering,1,0.05
+Program Protection Plans,1,0.05
+Production systems,1,0.05
+server administration,1,0.05
+Product-Market Fit (PMF) strategy,1,0.05
+systems hardening,1,0.05
+Product marketing,1,0.05
+Product positioning,1,0.05
+systrace,1,0.05
+serial data circuits,1,0.05
+Product roadmap management,1,0.05
+Product stewardship,1,0.05
+sensors,1,0.05
+Product strategy,1,0.05
+semiconductor process engineering,1,0.05
+Production support,1,0.05
+Production assembly,1,0.05
+Production deployment,1,0.05
+Production environment management,1,0.05
+semiconductor manufacturing,1,0.05
+Production machinery,1,0.05
+Production monitoring,1,0.05
+security requirements,1,0.05
+security patches,1,0.05
+security guidelines,1,0.05
+sales forecasting,1,0.05
+telecommunications,1,0.05
+Prompting,1,0.05
+Policy-as-code,1,0.05
+roadmap development,1,0.05
+Purchasing,1,0.05
+risk modeling,1,0.05
+risk management,1,0.05
+risk assessment,1,0.05
+Pytest,1,0.05
+PostHog,1,0.05
+Portainer,1,0.05
+Python automation,1,0.05
+risk and compliance,1,0.05
+Proof of Concept (POC),1,0.05
+Python-flask,1,0.05
+retrieval systems,1,0.05
+responsive prototyping,1,0.05
+responsive frameworks,1,0.05
+QA Automation,1,0.05
+Polars,1,0.05
+responsive design,1,0.05
+QA Testing,1,0.05
+resource management,1,0.05
+Puma,1,0.05
+root-cause problem solving,1,0.05
+telemetry processing,1,0.05
+routing/switching,1,0.05
+telecommunications infrastructure,1,0.05
+Proof of Concepts (POC),1,0.05
+Proof-of-concepts (POCs),1,0.05
+Prospecting,1,0.05
+Protection strategies,1,0.05
+ProtoPie,1,0.05
+Protobuf,1,0.05
+safety risk management,1,0.05
+Protractor,1,0.05
+Postgresql,1,0.05
+safety needs analysis,1,0.05
+Provider,1,0.05
+Proxmox,1,0.05
+PostgresSQL,1,0.05
+safety engineering,1,0.05
+Proxy identification,1,0.05
+Pruning,1,0.05
+safety architecture,1,0.05
+Public cloud (Amazon),1,0.05
+server Software Architecture,1,0.05
+server infrastructure,1,0.05
+QA methodologies,1,0.05
+Power electronics,1,0.05
+solution integration,1,0.05
+Predictive analysis,1,0.05
+soldering,1,0.05
+Predictive maintenance,1,0.05
+Predictive modeling,1,0.05
+Predictive models,1,0.05
+Power grid design,1,0.05
+Presales,1,0.05
+Presentations,1,0.05
+software/hardware requirements,1,0.05
+Predictive AI modeling,1,0.05
+Power distribution design,1,0.05
+Preventive Maintenance,1,0.05
+Power distribution cabinets,1,0.05
+system documentation,1,0.05
+Pricing optimization,1,0.05
+Primavera P6,1,0.05
+Principle,1,0.05
+software integrity,1,0.05
+software engineering standards,1,0.05
+spectrum analyzers,1,0.05
+speech algorithm,1,0.05
+serverless,1,0.05
+statistical data analysis,1,0.05
+Power line communication (PLC),1,0.05
+Power supply testing,1,0.05
+streaming platforms,1,0.05
+Power system engineering,1,0.05
+Power system modeling,1,0.05
+Power systems,1,0.05
+streaming pipelines,1,0.05
+storage engines,1,0.05
+PowerApps,1,0.05
+PowerBI,1,0.05
+Pre-training,1,0.05
+statistical analysis,1,0.05
+state management,1,0.05
+PowerMockito,1,0.05
+startup/commissioning,1,0.05
+Powershell,1,0.05
+Practice management,1,0.05
+Pre-Sales,1,0.05
+speech algorithms,1,0.05
+Pre-sales support,1,0.05
+Privacy compliance,1,0.05
+software development life cycle,1,0.05
+Privacy engineering,1,0.05
+signal processing,1,0.05
+system vulnerability,1,0.05
+Product Demonstration,1,0.05
+site inspection,1,0.05
+Product Documentation,1,0.05
+site acceptance testing,1,0.05
+simulation tools,1,0.05
+simulation,1,0.05
+Product Engineering,1,0.05
+simulated test environments,1,0.05
+systems administration,1,0.05
+Privacy infrastructure,1,0.05
+shaders,1,0.05
+Power Pages,1,0.05
+shadcn/ui,1,0.05
+Product architecture,1,0.05
+Product backlog management,1,0.05
+Product deployment,1,0.05
+settlement,1,0.05
+servers,1,0.05
+Product development lifecycle,1,0.05
+Process specifications,1,0.05
+site surveys,1,0.05
+Power Query,1,0.05
+Process optimization,1,0.05
+Privacy regulation compliance,1,0.05
+Privileged Access Management,1,0.05
+software delivery,1,0.05
+Process Control System (PCS),1,0.05
+Process Control Systems,1,0.05
+software defined infrastructure,1,0.05
+system maintenance,1,0.05
+Process characterization,1,0.05
+software architecture,1,0.05
+Process control & instrumentation,1,0.05
+Power architecture,1,0.05
+Process control engineering,1,0.05
+Process development,1,0.05
+system scalability,1,0.05
+social media APIs,1,0.05
+smoke testing,1,0.05
+Process equipment design,1,0.05
+Process flow diagram tools,1,0.05
+Process mapping,1,0.05
+test planning,1,0.05
+QA strategy,1,0.05
+network topology,1,0.05
+RS232,1,0.05
+RMA service,1,0.05
+RMF,1,0.05
+plumbing,1,0.05
+ROI analysis,1,0.05
+plugin engineering,1,0.05
+platform strategy,1,0.05
+Physical network components,1,0.05
+RPG,1,0.05
+RPGLE,1,0.05
+RSA,1,0.05
+power conversion,1,0.05
+Physical design,1,0.05
+Physical & Embodied AI,1,0.05
+RSLogix 5000,1,0.05
+RSpec,1,0.05
+Photoshop,1,0.05
+platform configuration,1,0.05
+pipeline management,1,0.05
+RTL implementation,1,0.05
+pipeline development,1,0.05
+portfolio strategy,1,0.05
+RFP/RFI,1,0.05
+process mapping,1,0.05
+RESTful web services,1,0.05
+process engineering,1,0.05
+process design,1,0.05
+RESTful architecture,1,0.05
+Pipeline modernization,1,0.05
+Pipeline design,1,0.05
+preventive maintenance,1,0.05
+predictive models,1,0.05
+Ping Federate,1,0.05
+predictive maintenance,1,0.05
+RESTful/SOAP,1,0.05
+RFP,1,0.05
+RF,1,0.05
+RF Front-End,1,0.05
+RF hardware,1,0.05
+RF system analysis,1,0.05
+RF technology,1,0.05
+power distribution,1,0.05
+Physics-based modelling,1,0.05
+RFID,1,0.05
+Physical verification (DRC/LVS/Antenna),1,0.05
+phased arrays,1,0.05
+Radar systems,1,0.05
+phased array,1,0.05
+React Typescript,1,0.05
+React 18,1,0.05
+online operation and maintenance,1,0.05
+onboard system architecture,1,0.05
+omnichannel contact center solutions,1,0.05
+React JS,1,0.05
+supply chain management,1,0.05
+offensive security,1,0.05
+React Navigation,1,0.05
+training,1,0.05
+React query,1,0.05
+Radars,1,0.05
+Performance engineering,1,0.05
+React-Native,1,0.05
+observability principles,1,0.05
+oRTB,1,0.05
+Performance analysis,1,0.05
+node.js,1,0.05
+Performance Analytics,1,0.05
+Reactive Programming,1,0.05
+nginx,1,0.05
+optics manufacturing,1,0.05
+patch implementation,1,0.05
+traffic data systems,1,0.05
+Razor View,1,0.05
+Radio compliance,1,0.05
+Radio frequency,1,0.05
+Radio telemetry SCADA,1,0.05
+Radiomics,1,0.05
+RamdaJS,1,0.05
+Personnel capacity planning,1,0.05
+pgvector,1,0.05
+petrochemical operations,1,0.05
+Permission management,1,0.05
+Rancher,1,0.05
+personnel security,1,0.05
+Range Interface Units (RIUs),1,0.05
+performance testing frameworks,1,0.05
+performance optimization,1,0.05
+trading systems,1,0.05
+pen testing,1,0.05
+payment systems,1,0.05
+Rasa NLU,1,0.05
+patch management,1,0.05
+RESTful Services,1,0.05
+process simulation,1,0.05
+QA testing,1,0.05
+Quantity surveying,1,0.05
+Quality risk identification,1,0.05
+regression,1,0.05
+Quality systems,1,0.05
+register maps,1,0.05
+Quality tools,1,0.05
+recommendation systems,1,0.05
+recommendation algorithms,1,0.05
+Quantitative Modeling,1,0.05
+Quantitative research,1,0.05
+rapid prototyping,1,0.05
+regulatory applications,1,0.05
+Quantization,1,0.05
+Quantization algorithms,1,0.05
+Quantum applications,1,0.05
+tfsec,1,0.05
+Query,1,0.05
+Query Acceleration,1,0.05
+Query and analysis,1,0.05
+radar sensing,1,0.05
+Query optimization,1,0.05
+Quality inspection,1,0.05
+regulatory compliance,1,0.05
+Piping design,1,0.05
+Qlik Sense,1,0.05
+QA/Testing,1,0.05
+requirement specification,1,0.05
+QC processes,1,0.05
+requirement decomposition,1,0.05
+QOS,1,0.05
+Poka-yoke design,1,0.05
+QT,1,0.05
+repairs,1,0.05
+Qlik Replicate,1,0.05
+Qt,1,0.05
+Quality analysis,1,0.05
+Podman,1,0.05
+testing and commissioning,1,0.05
+Qualification,1,0.05
+reliability analysis,1,0.05
+Qualitative research,1,0.05
+release management,1,0.05
+testing strategies,1,0.05
+relational databases,1,0.05
+Quality KPIs,1,0.05
+query processors,1,0.05
+quantization,1,0.05
+Query proxy,1,0.05
+Plant layout design,1,0.05
+programming,1,0.05
+REST Proxy,1,0.05
+REST Web Services,1,0.05
+Platform Engineering,1,0.05
+Plant3D,1,0.05
+REST-Assured,1,0.05
+REST-Services,1,0.05
+REST/GraphQL APIs,1,0.05
+REST/JSON APIs,1,0.05
+REST/SOAP APIs,1,0.05
+quality management,1,0.05
+REST/SOAP web services,1,0.05
+product life cycle management,1,0.05
+STA,1,0.05
+RESTful,1,0.05
+Place and route,1,0.05
+product analysis,1,0.05
+Place & Route,1,0.05
+RESTful API integration,1,0.05
+product algorithms,1,0.05
+programming fundamentals,1,0.05
+trading infrastructure,1,0.05
+REST API integration,1,0.05
+project budgeting,1,0.05
+QuickBase,1,0.05
+qualification,1,0.05
+R&D,1,0.05
+pytest,1,0.05
+RACI,1,0.05
+Platform strategy,1,0.05
+threat analysis,1,0.05
+RAG chatbots,1,0.05
+RAG development,1,0.05
+Platform development,1,0.05
+RAG solutions,1,0.05
+pyodbc,1,0.05
+RAG workflows,1,0.05
+RAP,1,0.05
+prompt engineering,1,0.05
+RCDD certification,1,0.05
+prompt design,1,0.05
+RDP,1,0.05
+Platform One,1,0.05
+SST,1,0.05
+Scheduling software,1,0.05
+STARDOM,1,0.05
+Tactical radio systems,1,0.05
+Web service development,1,0.05
+Web servers,1,0.05
+Web security,1,0.05
+Talent acquisition,1,0.05
+Task autonomy,1,0.05
+Web scraping,1,0.05
+Tax,1,0.05
+Web performance optimization,1,0.05
+TeamSite,1,0.05
+Teamcenter,1,0.05
+Web frameworks,1,0.05
+Technical Architecture,1,0.05
+Web development technologies,1,0.05
+Technical Consultation,1,0.05
+Technical SEO,1,0.05
+Technical Solution Delivery,1,0.05
+Technical Support,1,0.05
+Technical architecture,1,0.05
+Web application testing,1,0.05
+Technical consultancy,1,0.05
+Technical consulting,1,0.05
+Technical curriculum design,1,0.05
+Web application security,1,0.05
+Web service integration,1,0.05
+Web sockets,1,0.05
+T.30,1,0.05
+TV,1,0.05
+Webflow,1,0.05
+TASKORD,1,0.05
+WebViews,1,0.05
+TCP,1,0.05
+WebView,1,0.05
+TCP/IP Stack,1,0.05
+WebSDK,1,0.05
+WebGI,1,0.05
+TDR,1,0.05
+WebComponents,1,0.05
+WebAPIs,1,0.05
+TF-IDF,1,0.05
+WebAPI,1,0.05
+TPT,1,0.05
+Web/Mobile development,1,0.05
+Web/App development,1,0.05
+TPU hardware,1,0.05
+Web-based security,1,0.05
+TQM,1,0.05
+TRANSEC/COMSEC,1,0.05
+Web-based applications,1,0.05
+TSX,1,0.05
+Web technology stack,1,0.05
+Web application integration,1,0.05
+Web application architecture,1,0.05
+Web and mobile application quality assurance,1,0.05
+Web and mobile application development,1,0.05
+Weaviate,1,0.05
+Telemetry systems,1,0.05
+Weather forecasting systems,1,0.05
+Telephony,1,0.05
+Telephony integrations,1,0.05
+Wealth Management Platform,1,0.05
+Telephony signaling,1,0.05
+Wazuh,1,0.05
+Watir,1,0.05
+Telephony systems,1,0.05
+Temperature control,1,0.05
+Temporal,1,0.05
+Tenant Management,1,0.05
+Tencent Ads,1,0.05
+Tencent Cloud architecture,1,0.05
+TensorRT-LLM,1,0.05
+Teradata,1,0.05
+Teradata SQL,1,0.05
+Terminal Operating System (TOS),1,0.05
+Warehouse Design Methodology,1,0.05
+TerraForm,1,0.05
+Wafer fabrication,1,0.05
+Terraform Cloud,1,0.05
+Web & API testing,1,0.05
+Web Application Development,1,0.05
+Telecommunications engineering,1,0.05
+Technical solution design,1,0.05
+Technical drawing,1,0.05
+Technical drawing interpretation,1,0.05
+Technical feasibility,1,0.05
+Technical integrations,1,0.05
+Technical planning,1,0.05
+Technical risk analysis,1,0.05
+Web analytics,1,0.05
+PCI compliance,1,0.05
+Technical solution delivery,1,0.05
+Web administration,1,0.05
+Web Technologies,1,0.05
+Web Application Firewall,1,0.05
+Technical specification writing,1,0.05
+Technical success metrics,1,0.05
+Web Service APIs,1,0.05
+Technology Risk Management,1,0.05
+Technology consulting,1,0.05
+Technology planning,1,0.05
+Tekla,1,0.05
+Tekton,1,0.05
+Web Design,1,0.05
+"Telecom Protocols (LTE, 5G)",1,0.05
+T.38,1,0.05
+Systems programming,1,0.05
+Territorial analysis,1,0.05
+Supply chain engineering,1,0.05
+Workflow/graph engine,1,0.05
+Workflow tools,1,0.05
+Supply chain forecasting,1,0.05
+Workflow optimization,1,0.05
+Supply chain management systems,1,0.05
+Supply chain optimization,1,0.05
+Svelte,1,0.05
+Workflow design,1,0.05
+Workflow automation,1,0.05
+Swift UI,1,0.05
+Workday Studio,1,0.05
+Switch,1,0.05
+Workday Integration,1,0.05
+Switches,1,0.05
+Workday HCM,1,0.05
+Sybase,1,0.05
+Synchronization patterns,1,0.05
+Synopsys,1,0.05
+Synthesis,1,0.05
+Workato,1,0.05
+Synthetic training environments,1,0.05
+SysML,1,0.05
+System Administration,1,0.05
+Workforce management,1,0.05
+Supply Chain Management,1,0.05
+Webhooks,1,0.05
+Supply Chain,1,0.05
+Stress analysis,1,0.05
+Stress testing,1,0.05
+Xamarin,1,0.05
+Structural design,1,0.05
+Structured cabling systems,1,0.05
+Structures,1,0.05
+Strut,1,0.05
+XRAY,1,0.05
+XR SDKs,1,0.05
+XPU clusters,1,0.05
+XML/XSLT,1,0.05
+XLM,1,0.05
+Subnets,1,0.05
+XDR,1,0.05
+Subtitle generation,1,0.05
+SuccessFactors,1,0.05
+XCode,1,0.05
+XCUITest,1,0.05
+Supertest,1,0.05
+Workshops,1,0.05
+Workload analysis,1,0.05
+Supervised Fine-Tuning,1,0.05
+Supervisely,1,0.05
+Work Instructions,1,0.05
+System Center,1,0.05
+System Level Test (SLT),1,0.05
+System Security,1,0.05
+Windows OS,1,0.05
+System optimisation,1,0.05
+System performance,1,0.05
+System performance analysis,1,0.05
+System performance monitoring,1,0.05
+Windows Hello for Business,1,0.05
+System performance optimization,1,0.05
+System profiling,1,0.05
+Windows Domain,1,0.05
+WinTel server administration,1,0.05
+WinForm,1,0.05
+System software,1,0.05
+WinCC,1,0.05
+System troubleshooting,1,0.05
+System validation,1,0.05
+System-level architecture,1,0.05
+Systems Engineering & Integration (SE&I),1,0.05
+Systems Manager,1,0.05
+Whimsical,1,0.05
+Systems analysis,1,0.05
+Websocket,1,0.05
+Webservices,1,0.05
+Systems hardening,1,0.05
+System operations,1,0.05
+Windows Server Management,1,0.05
+Windows administration,1,0.05
+System configuration,1,0.05
+System Security Plans,1,0.05
+System Testing,1,0.05
+Wireless technology,1,0.05
+Wireless systems,1,0.05
+Wireless campus fabrics,1,0.05
+Wireless,1,0.05
+System backup and restore,1,0.05
+Wire harness,1,0.05
+System building,1,0.05
+System components,1,0.05
+Wintel,1,0.05
+Windows client OS,1,0.05
+Windows server configuration,1,0.05
+System deployment,1,0.05
+Windows server,1,0.05
+System development,1,0.05
+Windows driver stacks,1,0.05
+System hardening,1,0.05
+System identification,1,0.05
+Windows desktop applications,1,0.05
+System integration testing,1,0.05
+Windows configuration,1,0.05
+Terragrunt,1,0.05
+Test & Measurement,1,0.05
+STIG,1,0.05
+UI Frameworks,1,0.05
+VR development,1,0.05
+UI Testing,1,0.05
+VPS,1,0.05
+UI actions,1,0.05
+UI component libraries,1,0.05
+VPN detection,1,0.05
+VPN connectivity,1,0.05
+VPCs,1,0.05
+VPC security,1,0.05
+UI engineering,1,0.05
+VPC peering,1,0.05
+VPC networking,1,0.05
+UI frameworks,1,0.05
+UI libraries,1,0.05
+UI policies,1,0.05
+UI rendering,1,0.05
+VPC management,1,0.05
+VPC Service Controls,1,0.05
+VOIP,1,0.05
+VNG Cloud,1,0.05
+VNF,1,0.05
+VNA,1,0.05
+VMware/Proxmox,1,0.05
+UI Systems Design,1,0.05
+VRAM management,1,0.05
+Trunk-based development,1,0.05
+VSAM,1,0.05
+Trust and safety,1,0.05
+Verification strategy,1,0.05
+Vercel,1,0.05
+Vendor management,1,0.05
+Turnaround and Shutdown planning,1,0.05
+Type,1,0.05
+Vehicle drivetrain,1,0.05
+Vector stores,1,0.05
+Vector similarity,1,0.05
+Typography,1,0.05
+UA link,1,0.05
+UAF,1,0.05
+Vector search,1,0.05
+UAS and manned aircraft design,1,0.05
+UAS software,1,0.05
+Vector Databases,1,0.05
+UCaaS,1,0.05
+UDM,1,0.05
+Vault,1,0.05
+UEBA,1,0.05
+UEM,1,0.05
+VXRail,1,0.05
+VSCode,1,0.05
+UI/UX principles,1,0.05
+VMware Workspace ONE,1,0.05
+VMs,1,0.05
+UIAutomator,1,0.05
+User Story,1,0.05
+UX Engineering,1,0.05
+User Requirement Specifications (URS),1,0.05
+UX Infrastructure,1,0.05
+UX Requirements,1,0.05
+User Profiling,1,0.05
+User Experience Design,1,0.05
+User Exits,1,0.05
+Use cases,1,0.05
+Usability,1,0.05
+Upsource,1,0.05
+Unstructured text processing,1,0.05
+UiPath,1,0.05
+UiPath Studio,1,0.05
+Underwriting,1,0.05
+Unit Test,1,0.05
+Unstructured data analysis,1,0.05
+Unmanned aircraft systems (UAS),1,0.05
+Unmanned Traffic Management,1,0.05
+Unix/Linux Shell scripting,1,0.05
+Unix programming,1,0.05
+Unix Scripting,1,0.05
+Unity 3D,1,0.05
+User acceptance testing,1,0.05
+User access reviews,1,0.05
+UX,1,0.05
+UML,1,0.05
+VMS,1,0.05
+VM/Server administration,1,0.05
+VLAN,1,0.05
+VIP,1,0.05
+UKG Data Hub,1,0.05
+VHDL,1,0.05
+VFX,1,0.05
+UKG Pro Workforce Management,1,0.05
+VDC,1,0.05
+UMG,1,0.05
+VAPT,1,0.05
+User flow design,1,0.05
+V-model,1,0.05
+User testing,1,0.05
+User story mapping,1,0.05
+User stories,1,0.05
+User requirements gathering,1,0.05
+USB,1,0.05
+User profiling,1,0.05
+User personas,1,0.05
+User journey mapping,1,0.05
+User interface design,1,0.05
+Verilog,1,0.05
+Verilog simulations,1,0.05
+Test & Measurement equipment,1,0.05
+Test scenario,1,0.05
+Test strategies,1,0.05
+Test-Driven Development,1,0.05
+Test-driven development,1,0.05
+TestComplete,1,0.05
+TestLink,1,0.05
+Vue3,1,0.05
+TestNg,1,0.05
+Vue JS,1,0.05
+TestRigor,1,0.05
+Testable code development,1,0.05
+Testbench development,1,0.05
+Vplan,1,0.05
+Voyage and Vessel Optimisation,1,0.05
+Testing and commissioning,1,0.05
+Testing and debugging,1,0.05
+Testing environments,1,0.05
+Voltage drop analysis,1,0.05
+Voicebot,1,0.05
+Testing strategy,1,0.05
+Voice Processing,1,0.05
+Text & Social Analytics,1,0.05
+Texturing,1,0.05
+VoIP,1,0.05
+Test scripts,1,0.05
+Test pyramid,1,0.05
+Triton,1,0.05
+Test process review,1,0.05
+WPF,1,0.05
+Test Engineering,1,0.05
+Test NG,1,0.05
+WP-CLI,1,0.05
+WCF,1,0.05
+Test automation frameworks,1,0.05
+Test case,1,0.05
+Test case design,1,0.05
+Test case planning,1,0.05
+Test case preparation,1,0.05
+Test coverage optimization,1,0.05
+Test design techniques,1,0.05
+WASM,1,0.05
+Test development,1,0.05
+Test driven development,1,0.05
+WAF,1,0.05
+Test harnesses,1,0.05
+Test methodology,1,0.05
+Test plan,1,0.05
+Test plan development,1,0.05
+Vulnerability remediation,1,0.05
+Vulnerability analysis,1,0.05
+Vulnerability Assessment,1,0.05
+Theory of Constraints,1,0.05
+Thermal analysis,1,0.05
+Thin client configuration,1,0.05
+Third-party SDK integration,1,0.05
+Virtual machines,1,0.05
+Tracing,1,0.05
+Trade management,1,0.05
+Trade support,1,0.05
+Trading systems,1,0.05
+Traefik,1,0.05
+Transact SQL,1,0.05
+Virtual Servers,1,0.05
+Video-On-Demand (VOD),1,0.05
+Transceiver design,1,0.05
+"Video streaming (HLS, DASH)",1,0.05
+Transformer,1,0.05
+Video production,1,0.05
+Transformer architecture,1,0.05
+Video generation,1,0.05
+Video encoding/decoding,1,0.05
+Transit Gateways,1,0.05
+Transport modelling,1,0.05
+Video analytics,1,0.05
+Video Analytics,1,0.05
+Video,1,0.05
+Vibration analysis,1,0.05
+Trino,1,0.05
+Traces,1,0.05
+Traceability reporting,1,0.05
+Tosca,1,0.05
+Ticketing Systems,1,0.05
+Thread,1,0.05
+Threading,1,0.05
+Threat Hunting,1,0.05
+Threat defense,1,0.05
+Visualization tools,1,0.05
+Visual quality control,1,0.05
+Threat intelligence,1,0.05
+Threat modeling,1,0.05
+Three.JS,1,0.05
+Three.js,1,0.05
+Visual hierarchy,1,0.05
+TopSKY-ATC(HE),1,0.05
+Visual analytics,1,0.05
+Time Series Analysis,1,0.05
+Time studies,1,0.05
+Time-series engine,1,0.05
+Visual Design,1,0.05
+Visual Basic,1,0.05
+Visual Analytics,1,0.05
+Tokenization,1,0.05
+Vision-Language Models (VLMs),1,0.05
+Tolerance analysis,1,0.05
+Streamlit,1,0.05
+Streaming tech,1,0.05
+Xilinx Vivado,1,0.05
+cyber threat research,1,0.05
+custom workflows,1,0.05
+Semiconductor Facilities Engineering,1,0.05
+Semiconductor assembly,1,0.05
+cuDNN,1,0.05
+cross-platform deployment,1,0.05
+Semiconductor packaging reliability,1,0.05
+controllers,1,0.05
+Sensor data processing,1,0.05
+Sensor fusion,1,0.05
+control system hardware,1,0.05
+contract negotiation,1,0.05
+Sensors,1,0.05
+content management systems,1,0.05
+Server administration,1,0.05
+containers,1,0.05
+Server architecture,1,0.05
+container security,1,0.05
+Server management,1,0.05
+Server monitoring,1,0.05
+Server virtualization,1,0.05
+container platforms,1,0.05
+Server-sent events,1,0.05
+Server-side APIs,1,0.05
+cyber infrastructure,1,0.05
+Semantic versioning,1,0.05
+Security control implementation,1,0.05
+Semantic understanding,1,0.05
+data center,1,0.05
+data catalog,1,0.05
+Security detection,1,0.05
+data applications,1,0.05
+Security equipment maintenance,1,0.05
+Security groups,1,0.05
+Security hardening,1,0.05
+Security modeling,1,0.05
+Security monitoring,1,0.05
+Security orchestration,1,0.05
+Security patching,1,0.05
+Security posture,1,0.05
+data analytics,1,0.05
+Security remediation,1,0.05
+Security risk governance,1,0.05
+Security scanning,1,0.05
+Security software,1,0.05
+Security solutions design,1,0.05
+"Security systems (CCTV, card access)",1,0.05
+Security telemetry,1,0.05
+dashboarding,1,0.05
+Security tooling,1,0.05
+cybersecurity governance,1,0.05
+Server-side game development,1,0.05
+Server-side rendering,1,0.05
+Serverless,1,0.05
+Serverless Framework,1,0.05
+ServiceNow application development,1,0.05
+compilation,1,0.05
+ServiceNow design principles,1,0.05
+Servlet,1,0.05
+Servlet/JSP,1,0.05
+Settlement,1,0.05
+communication protocols,1,0.05
+SharePoint Designer Workflows,1,0.05
+SharePoint Online,1,0.05
+coding,1,0.05
+code reviews,1,0.05
+code review,1,0.05
+Shipping Chartering,1,0.05
+code architecture,1,0.05
+Shopify Liquid,1,0.05
+Short-circuit analysis,1,0.05
+Sidekiq,1,0.05
+Siemens Desigo CC,1,0.05
+Signal R,1,0.05
+Signal processing,1,0.05
+SignalR,1,0.05
+Silicon DV,1,0.05
+co-simulations,1,0.05
+ServiceNow Vulnerability Response,1,0.05
+computational analysis,1,0.05
+compute,1,0.05
+Service catalog,1,0.05
+Serverless analytics,1,0.05
+Serverless architecture,1,0.05
+construction management,1,0.05
+construction documentation,1,0.05
+Serverless security,1,0.05
+Service Discovery,1,0.05
+Service Level Indicators (SLI),1,0.05
+Service Level Objectives (SLO),1,0.05
+Service Side Programming,1,0.05
+Service architecture,1,0.05
+Service discovery,1,0.05
+ServiceNow Platform,1,0.05
+Service execution,1,0.05
+Service mesh (Istio),1,0.05
+Service scalability,1,0.05
+Service-oriented architecture,1,0.05
+construction design interpretation,1,0.05
+construction design documents,1,0.05
+"ServiceNow (PSDS, CSM, App Engine)",1,0.05
+ServiceNow APIs,1,0.05
+ServiceNow Automated Test Framework,1,0.05
+concurrency models,1,0.05
+data center construction,1,0.05
+Security benchmarks,1,0.05
+Streaming platform development,1,0.05
+Sales management,1,0.05
+design,1,0.05
+deployment management,1,0.05
+Salesforce (SFDC),1,0.05
+"Salesforce (Sales, Service, Experience Clouds)",1,0.05
+Salesforce CRM integration,1,0.05
+dependency scanning,1,0.05
+defect tracking,1,0.05
+deep learning,1,0.05
+Salesforce D360,1,0.05
+Salesforce Government Cloud,1,0.05
+deal registration,1,0.05
+Salesforce administration,1,0.05
+Salt,1,0.05
+Salt stack,1,0.05
+dataset curation,1,0.05
+databases,1,0.05
+Sandboxing,1,0.05
+Sass,1,0.05
+Satellite engineering,1,0.05
+database schema,1,0.05
+Satellite network systems,1,0.05
+Satellite systems,1,0.05
+database design,1,0.05
+design patterns,1,0.05
+Sales Enablement,1,0.05
+data center maintenance,1,0.05
+SageMaker,1,0.05
+STIG Guidelines,1,0.05
+STK,1,0.05
+dumpsys,1,0.05
+STLC,1,0.05
+drives,1,0.05
+SVA,1,0.05
+documentation,1,0.05
+SYSLOG,1,0.05
+document management,1,0.05
+distributed infrastructure,1,0.05
+SaaS platform management,1,0.05
+SaaS platforms,1,0.05
+SaaS product development,1,0.05
+SaaS systems,1,0.05
+SaaS tenant lifecycle,1,0.05
+dimensional modelling,1,0.05
+SaaS/on-premises IDPs,1,0.05
+digital engineering,1,0.05
+development testing,1,0.05
+Safety Instrumented Systems (SIS),1,0.05
+development,1,0.05
+Safety and environmental compliance,1,0.05
+design validation,1,0.05
+data warehousing,1,0.05
+Scalability,1,0.05
+Scaling,1,0.05
+Scan,1,0.05
+Section 508 compliance,1,0.05
+Secure SDLC,1,0.05
+Secure Software Development Life Cycle,1,0.05
+Secure deployment,1,0.05
+Secure software development lifecycle (SSDLC),1,0.05
+Secure software engineering,1,0.05
+Secure-by-Design,1,0.05
+SecureGPT,1,0.05
+data communication protocols,1,0.05
+"Security (XSS, CSRF, CSP)",1,0.05
+Security Architecture,1,0.05
+Security Assessments,1,0.05
+Security Classification Guide,1,0.05
+Security Classification Guide (SCG),1,0.05
+Security Controls,1,0.05
+data collection,1,0.05
+Security Hardening,1,0.05
+Security Hub,1,0.05
+Security Information and Event Management (SIEM),1,0.05
+Security Test and Evaluation (ST&E),1,0.05
+data centre management,1,0.05
+Security auditing,1,0.05
+Security audits,1,0.05
+data exploration,1,0.05
+Secrets detection,1,0.05
+Secrets Manager,1,0.05
+Script includes,1,0.05
+Unity3D,1,0.05
+Schema Registry,1,0.05
+data warehouse development,1,0.05
+Schneider Electric,1,0.05
+data warehouse construction,1,0.05
+Scientific Computing,1,0.05
+data warehouse architecture,1,0.05
+Scientific machine learning,1,0.05
+data validation,1,0.05
+ScoutQA,1,0.05
+data storage,1,0.05
+Secret as a Service,1,0.05
+"Scripting (Perl, tcl, Python, Shell)",1,0.05
+Scripting automation,1,0.05
+data product development,1,0.05
+data modelling,1,0.05
+ScyllaDB,1,0.05
+Seaborn,1,0.05
+Search and personalization,1,0.05
+data feeds,1,0.05
+Seasar2,1,0.05
+SecDB,1,0.05
+cloud/on-prem/hybrid environments,1,0.05
+SimSpace,1,0.05
+cloud-native technologies,1,0.05
+application frameworks,1,0.05
+application development,1,0.05
+application design,1,0.05
+Speech algorithm,1,0.05
+anomaly detection,1,0.05
+analytics tooling,1,0.05
+Speech algorithms,1,0.05
+Speech codecs,1,0.05
+Spine,1,0.05
+analytical troubleshooting,1,0.05
+analytic development,1,0.05
+Spock,1,0.05
+alerting,1,0.05
+agile methodologies,1,0.05
+agentic systems,1,0.05
+agentic frameworks,1,0.05
+agentic AI frameworks,1,0.05
+advertising optimization,1,0.05
+Spring Boot 2/3,1,0.05
+advanced analytics,1,0.05
+acquisition lifecycle management,1,0.05
+Spring Cloud Config,1,0.05
+Spring Data,1,0.05
+Spring Data JPA/Hibernate,1,0.05
+SpectraQEST,1,0.05
+Species identification,1,0.05
+Simulation,1,0.05
+Spatial data structures,1,0.05
+audiovisual,1,0.05
+Solution selling,1,0.05
+Solutions Architecture,1,0.05
+Sonar,1,0.05
+Sonar systems,1,0.05
+asset strategy,1,0.05
+asset pipeline,1,0.05
+artificial intelligence,1,0.05
+Sonarqube,1,0.05
+Source code analysis,1,0.05
+Source code security review,1,0.05
+Source control,1,0.05
+Source-to-Target Mapping (STM),1,0.05
+architecture design,1,0.05
+applied cryptography,1,0.05
+application metrics,1,0.05
+Space Systems,1,0.05
+SpaceWire,1,0.05
+Spacecraft mechanism design,1,0.05
+application lifecycle management,1,0.05
+Spark SQL,1,0.05
+Spark-streaming,1,0.05
+SparxEA,1,0.05
+accessibility testing,1,0.05
+access management,1,0.05
+Spring Microservice,1,0.05
+Spring REST,1,0.05
+Zabbix,1,0.05
+Statistical methods,1,0.05
+Yii Framework,1,0.05
+Yield improvement,1,0.05
+Statistical modelling,1,0.05
+Statistical process control,1,0.05
+Statistical programming,1,0.05
+Yield enhancement,1,0.05
+Yield analysis,1,0.05
+Yield Management System (YMS),1,0.05
+Storage management,1,0.05
+Yarn,1,0.05
+Strapi,1,0.05
+XtremePush,1,0.05
+Strategic planning,1,0.05
+Strategic project management,1,0.05
+Strategy Management,1,0.05
+Strawberry,1,0.05
+Stream Processing,1,0.05
+Streaming APIs,1,0.05
+Xray,1,0.05
+Streaming architecture,1,0.05
+Streaming computing,1,0.05
+Zapier,1,0.05
+Statistical Process Control (SPC),1,0.05
+Statistical Modelling,1,0.05
+Stablecoins,1,0.05
+access control systems,1,0.05
+Spring ecosystem,1,0.05
+Zero-trust framework,1,0.05
+Zero Trust systems,1,0.05
+Zeppelin,1,0.05
+Spyglass,1,0.05
+Stability,1,0.05
+Stable Diffusion,1,0.05
+Stablecoin ecosystem,1,0.05
+Zephyr,1,0.05
+Star Schema,1,0.05
+Statistic models,1,0.05
+StarRocks,1,0.05
+Zend Framework,1,0.05
+Starrocks,1,0.05
+State Management,1,0.05
+State management,1,0.05
+"State management (Redux, Zustand, Context API)",1,0.05
+State-management (Redux/Flux),1,0.05
+Static Transfer Switch,1,0.05
+Static timing analysis (STA),1,0.05
+ZenHub,1,0.05
+auditing,1,0.05
+automated deployments,1,0.05
+automated security validation,1,0.05
+browser-based debugging,1,0.05
+SoC,1,0.05
+cloud integration,1,0.05
+SoC (System on Chip),1,0.05
+SoC architecture,1,0.05
+cloud environments,1,0.05
+cloud environment monitoring,1,0.05
+cloud development,1,0.05
+cloud data integration,1,0.05
+cloud computing,1,0.05
+Social media management,1,0.05
+Social science methodologies,1,0.05
+cloud backend APIs,1,0.05
+Socket,1,0.05
+Socket APIs,1,0.05
+Software Architecture,1,0.05
+classical machine learning,1,0.05
+channel partner management,1,0.05
+Software Design Patterns,1,0.05
+change controls,1,0.05
+card issuing,1,0.05
+capital project management,1,0.05
+business case development,1,0.05
+Software Development Life Cycle (SDLC),1,0.05
+Snowflake methodology,1,0.05
+cloud migration,1,0.05
+Smart manufacturing,1,0.05
+Six Sigma,1,0.05
+Simulation software,1,0.05
+cloud-native systems,1,0.05
+Simulation testing,1,0.05
+cloud-based software,1,0.05
+Simulink,1,0.05
+Site Reliability Engineering,1,0.05
+cloud transformation,1,0.05
+Site planning,1,0.05
+Site plans,1,0.05
+Site reliability engineering,1,0.05
+Sizing,1,0.05
+cloud native architecture,1,0.05
+cloud technology,1,0.05
+Slack,1,0.05
+cloud technologies,1,0.05
+Slack API,1,0.05
+cloud systems,1,0.05
+Slang,1,0.05
+Slate,1,0.05
+Slurm,1,0.05
+cloud revenue management,1,0.05
+cloud platforms,1,0.05
+building management systems,1,0.05
+Software Firewalls,1,0.05
+automated testing,1,0.05
+Software QA,1,0.05
+Software development lifecycle (SDLC),1,0.05
+automation engineering,1,0.05
+Software engineering best practices,1,0.05
+Software installation,1,0.05
+Software modification,1,0.05
+Software operations,1,0.05
+Software partnerships,1,0.05
+automation and controls,1,0.05
+Software patching,1,0.05
+Software performance analysis,1,0.05
+Software platforms,1,0.05
+Software quality assurance,1,0.05
+Software scanning,1,0.05
+Software security mechanisms,1,0.05
+Software system design,1,0.05
+Software system testing,1,0.05
+automated unit testing,1,0.05
+Software validation,1,0.05
+Software-Defined Access (SDA),1,0.05
+Solana,1,0.05
+Solaris,1,0.05
+SolidWorks,1,0.05
+Solidworks,1,0.05
+automation manufacturing equipment,1,0.05
+automation scripting,1,0.05
+automation systems,1,0.05
+backend systems,1,0.05
+blockchain analytics,1,0.05
+blockchain,1,0.05
+Software Requirements,1,0.05
+biometrics,1,0.05
+big data systems,1,0.05
+big data streaming,1,0.05
+bank reconciliations,1,0.05
+backup,1,0.05
+Software Security,1,0.05
+Software Testing Life Cycle,1,0.05
+Software and hardware integration,1,0.05
+automation testing,1,0.05
+Software application development,1,0.05
+Software attestation,1,0.05
+backend services,1,0.05
+Software change management,1,0.05
+backend mobile solutions,1,0.05
+Software configuration,1,0.05
+Software configuration management,1,0.05
+back-end development,1,0.05
+Software deployment,1,0.05
+autonomous driving technology,1,0.05
+Technical service delivery,1,0.05
+Mathematical modelling,1,0.05
+PCI DSS,1,0.05
+Compliance (IM8),1,0.05
+Computational mechanics,1,0.05
+Computational Fluid Dynamics,1,0.05
+Composition API,1,0.05
+Compose,1,0.05
+Component Library Management,1,0.05
+"Compliance standards (PII, PCI, HIPAA, CPRA)",1,0.05
+Compliance,1,0.05
+Cloud-based technologies,1,0.05
+Complexity analysis,1,0.05
+Compilers,1,0.05
+Compiler optimization,1,0.05
+Compiler engineering,1,0.05
+Compiler development,1,0.05
+Competitive research,1,0.05
+Computational statistics,1,0.05
+Compute,1,0.05
+Compute Engine,1,0.05
+Computer Network Operations,1,0.05
+Computer Science,1,0.05
+Computer skills,1,0.05
+Concurrency/Multithreading,1,0.05
+Conditional access policies,1,0.05
+Config,1,0.05
+Configuration Management,1,0.05
+Configuration Management (CM),1,0.05
+Configuration review,1,0.05
+Confluent Cloud,1,0.05
+Construction Management,1,0.05
+Construction cost estimation,1,0.05
+Construction design document interpretation,1,0.05
+Construction documentation,1,0.05
+CompTIA Network+,1,0.05
+Communication systems,1,0.05
+Commissioning,1,0.05
+CoPilot,1,0.05
+Cloud-native application development,1,0.05
+Cloud-native architecture,1,0.05
+Cloud-native infrastructure,1,0.05
+Cloud-native observability,1,0.05
+Cloud-native platforms,1,0.05
+Cloud-native technologies,1,0.05
+Cloud-scale engineering,1,0.05
+CloudInit,1,0.05
+CloudKit,1,0.05
+Cloudflare API,1,0.05
+Cluster computing,1,0.05
+Cluster deployment,1,0.05
+Cluster integrity,1,0.05
+Co-simulations,1,0.05
+Cocos,1,0.05
+Commercial Operations,1,0.05
+Cocos Creator,1,0.05
+Code Review,1,0.05
+Code analysis,1,0.05
+Code intelligence,1,0.05
+Code troubleshooting,1,0.05
+Code validation,1,0.05
+Code-splitting,1,0.05
+CodePush,1,0.05
+CodeQL,1,0.05
+Coding practices,1,0.05
+Cohere,1,0.05
+"Collaboration tools (Teams, SharePoint)",1,0.05
+Command Line Interface (CLI),1,0.05
+Command and Control Systems,1,0.05
+Construction management,1,0.05
+Consulting sales,1,0.05
+Contact Center Systems,1,0.05
+Creative tech platforms,1,0.05
+Copilot,1,0.05
+Copper termination,1,0.05
+Core Animation,1,0.05
+Core Banking,1,0.05
+Core Connectors,1,0.05
+CoreData,1,0.05
+Corebanking systems,1,0.05
+Corporate sales,1,0.05
+Corrective maintenance,1,0.05
+Cost benchmarking,1,0.05
+Cost optimization,1,0.05
+Cost projections,1,0.05
+Coupler design,1,0.05
+Coverity,1,0.05
+Credit Analytics,1,0.05
+Cooling towers,1,0.05
+Credit Scoring,1,0.05
+Credit management,1,0.05
+Credit risk analysis,1,0.05
+Creo software,1,0.05
+CrewAI,1,0.05
+Cross-chain bridges,1,0.05
+Cross-platform design,1,0.05
+CrowdStrike,1,0.05
+Crypto exchanges,1,0.05
+Crypto solutions,1,0.05
+Cryptographic Key Management,1,0.05
+Cryptographic operations,1,0.05
+"Cryptographic systems (AES, RSA, ECDSA, ECDH)",1,0.05
+Cucumber-JVM,1,0.05
+Coordination studies,1,0.05
+Cooling systems,1,0.05
+Contact Center technology,1,0.05
+Contract administration,1,0.05
+Contact center technology,1,0.05
+Container Security,1,0.05
+Container orchestration,1,0.05
+Container-based architecture,1,0.05
+Container-based deployments,1,0.05
+Container-based workflows,1,0.05
+Container-native architectures,1,0.05
+Content delivery systems,1,0.05
+Content management systems,1,0.05
+Content modeling,1,0.05
+Content moderation,1,0.05
+Context engineering,1,0.05
+Continuous Delivery,1,0.05
+Continuous Deployment,1,0.05
+Contract management,1,0.05
+Conveyor networks,1,0.05
+Contractor management,1,0.05
+Control Expert,1,0.05
+Control M,1,0.05
+Control Tower,1,0.05
+Control algorithm development,1,0.05
+Control algorithms,1,0.05
+Control panel layout,1,0.05
+Control strategies,1,0.05
+Control systems design,1,0.05
+Control-M,1,0.05
+Controls Programming,1,0.05
+Controls programming,1,0.05
+Conversational analytics,1,0.05
+Conversion API,1,0.05
+Cloud-native RESTful web services,1,0.05
+Cloud-based solutions,1,0.05
+CFEngine,1,0.05
+Cache Server Pages,1,0.05
+Camera surveillance,1,0.05
+Camera SDKs,1,0.05
+Cameo,1,0.05
+Callbot,1,0.05
+Calculation,1,0.05
+Cadence,1,0.05
+Cabling,1,0.05
+Cloud-based management,1,0.05
+CXL,1,0.05
+CVE scanning,1,0.05
+CVAT,1,0.05
+CUDA C/C++,1,0.05
+CTO,1,0.05
+CSV documentation,1,0.05
+Cameras,1,0.05
+Canary deployments,1,0.05
+Capacity analysis,1,0.05
+Capacity management,1,0.05
+Capistrano,1,0.05
+Capital project management,1,0.05
+CarPlay,1,0.05
+Cash flow management,1,0.05
+CentOS,1,0.05
+Centrify,1,0.05
+Ceph RDMA,1,0.05
+Certificate management,1,0.05
+Chai,1,0.05
+Channel sales management,1,0.05
+Chaos engineering,1,0.05
+Chaos testing,1,0.05
+Chart.js,1,0.05
+CST Studio Suite,1,0.05
+CST,1,0.05
+CSS frameworks,1,0.05
+CMMI,1,0.05
+"CI/CD (GitLab CI, Bamboo, Jenkins)",1,0.05
+CI/CD Pipeline,1,0.05
+CI/CD Pipeline Management,1,0.05
+CI/CD Pipeline Security,1,0.05
+CI/CD artifacts,1,0.05
+CI/CD pipeline configuration,1,0.05
+CI/CD pipeline development,1,0.05
+"CI/CD pipelines (GitHub Actions, Azure DevOps)",1,0.05
+CI/CD security,1,0.05
+CIAM,1,0.05
+CICS,1,0.05
+CIS Benchmarks,1,0.05
+CISL,1,0.05
+CLANG,1,0.05
+CMake,1,0.05
+CSS flexbox,1,0.05
+COCOA,1,0.05
+COMSEC,1,0.05
+COTS tools,1,0.05
+COTS/GOTS integration,1,0.05
+CPU architecture,1,0.05
+CRM strategy,1,0.05
+CRM systems,1,0.05
+CRO,1,0.05
+CRX,1,0.05
+CS compliance,1,0.05
+CSIRT,1,0.05
+CSM/PSDS,1,0.05
+CSOM,1,0.05
+CSPM,1,0.05
+Chatbot,1,0.05
+Checkov,1,0.05
+Chemical support,1,0.05
+Cloud platforms (AWS/Azure/GCP),1,0.05
+Cloud environment,1,0.05
+Cloud environment (AWS/Azure/GCP),1,0.05
+Cloud governance,1,0.05
+"Cloud infrastructure (IaaS, PaaS, SaaS)",1,0.05
+Cloud integration,1,0.05
+Cloud landing zone,1,0.05
+Cloud native architecture,1,0.05
+Cloud native security,1,0.05
+Cloud network infrastructure,1,0.05
+Cloud platform architecture,1,0.05
+Cloud platform automation,1,0.05
+Cloud platforming,1,0.05
+"Cloud platforms (AWS, Azure, GCP)",1,0.05
+"Cloud platforms (AWS, GCP)",1,0.05
+"Cloud security (AWS, Azure, GCP)",1,0.05
+Cloud data platforms,1,0.05
+Cloud server hardware,1,0.05
+Cloud server platforms,1,0.05
+Cloud services,1,0.05
+"Cloud services (AWS, Azure, DigitalOcean)",1,0.05
+Cloud solutions,1,0.05
+Cloud storage,1,0.05
+Cloud testing,1,0.05
+Cloud-Native,1,0.05
+Cloud-based AI services,1,0.05
+Cloud-based analytics,1,0.05
+Cloud-based applications,1,0.05
+Cloud-based digital banking,1,0.05
+Cloud-based distributed databases,1,0.05
+Cloud-based environment,1,0.05
+Cloud development,1,0.05
+Cloud automation,1,0.05
+Chorus platform,1,0.05
+Click-through prediction modelling,1,0.05
+Circuit board testing,1,0.05
+Circuit design,1,0.05
+Circuitry,1,0.05
+Cisco Meraki,1,0.05
+Cisco devices,1,0.05
+Cisco networking,1,0.05
+Cisco switches,1,0.05
+Citrix Cloud,1,0.05
+Civil infrastructure design,1,0.05
+Civil3D,1,0.05
+Claims assessment,1,0.05
+Clean Code,1,0.05
+Cleaning validation,1,0.05
+CleverTap SDK,1,0.05
+Clickhouse,1,0.05
+Cloud application platform,1,0.05
+Client scripts,1,0.05
+Clinical data analysis,1,0.05
+Clock tree synthesis,1,0.05
+Cloud & AI Platforms,1,0.05
+Cloud Armor,1,0.05
+Cloud DNS,1,0.05
+Cloud DevOps,1,0.05
+Cloud Foundry,1,0.05
+Cloud Management Gateway,1,0.05
+Cloud Platforms,1,0.05
+Cloud Server,1,0.05
+Cloud Service Providers (CSPs),1,0.05
+Cloud adoption,1,0.05
+Cloud analytics,1,0.05
+Cupertino,1,0.05
+Custom Post Types,1,0.05
+Customer 360,1,0.05
+Digital advertising,1,0.05
+Digital engineering,1,0.05
+Digital communications,1,0.05
+Digital banking platforms,1,0.05
+Digital bank platform,1,0.05
+Digital analytics,1,0.05
+Digital advertising operations,1,0.05
+Digital Twin technology,1,0.05
+Customer experience,1,0.05
+Digital Lending Platform,1,0.05
+Digital IC design,1,0.05
+Digital Forensics,1,0.05
+Dify,1,0.05
+Diagnostic biomarker discovery,1,0.05
+Diagnostic analysis,1,0.05
+Digital lifestyle platforms,1,0.05
+Digital project delivery,1,0.05
+Digital project management,1,0.05
+Digital technology,1,0.05
+Digital twin simulations,1,0.05
+DigitalOcean,1,0.05
+Digitalization,1,0.05
+Digitization,1,0.05
+Dimensional data modeling,1,0.05
+Direct Connect,1,0.05
+Directory services,1,0.05
+Directus,1,0.05
+Discovery,1,0.05
+Display,1,0.05
+Distillation,1,0.05
+Distributed Computing,1,0.05
+Distributed Control Systems (DCS),1,0.05
+Device-driver development,1,0.05
+Device configuration,1,0.05
+Device Control,1,0.05
+Deployment frameworks,1,0.05
+Dataproc,1,0.05
+Dataset preparation,1,0.05
+Daton,1,0.05
+Deal implementation,1,0.05
+Decision automation,1,0.05
+Deep learning frameworks,1,0.05
+Deequ,1,0.05
+Defect detection,1,0.05
+Defect management,1,0.05
+Defect reduction,1,0.05
+Defect tracking,1,0.05
+Dependency Injection,1,0.05
+Dependency Scanning,1,0.05
+Deployment environments,1,0.05
+Deployment management,1,0.05
+Developmental Testing (DT),1,0.05
+Deployment strategies,1,0.05
+Design,1,0.05
+Design Verification,1,0.05
+Design for test (DFT),1,0.05
+Design history Files,1,0.05
+Desktop Software Engineering,1,0.05
+Desktop software development,1,0.05
+Detection & Response,1,0.05
+Detection-as-Code,1,0.05
+DevOps automation,1,0.05
+Developer Evangelism,1,0.05
+Developer tooling,1,0.05
+Development,1,0.05
+Development frameworks,1,0.05
+Distributed Storage,1,0.05
+Distributed Systems,1,0.05
+Distributed infrastructure,1,0.05
+ELK Stack,1,0.05
+EDR/XDR,1,0.05
+EEG hardware,1,0.05
+EF Core,1,0.05
+EFI drivers,1,0.05
+EFK,1,0.05
+EHR security,1,0.05
+EHS,1,0.05
+EIA/TIA standards,1,0.05
+EIB,1,0.05
+EIGRP,1,0.05
+EJB,1,0.05
+EJBs,1,0.05
+EKL,1,0.05
+EKS Fargate,1,0.05
+ELK/EFK,1,0.05
+EDA,1,0.05
+ELV,1,0.05
+EM design tools,1,0.05
+EMC compliance,1,0.05
+EMI characterization,1,0.05
+EMI mitigation,1,0.05
+EMSEC,1,0.05
+EMV,1,0.05
+ERC20,1,0.05
+ERP integration,1,0.05
+ERP software,1,0.05
+ES,1,0.05
+ES5+,1,0.05
+ES5/6/7,1,0.05
+ES6,1,0.05
+EDMCS,1,0.05
+ECharts,1,0.05
+Distributed storage,1,0.05
+Domain-Driven Design,1,0.05
+Django REST,1,0.05
+DoD,1,0.05
+DoD 8140,1,0.05
+DoD 8570 IAT Level II,1,0.05
+DoD RMF,1,0.05
+DoD cybersecurity,1,0.05
+DoD cybersecurity policies,1,0.05
+DoDAF,1,0.05
+Docker Swarm,1,0.05
+Docker security,1,0.05
+Document control,1,0.05
+Document processing pipelines,1,0.05
+Documentation,1,0.05
+Documentum,1,0.05
+Doris,1,0.05
+ECR,1,0.05
+Dotnet,1,0.05
+Dynamic Optimization,1,0.05
+Dynamics 365,1,0.05
+E-commerce data,1,0.05
+E-commerce data analysis,1,0.05
+E-commerce platform development,1,0.05
+E-commerce platforms,1,0.05
+E-commerce technology stack,1,0.05
+E-commerce/AgriTech domain knowledge,1,0.05
+E2E Testing,1,0.05
+E2E performance testing,1,0.05
+E2E testing,1,0.05
+E3D,1,0.05
+EAS,1,0.05
+Datalake,1,0.05
+Dataform,1,0.05
+Database server configuration,1,0.05
+Data Analytics,1,0.05
+DOM,1,0.05
+DOORS,1,0.05
+DQL,1,0.05
+DR,1,0.05
+DRAM,1,0.05
+DRBFM,1,0.05
+DVM,1,0.05
+Dagger,1,0.05
+Dapper,1,0.05
+Dashboard building,1,0.05
+Dashboard development,1,0.05
+Dashboarding,1,0.05
+Data,1,0.05
+Data & AI infrastructure,1,0.05
+Data Catalogue Systems,1,0.05
+DMARC,1,0.05
+Data Center,1,0.05
+Data Center Infrastructure,1,0.05
+Data Center infrastructure,1,0.05
+Data Centre,1,0.05
+Data Centre Operations,1,0.05
+Data Centre networking,1,0.05
+Data Classification,1,0.05
+Data Comm,1,0.05
+Data Governance,1,0.05
+Data Ingestion,1,0.05
+Data Lineage,1,0.05
+Data Mart,1,0.05
+Data Mining,1,0.05
+Data Operations,1,0.05
+DNS as a Service,1,0.05
+DMAIC,1,0.05
+Data Quality,1,0.05
+Cybersecurity standards,1,0.05
+Customer management software,1,0.05
+Customer segmentation,1,0.05
+CySA+,1,0.05
+Cyber Operations,1,0.05
+Cyber intelligence analysis,1,0.05
+Cyber operations,1,0.05
+Cyber security,1,0.05
+Cybersecurity analysis,1,0.05
+Cybersecurity architecture,1,0.05
+Cybersecurity controls,1,0.05
+Cybersecurity governance,1,0.05
+Cybersecurity measures,1,0.05
+Cybersecurity operations,1,0.05
+Cybersecurity risk assessment,1,0.05
+Cybersecurity tools,1,0.05
+DL,1,0.05
+Cypher,1,0.05
+D3,1,0.05
+DAM,1,0.05
+DBVisualizer,1,0.05
+DC Rectifier System,1,0.05
+DCS/SIS,1,0.05
+DD254,1,0.05
+DD254 processing,1,0.05
+DDC/PLC,1,0.05
+DFT,1,0.05
+DHTML,1,0.05
+DI frameworks,1,0.05
+DIOs,1,0.05
+DKIM,1,0.05
+Data Platform,1,0.05
+Data Quality Framework,1,0.05
+Database schemas,1,0.05
+DataCenter Cluster Design,1,0.05
+Data query,1,0.05
+Data reporting,1,0.05
+Data science integration,1,0.05
+Data security management,1,0.05
+Data statistics,1,0.05
+Data structure design,1,0.05
+Data systems,1,0.05
+Data transformation,1,0.05
+Data warehouse architecture,1,0.05
+Data-AI pipeline,1,0.05
+Data-driven maintenance,1,0.05
+Data-driven marketing,1,0.05
+Data-driven strategies,1,0.05
+Data-warehouse,1,0.05
+DataDog,1,0.05
+Data protection systems,1,0.05
+DataOps,1,0.05
+DataStage,1,0.05
+Database Activity Monitoring,1,0.05
+Database Design,1,0.05
+Database Schema,1,0.05
+Database access,1,0.05
+Database architecture,1,0.05
+Database as a Service,1,0.05
+Database creation,1,0.05
+Database integration,1,0.05
+Database interfaces,1,0.05
+Database programming,1,0.05
+Database querying languages,1,0.05
+Database schema design,1,0.05
+Data quality,1,0.05
+Data protection,1,0.05
+Data Storage,1,0.05
+Data compression,1,0.05
+Data Structures,1,0.05
+Data Structuring,1,0.05
+Data Testing,1,0.05
+Data Visualization,1,0.05
+Data acquisition,1,0.05
+Data asset maps,1,0.05
+Data assets,1,0.05
+Data catalog,1,0.05
+Data cataloging,1,0.05
+Data center acquisition,1,0.05
+Data center deployment,1,0.05
+Data center maintenance,1,0.05
+Data center management,1,0.05
+Data collection and analysis,1,0.05
+Data computation,1,0.05
+Data projects,1,0.05
+Data encryption,1,0.05
+Data entry,1,0.05
+Data extraction,1,0.05
+Data flows,1,0.05
+Data hierarchical governance,1,0.05
+Data integration pipelines,1,0.05
+Data maintenance,1,0.05
+Data maps,1,0.05
+Data modelling,1,0.05
+Data networking architectures,1,0.05
+Data platform engineering,1,0.05
+Data processing frameworks,1,0.05
+Data processing pipelines,1,0.05
+Data profiling,1,0.05
+CHIRP,1,0.05
+CFD Trading Systems,1,0.05
+ESQL,1,0.05
+AWS Cloud infrastructure,1,0.05
+AWS DMS,1,0.05
+AWS Control Tower,1,0.05
+AWS CodePipeline,1,0.05
+AWS CodeBuild,1,0.05
+AWS Code Pipeline,1,0.05
+AWS CloudFormation,1,0.05
+AWS Cloud Services,1,0.05
+ALD,1,0.05
+AWS Cloud Administration,1,0.05
+AWS Amplify,1,0.05
+"AWS (SQS, S3, Lambda, ECS)",1,0.05
+"AWS (S3, Glue, Lambda, IAM, Step Functions, Kinesis/MSK)",1,0.05
+"AWS (S3, Glue, Athena, EMR, EC2, Lambda)",1,0.05
+"AWS (S3, EC2)",1,0.05
+AWS Glue,1,0.05
+AWS RDS,1,0.05
+AWS Redshift,1,0.05
+AWS SQS,1,0.05
+AWS Secrets Manager,1,0.05
+AWS cloud services,1,0.05
+AWS security,1,0.05
+"AWS serverless architecture (DynamoDB, RDS, SNS, SQS, Cognito, S3, API Gateway, AppSync, Lambda)",1,0.05
+AWS solutions,1,0.05
+AWX,1,0.05
+Abaqus,1,0.05
+Accelerated computing,1,0.05
+Acceptance Criteria,1,0.05
+Access Control Systems,1,0.05
+Access Governance,1,0.05
+Accessibility,1,0.05
+Accessibility principles,1,0.05
+"AWS (Glue, Redshift, RDS, S3, IAM, VPC)",1,0.05
+AWR,1,0.05
+AVM software,1,0.05
+ARCore,1,0.05
+AMDP,1,0.05
+AMF,1,0.05
+AML/KYC,1,0.05
+ANSYS,1,0.05
+API Automation,1,0.05
+API Management,1,0.05
+API Testing,1,0.05
+API definition,1,0.05
+API engineering,1,0.05
+API governance,1,0.05
+API specifications,1,0.05
+API validation,1,0.05
+API-based workflows,1,0.05
+API-first design,1,0.05
+ARKit,1,0.05
+AV,1,0.05
+ARM,1,0.05
+ARM templates,1,0.05
+ARM-based processors,1,0.05
+AS400,1,0.05
+ASIC,1,0.05
+ASIC firmware,1,0.05
+ASM,1,0.05
+ASP.NET Core MVC,1,0.05
+ASP.NET Core Web APIs,1,0.05
+ASP.Net,1,0.05
+ASP.net,1,0.05
+ATE programming,1,0.05
+ATM systems,1,0.05
+AUSF,1,0.05
+Accessibility standards,1,0.05
+Accessibility testing,1,0.05
+Account management,1,0.05
+Alibaba,1,0.05
+Agentic Platforms,1,0.05
+"Agentic frameworks (ADK, LangChain)",1,0.05
+Agentic tooling,1,0.05
+Agentic workflows,1,0.05
+AgenticAI,1,0.05
+Agile Framework,1,0.05
+Agile systems development,1,0.05
+Agile/SCRUM,1,0.05
+Air Traffic Management,1,0.05
+Air Traffic Management systems,1,0.05
+Airline operations systems,1,0.05
+Ajax,1,0.05
+Alarm as a Service,1,0.05
+Algorithm integration,1,0.05
+Allen-Bradley,1,0.05
+Agentic AI systems,1,0.05
+Allen-Bradley PLCs,1,0.05
+Alliance Business Development,1,0.05
+Alteryx,1,0.05
+Amazon CloudWatch,1,0.05
+Amazon ECS,1,0.05
+Amazon VPC,1,0.05
+Analysis,1,0.05
+Analytic data stores,1,0.05
+Analytical Methods and Modeling,1,0.05
+Analytical tools,1,0.05
+Analytics Engineering,1,0.05
+Analytics infrastructure,1,0.05
+Analytics management,1,0.05
+Analytics platforms,1,0.05
+Agentic Platform,1,0.05
+Agentic AI models,1,0.05
+Account planning,1,0.05
+Adobe Managed Services (AMS),1,0.05
+Accounting,1,0.05
+Accounting software,1,0.05
+Active Directory (AD),1,0.05
+ActiveBatch,1,0.05
+Ad Network,1,0.05
+Ad encoding,1,0.05
+Ad serving industry technologies,1,0.05
+Ad tech,1,0.05
+Adjust,1,0.05
+Adobe Commerce,1,0.05
+Adobe Experience Manager,1,0.05
+Adobe Experience Platform,1,0.05
+Adobe Experience Platform (AEP),1,0.05
+Adobe Managed Services,1,0.05
+Adobe Suite,1,0.05
+Agentic AI development,1,0.05
+Adobe XD,1,0.05
+Advanced Analytics,1,0.05
+Advanced Process Control,1,0.05
+Advanced Process Control (APC),1,0.05
+Adversary Simulations,1,0.05
+Advertising technology,1,0.05
+Advisory services,1,0.05
+Aerodynamics,1,0.05
+After Effects,1,0.05
+Agent Runtime,1,0.05
+Agent Troubleshooting Automation,1,0.05
+Agent-based logic,1,0.05
+Agent-based workflows,1,0.05
+Agentforce,1,0.05
+AMBA protocol,1,0.05
+ALB,1,0.05
+CFD,1,0.05
+ADaM,1,0.05
+AI Data Engineering,1,0.05
+AI Code Assist,1,0.05
+AI Automation,1,0.05
+AI Agent development,1,0.05
+AI API integration,1,0.05
+AES,1,0.05
+ADB,1,0.05
+AJAX,1,0.05
+ADAS,1,0.05
+AD/DNS/DHCP,1,0.05
+AD RMS,1,0.05
+AD Certificate Services,1,0.05
+ACTA/ACLP certification,1,0.05
+ACR,1,0.05
+AI Development,1,0.05
+AI Engineering,1,0.05
+"AI IDEs (Cursor, GitHub Copilot, Windsurf)",1,0.05
+AI Production,1,0.05
+AI Studio,1,0.05
+AI Tools,1,0.05
+AI Tutor design,1,0.05
+AI agent deployment,1,0.05
+AI application development,1,0.05
+AI assistant coding tools,1,0.05
+AI assistant development,1,0.05
+AI automation,1,0.05
+AI backend,1,0.05
+AI benchmarking,1,0.05
+AI chatbot testing,1,0.05
+AI cloud infrastructure,1,0.05
+AI code generation tools,1,0.05
+ACMV systems,1,0.05
+ACLs,1,0.05
+ACF,1,0.05
+3D Vector math,1,0.05
+.NET 6,1,0.05
+.NET 6+,1,0.05
+.NET 6/7+,1,0.05
+.NET 7/8,1,0.05
+.NET 9,1,0.05
+.NET CLI,1,0.05
+.NET Core 8,1,0.05
+.NET Framework,1,0.05
+.NET/C#,1,0.05
+.Net CORE,1,0.05
+.Net Core,1,0.05
+2D Animation,1,0.05
+2D shop drawings,1,0.05
+3D BIM solution,1,0.05
+"3D modeling (GLTF, GLB, FBX)",1,0.05
+ABS,1,0.05
+3D printing,1,0.05
+5-Why,1,0.05
+5G Core,1,0.05
+5G core components,1,0.05
+5G policy,1,0.05
+5S,1,0.05
+6G,1,0.05
+AB testing,1,0.05
+ABAC,1,0.05
+ABAP Objects,1,0.05
+ABAP Workbench,1,0.05
+ABAP dictionary,1,0.05
+ABAP editor,1,0.05
+ABAP on HANA,1,0.05
+AI coding agents,1,0.05
+AI data product architecture,1,0.05
+AI development lifecycle,1,0.05
+AI/ML development,1,0.05
+AI-driven development,1,0.05
+AI-driven investment systems,1,0.05
+AI-driven solutions,1,0.05
+AI-driven tools,1,0.05
+AI-driven video analytics,1,0.05
+AI-native product development,1,0.05
+AI-native workflows,1,0.05
+AI-powered analytics,1,0.05
+AI-powered detection systems,1,0.05
+AI-powered production,1,0.05
+AI-powered search,1,0.05
+AI-powered technology,1,0.05
+AI/LLM,1,0.05
+AI/LLMs,1,0.05
+AI/ML engineering,1,0.05
+AI-driven building automation,1,0.05
+AI/ML features,1,0.05
+AI/ML model deployment,1,0.05
+AI/ML model development,1,0.05
+AI/ML modelling,1,0.05
+AI/ML platform design,1,0.05
+AI/ML project delivery,1,0.05
+AI/ML security tools,1,0.05
+AI/ML services,1,0.05
+AI/ML solution design,1,0.05
+AI/ML workflows,1,0.05
+AI/ML/GenAI,1,0.05
+AIGC detection,1,0.05
+AIOps,1,0.05
+AIX,1,0.05
+AI-driven coding tools,1,0.05
+AI-driven SDLC,1,0.05
+AI for Security,1,0.05
+AI software solutions,1,0.05
+AI governance,1,0.05
+AI integrations,1,0.05
+AI model deployment,1,0.05
+AI model development,1,0.05
+AI model optimization,1,0.05
+AI model training,1,0.05
+AI modeling,1,0.05
+AI models,1,0.05
+AI product support,1,0.05
+AI project management,1,0.05
+AI prototyping,1,0.05
+AI recruiting platforms,1,0.05
+AI security,1,0.05
+AI service components,1,0.05
+AI solution delivery,1,0.05
+AI-augmented software testing,1,0.05
+AI solution development,1,0.05
+AI support,1,0.05
+AI technology,1,0.05
+AI technology stack,1,0.05
+AI tooling,1,0.05
+"AI tools (ChatGPT, Copilot)",1,0.05
+AI tools integration,1,0.05
+AI workflow pipelines,1,0.05
+AI-ML Platforms,1,0.05
+AI-assisted development tools,1,0.05
+AI-assisted software development,1,0.05
+AI-assisted testing,1,0.05
+AI-assisted tooling,1,0.05
+AI-assisted workflows,1,0.05
+Analytics providers,1,0.05
+Anaplan,1,0.05
+Android (Kotlin/Java),1,0.05
+Backup,1,0.05
+Backup systems,1,0.05
+Backup power generation,1,0.05
+Backup as a Service,1,0.05
+Backup and recovery strategies,1,0.05
+Backup and recovery,1,0.05
+Backup and disaster recovery,1,0.05
+Backstage,1,0.05
+Android App Development,1,0.05
+Backlog prioritization,1,0.05
+Background workers,1,0.05
+Background service,1,0.05
+Backend/frontend workflows,1,0.05
+Backend-for-Frontend (BFF),1,0.05
+Backend integration,1,0.05
+Backup/ASR,1,0.05
+Backup/restore,1,0.05
+Bamboo,1,0.05
+Banking applications,1,0.05
+Batch Processing,1,0.05
+Batch/streaming data ecosystems,1,0.05
+Battery Historian,1,0.05
+Beaglebone,1,0.05
+Bean Validation,1,0.05
+Behavior tracking,1,0.05
+Behavioral data analysis,1,0.05
+Benchmarking,1,0.05
+Benchmarking pipelines,1,0.05
+BiLSTM,1,0.05
+Big Bang framework,1,0.05
+Big Data Administration,1,0.05
+Big Data Infrastructure,1,0.05
+Backend REST API,1,0.05
+Backend QA,1,0.05
+Backend,1,0.05
+BIM/VDC,1,0.05
+B2B software sales,1,0.05
+B2C platforms,1,0.05
+BAPIs,1,0.05
+BAdIs,1,0.05
+BDC,1,0.05
+BDD,1,0.05
+BDD/TDD,1,0.05
+BEM,1,0.05
+BGP,1,0.05
+BGP/OSPF,1,0.05
+BI platform,1,0.05
+BICSI guidelines,1,0.05
+BIM 360,1,0.05
+BIM processes,1,0.05
+BIOS/UEFI,1,0.05
+Back-end development,1,0.05
+BLE,1,0.05
+BLoC,1,0.05
+BLoC/Cubit,1,0.05
+BMS,1,0.05
+BMS platforms,1,0.05
+BOM/RFQ,1,0.05
+BOMs,1,0.05
+BPC,1,0.05
+BRD,1,0.05
+BRD/FRD documentation,1,0.05
+BTEQ,1,0.05
+BTP,1,0.05
+Babylon.js,1,0.05
+Back End Development,1,0.05
+Big Data engineering,1,0.05
+Big Data frameworks,1,0.05
+Big-data technologies,1,0.05
+Business rules,1,0.05
+Build pipelines,1,0.05
+Build systems,1,0.05
+Building Management System,1,0.05
+Building management systems,1,0.05
+Building management systems (BMS),1,0.05
+Bundle optimization,1,0.05
+Busduct systems,1,0.05
+Business Continuity,1,0.05
+Business case preparation,1,0.05
+Business development,1,0.05
+Business intelligence tools,1,0.05
+Business process automation,1,0.05
+Business program management,1,0.05
+Business requirements analysis,1,0.05
+C++17,1,0.05
+Bug tracking,1,0.05
+C2 systems,1,0.05
+C2LAN,1,0.05
+C3 systems,1,0.05
+CAD software,1,0.05
+CAD tools,1,0.05
+CAE,1,0.05
+CAMARA/GSMA Open Gateway API,1,0.05
+CAT5/CAT6,1,0.05
+CCNA,1,0.05
+CCTV,1,0.05
+CDK,1,0.05
+CDS,1,0.05
+CEH,1,0.05
+CENTRIXS,1,0.05
+Bugsnag,1,0.05
+Bug Tracking,1,0.05
+Bill of Materials,1,0.05
+Blue/Green deployments,1,0.05
+Bill of materials management,1,0.05
+Billing software,1,0.05
+Binary analysis,1,0.05
+Biological data collection,1,0.05
+Biometric security,1,0.05
+Biometrics,1,0.05
+Bitbucket Pipelines,1,0.05
+BlackDuck,1,0.05
+Blackduck,1,0.05
+Bloc,1,0.05
+Blockchain infrastructure,1,0.05
+Blockchain integration,1,0.05
+Blockchain protocols,1,0.05
+Blue Team,1,0.05
+Blueprint logic,1,0.05
+Budgeting,1,0.05
+Blueprints/Schematics,1,0.05
+Bluetooth,1,0.05
+Bluetooth/BLE,1,0.05
+Board Support Packages,1,0.05
+Bone animation,1,0.05
+Bookkeeping,1,0.05
+Boomi,1,0.05
+Branch,1,0.05
+Branch.io,1,0.05
+Bravo ERP,1,0.05
+Bravo HRM,1,0.05
+Broadband,1,0.05
+Broadcom Clarity,1,0.05
+Budget Management,1,0.05
+B2B SaaS,1,0.05
+B2B E-commerce,1,0.05
+AzureCLI,1,0.05
+Applied Machine Learning,1,0.05
+Apache Solr,1,0.05
+Apogee,1,0.05
+App Store/Play Store deployment,1,0.05
+App development,1,0.05
+Apple Device Manager,1,0.05
+Application Architecture,1,0.05
+Application architecture,1,0.05
+Application communication flows,1,0.05
+Application deployment,1,0.05
+Application design,1,0.05
+Application frameworks,1,0.05
+Application support,1,0.05
+Application testing,1,0.05
+Applied AI development,1,0.05
+Applied R&D,1,0.05
+Apache Airflow,1,0.05
+Applied analytics,1,0.05
+Applied mathematics,1,0.05
+Appsflyer,1,0.05
+Arc flash analysis,1,0.05
+ArcGIS,1,0.05
+ArcGIS Enterprise,1,0.05
+Architectural patterns,1,0.05
+Architecture Design,1,0.05
+Architecture-as-a-Service,1,0.05
+Argo CD,1,0.05
+Army Cybersecurity,1,0.05
+Art direction,1,0.05
+Artifact management,1,0.05
+Assertible,1,0.05
+Apache Ranger,1,0.05
+AnyPoint Platform,1,0.05
+Asset management tools,1,0.05
+Angular 17.x,1,0.05
+Android Auto,1,0.05
+Android Java,1,0.05
+Android Jetpack,1,0.05
+Android NDK,1,0.05
+Android Native,1,0.05
+Android OS architecture,1,0.05
+Android Tactical Assault Kit (ATAK),1,0.05
+Android UI optimization,1,0.05
+Android architecture framework,1,0.05
+Android performance profiling,1,0.05
+Android security,1,0.05
+Angular 14+,1,0.05
+Angular 14/15,1,0.05
+Angular 16+,1,0.05
+Angular 8,1,0.05
+Antivirus tools,1,0.05
+Angular JS,1,0.05
+Angular v18,1,0.05
+AngularV17,1,0.05
+Animation,1,0.05
+Anomaly detection,1,0.05
+Ansible AAP,1,0.05
+Ansible Automation Platform,1,0.05
+Ansys HFSS,1,0.05
+Ant,1,0.05
+Ant Design,1,0.05
+Anthropic Claude,1,0.05
+Anti-Tamper,1,0.05
+Anti-fraud,1,0.05
+Antigravity,1,0.05
+Assessment and Authorization (A&A),1,0.05
+Assortment Planning,1,0.05
+Azure-native services,1,0.05
+Autosys,1,0.05
+Automation platforms,1,0.05
+Automation scripts,1,0.05
+Automation software development,1,0.05
+Automotive technology,1,0.05
+Autonomous Logistics,1,0.05
+Autonomous agents,1,0.05
+Autonomous mobile robots,1,0.05
+Autonomous path planning,1,0.05
+Autonomous systems,1,0.05
+Autonomous vehicle systems,1,0.05
+Autonomous vehicles (AV) integration,1,0.05
+Autonomy frameworks,1,0.05
+Autonomy systems,1,0.05
+Autopilot,1,0.05
+Avaloq,1,0.05
+Automation engineering,1,0.05
+Axios,1,0.05
+Azure CLI,1,0.05
+Azure Cloud,1,0.05
+Azure Cloud Infrastructure,1,0.05
+Azure Cloud Security,1,0.05
+Azure DevOps (ADO),1,0.05
+Azure ML,1,0.05
+Azure Resource Manager,1,0.05
+Azure SQL,1,0.05
+Azure Synapse,1,0.05
+Azure Synapse Analytics,1,0.05
+Azure cloud infrastructure,1,0.05
+Azure functions,1,0.05
+Azure services,1,0.05
+Automation pipeline,1,0.05
+Automation Testing,1,0.05
+Assure OpenAI,1,0.05
+AutoCAD Plant 3D,1,0.05
+Astronomer,1,0.05
+Asynchronous queuing,1,0.05
+Athena,1,0.05
+Atlassian Cloud,1,0.05
+Attack simulation,1,0.05
+Auction dynamics,1,0.05
+Audio,1,0.05
+Audio visual systems,1,0.05
+Audiovisual systems,1,0.05
+Audit and compliance,1,0.05
+Aurora MySQL,1,0.05
+Authentication protocols,1,0.05
+Authorization to Operate (ATO),1,0.05
+AutoCAD 2D,1,0.05
+AutoIT,1,0.05
+Automation Systems,1,0.05
+Autocad,1,0.05
+Autodesk Construction Cloud,1,0.05
+Autodesk platforms,1,0.05
+Automated Test Equipment (ATE),1,0.05
+Automated UI testing,1,0.05
+Automated compliance checks,1,0.05
+Automated material handling systems,1,0.05
+Automated security scanning,1,0.05
+Automated targeting,1,0.05
+Automated test scripts,1,0.05
+Automated trading platforms,1,0.05
+Automated unit testing,1,0.05
+"Automation (AGV, AMR)",1,0.05
+Automation Engineering,1,0.05
+ESB,1,0.05
+ETL framework design,1,0.05
+PCB firmware testing,1,0.05
+MSP,1,0.05
+MWAA,1,0.05
+MVVM/MVP,1,0.05
+MVVM architecture,1,0.05
+MV/LV switchgear,1,0.05
+MUMPS,1,0.05
+MSSQL Server,1,0.05
+MSFT Azure,1,0.05
+Logistic engineering,1,0.05
+MSDS,1,0.05
+MSBuild,1,0.05
+MS Windows,1,0.05
+MS Exchange,1,0.05
+MS Azure,1,0.05
+MPSoC design,1,0.05
+Machine Learning acceleration,1,0.05
+Machine Learning demand planning,1,0.05
+Machine learning engineering,1,0.05
+Machine learning frameworks,1,0.05
+Machine learning hardware,1,0.05
+Machine learning integration,1,0.05
+Machinery operation,1,0.05
+MagicDraw,1,0.05
+Mainframe Modernization,1,0.05
+Maintenance and repair planning,1,0.05
+Make,1,0.05
+Malware research,1,0.05
+Managed Services (MSP),1,0.05
+Manufacturing,1,0.05
+Manufacturing Engineering,1,0.05
+Manufacturing Execution Systems (MES),1,0.05
+Manufacturing Planning,1,0.05
+MPLS,1,0.05
+MONGODB Atlas,1,0.05
+MLflow,1,0.05
+MCU design,1,0.05
+Looker,1,0.05
+Looker Studio,1,0.05
+Loop tuning,1,0.05
+Low latency execution platform,1,0.05
+Low voltage security systems,1,0.05
+Low-poly modeling,1,0.05
+Lua,1,0.05
+M&E drawing management,1,0.05
+M365,1,0.05
+M365 Copilot,1,0.05
+MAM,1,0.05
+MBIST,1,0.05
+MCM,1,0.05
+MCU architecture,1,0.05
+MDT,1,0.05
+ML workflows,1,0.05
+MECM,1,0.05
+MEDDPICC,1,0.05
+MEM,1,0.05
+MERN stack,1,0.05
+MES integration,1,0.05
+MFA,1,0.05
+MFC,1,0.05
+MITRE ATT&CK,1,0.05
+MITRE ATTACK,1,0.05
+ML Ops,1,0.05
+ML Pipelines,1,0.05
+ML acceleration,1,0.05
+ML operations,1,0.05
+ML systems,1,0.05
+Manufacturing Test Flow,1,0.05
+Manufacturing process analysis,1,0.05
+Manufacturing process design,1,0.05
+Metal as a Service,1,0.05
+Memory systems,1,0.05
+Mentor Graphics,1,0.05
+Mentor Graphics QuestaSim,1,0.05
+Merchandising technology,1,0.05
+Merchant Lending,1,0.05
+Mesh networking,1,0.05
+Messaging systems,1,0.05
+Meta Ads,1,0.05
+Meta Pixel,1,0.05
+MetaTrader (MT4/MT5),1,0.05
+Metabase,1,0.05
+Metadata,1,0.05
+Metadata Management,1,0.05
+Metadata management,1,0.05
+Metastore,1,0.05
+Memcache,1,0.05
+Metrics,1,0.05
+Metrics tracking,1,0.05
+Metrics-driven marketing,1,0.05
+Metro,1,0.05
+Metrology,1,0.05
+Metrology tools,1,0.05
+Micro frontend architecture,1,0.05
+Micro-Frontend,1,0.05
+Micro-frontend architectures,1,0.05
+Micro-interactions,1,0.05
+Micro-service architecture,1,0.05
+Micronaut,1,0.05
+Microservice architecture,1,0.05
+Microservices Architecture,1,0.05
+Memory management,1,0.05
+Medium and low voltage distribution,1,0.05
+Manufacturing process optimization,1,0.05
+Mastra,1,0.05
+Manufacturing release,1,0.05
+Manufacturing technology,1,0.05
+Manufacturing test flow,1,0.05
+MapReduce,1,0.05
+MariaDB,1,0.05
+MariaDB Cluster,1,0.05
+Maritime defense systems,1,0.05
+Market analysis,1,0.05
+Market research,1,0.05
+Marketing Cloud,1,0.05
+Marketing algorithms,1,0.05
+Marketing automation platforms,1,0.05
+Marketing operations,1,0.05
+Marketing platforms,1,0.05
+Material engineering,1,0.05
+Medical image analysis,1,0.05
+Material flow optimization,1,0.05
+Material handling control systems,1,0.05
+Material-UI,1,0.05
+Math modeling,1,0.05
+Mathematical modeling,1,0.05
+.NET 10,1,0.05
+Mathematical models,1,0.05
+Matplotlib,1,0.05
+Mechanical assembly,1,0.05
+Mechanical product design,1,0.05
+Mechanical systems maintenance,1,0.05
+Medallion Architecture,1,0.05
+Media monitoring,1,0.05
+Medical device validation,1,0.05
+Logistics,1,0.05
+Logic Apps,1,0.05
+JSON Web Token,1,0.05
+Keras,1,0.05
+Kotlin Coroutines,1,0.05
+Kolla-Ansible,1,0.05
+Kokkos,1,0.05
+Kinesis,1,0.05
+Keysight ADS,1,0.05
+KeyCloak,1,0.05
+Katalon Studio,1,0.05
+"Log collection pipelines (Cribl, Logstash, Filebeat, Elastic Agent, Azure Event Hub, Sentinel, Exabeam, Chronicle)",1,0.05
+Katalon,1,0.05
+Karate DSL,1,0.05
+Karate,1,0.05
+Kafka/RabbitMQ,1,0.05
+KVM,1,0.05
+KV store,1,0.05
+Kubeflow,1,0.05
+Kubernetes (K8s),1,0.05
+Kudu,1,0.05
+L3 Support,1,0.05
+LAN/WAN,1,0.05
+LAN/WLAN configuration,1,0.05
+LDAP/AD,1,0.05
+LESS,1,0.05
+LINQ,1,0.05
+LINUX/UNIX,1,0.05
+LIS system,1,0.05
+LLM APIs,1,0.05
+LLM application lifecycle,1,0.05
+LLM application pipelines,1,0.05
+LLM architectures,1,0.05
+LLM deployment,1,0.05
+LLM inference infrastructure,1,0.05
+KQL,1,0.05
+KPI reporting,1,0.05
+KPI analysis,1,0.05
+Java Web,1,0.05
+JTAG,1,0.05
+JVM languages,1,0.05
+JVM-based technologies,1,0.05
+JWT/OAuth2,1,0.05
+Jaeger,1,0.05
+Jakarta EE,1,0.05
+Java (17+),1,0.05
+Java 11,1,0.05
+Java 17,1,0.05
+Java 17+,1,0.05
+Java 17/21,1,0.05
+Java Core,1,0.05
+Java GUI,1,0.05
+Java SE,1,0.05
+Java unit testing,1,0.05
+K8S,1,0.05
+JavaScript Frameworks,1,0.05
+Jersey JAX-RS,1,0.05
+JetEngine,1,0.05
+Jetpack,1,0.05
+Jira Service Management,1,0.05
+Jmix,1,0.05
+Job queues,1,0.05
+Joomla,1,0.05
+Journey mapping,1,0.05
+Juniper,1,0.05
+Junit,1,0.05
+Jupiter,1,0.05
+Jupyter Notebooks,1,0.05
+K3s,1,0.05
+LLM models,1,0.05
+LLM orchestration,1,0.05
+LLM prompting,1,0.05
+Linux scripting,1,0.05
+Library development,1,0.05
+Lidars,1,0.05
+Lightning Components,1,0.05
+Lightning Web Components (LWC),1,0.05
+Line Architecture Design,1,0.05
+Line balancing,1,0.05
+Linear algebra,1,0.05
+Linq,1,0.05
+Linux OS,1,0.05
+Linux Server,1,0.05
+Linux device drivers,1,0.05
+Linux driver stacks,1,0.05
+Linux kernel,1,0.05
+Linux operating systems,1,0.05
+Liquibase,1,0.05
+Lean manufacturing,1,0.05
+Liquid,1,0.05
+Liquid cooling products,1,0.05
+Live Streaming,1,0.05
+Live fire testing,1,0.05
+Live video streaming,1,0.05
+LiveSite,1,0.05
+Livewire,1,0.05
+Load Balancers,1,0.05
+Load Balancing as a Service,1,0.05
+Load balancer administration,1,0.05
+Load flow analysis,1,0.05
+LoadRunner,1,0.05
+Localization,1,0.05
+Log Analysis,1,0.05
+Lean practices,1,0.05
+Lean Methodology,1,0.05
+LLM workflows,1,0.05
+LabVIEW,1,0.05
+LLM-assisted tools,1,0.05
+LLM-assisted workflows,1,0.05
+LLM-enabled applications,1,0.05
+LLaMA Factory,1,0.05
+LNG terminal,1,0.05
+LORADS-III,1,0.05
+LOTO,1,0.05
+LPCVD,1,0.05
+LPM,1,0.05
+LTE,1,0.05
+LVC-G training,1,0.05
+LWC,1,0.05
+Lab infrastructure management,1,0.05
+Lab verification,1,0.05
+Labelbox,1,0.05
+Lean Manufacturing,1,0.05
+Labor standards development,1,0.05
+Lake Formation,1,0.05
+Lake houses,1,0.05
+Lambda/Kappa architecture,1,0.05
+Langchain,1,0.05
+Large Language Models (LLM),1,0.05
+Large language models,1,0.05
+Large models,1,0.05
+Large reasoning models,1,0.05
+Large-scale system operation,1,0.05
+Large-scale training systems,1,0.05
+Launch systems,1,0.05
+Layout grids,1,0.05
+Lean Agile,1,0.05
+Microsoft 365 Copilot,1,0.05
+Microsoft CRM,1,0.05
+Microsoft Cognitive Toolkit,1,0.05
+OS administration,1,0.05
+OSPF,1,0.05
+OSI model,1,0.05
+OSI PI,1,0.05
+OSGi,1,0.05
+OSCP,1,0.05
+OS packages,1,0.05
+ORM frameworks,1,0.05
+Microsoft Configuration Manager (MECM),1,0.05
+ORM,1,0.05
+OPA,1,0.05
+OLAP,1,0.05
+OESIS Framework,1,0.05
+OCR,1,0.05
+OCI,1,0.05
+OT Cybersecurity,1,0.05
+OT networks,1,0.05
+OT security,1,0.05
+Object Script,1,0.05
+Object-Oriented Design,1,0.05
+Object-Oriented Design (OOD),1,0.05
+Object-oriented design,1,0.05
+"Object-oriented programming (.Net, Java, C++)",1,0.05
+Observability infrastructure,1,0.05
+Observability platforms,1,0.05
+Observability principles,1,0.05
+Observability products,1,0.05
+Octopus Deploy,1,0.05
+Odata,1,0.05
+Odoo,1,0.05
+Odoo ERP,1,0.05
+Offensive security,1,0.05
+OAuth2/JWT,1,0.05
+OAuth/OIDC,1,0.05
+O365,1,0.05
+New Product Introduction,1,0.05
+Network load balancing,1,0.05
+Network programming,1,0.05
+Network protocols,1,0.05
+Network routing,1,0.05
+Network security architecture,1,0.05
+Network security group,1,0.05
+Network support,1,0.05
+Network troubleshooting,1,0.05
+Network+,1,0.05
+"Networking (Virtual WAN, Private Link)",1,0.05
+Networking fundamentals,1,0.05
+Networking principles,1,0.05
+"Networking protocols (IP, TLS, IPsec)",1,0.05
+Networks,1,0.05
+New Relic,1,0.05
+NotebookLM,1,0.05
+New relic,1,0.05
+Newman,1,0.05
+Next-Gen Technologies,1,0.05
+NextJs,1,0.05
+Nifi,1,0.05
+Nix,1,0.05
+No-SQL,1,0.05
+"NoSQL (Redis, MongoDB)",1,0.05
+NoSQL databases,1,0.05
+NodeJS express,1,0.05
+Nomad,1,0.05
+Non-Functional Requirement Specification (NFR),1,0.05
+Non-functional testing,1,0.05
+Non-relational databases,1,0.05
+Office 365,1,0.05
+Offline data ingestion,1,0.05
+Offline storage,1,0.05
+Oracle DW,1,0.05
+Operating systems-level software,1,0.05
+Operational Security,1,0.05
+Operational Technology (OT),1,0.05
+Operational Testing (OT),1,0.05
+Operational workflows,1,0.05
+Operations Research,1,0.05
+Operations Research (OR),1,0.05
+Operations research,1,0.05
+Optimization modeling,1,0.05
+Optimization models,1,0.05
+Optimization strategies,1,0.05
+Optimization techniques,1,0.05
+Options Trading Infrastructure,1,0.05
+Oracle Cloud,1,0.05
+Oracle Database,1,0.05
+OpenVR,1,0.05
+Oracle EPM SaaS,1,0.05
+Oracle ERP,1,0.05
+Oracle HCM,1,0.05
+Oracle Integration Cloud,1,0.05
+Oracle SQL,1,0.05
+Orchestration platforms,1,0.05
+Orchestrator,1,0.05
+Organisation Design,1,0.05
+Oscilloscope,1,0.05
+Outsystems,1,0.05
+P&ID,1,0.05
+PAPIS-CCTV,1,0.05
+PBX system management,1,0.05
+PCB design,1,0.05
+OpenZeppelin,1,0.05
+OpenText Web CMS,1,0.05
+Offshore FPSO,1,0.05
+Open Journal Systems,1,0.05
+Oil and Gas,1,0.05
+OkHttp,1,0.05
+Okta,1,0.05
+Omics data analysis,1,0.05
+OmniScript,1,0.05
+Omnichannel,1,0.05
+Omnichannel Architecture,1,0.05
+Omnichannel architecture,1,0.05
+Omnichannel contact center solutions,1,0.05
+Omnichannel contact center technology,1,0.05
+On-device ML,1,0.05
+On-premises environments,1,0.05
+Online learning,1,0.05
+OpKey,1,0.05
+Open Journal Systems (OJS),1,0.05
+OpenText Extended ECM,1,0.05
+Open Source Software,1,0.05
+Open source technologies,1,0.05
+Open-source technologies,1,0.05
+OpenAI API,1,0.05
+OpenAI Agents SDK,1,0.05
+OpenAPI/Swagger,1,0.05
+OpenCV,1,0.05
+OpenDeploy,1,0.05
+OpenFOAM,1,0.05
+OpenGL,1,0.05
+OpenID,1,0.05
+OpenID Connect (OIDC),1,0.05
+OpenMetadata,1,0.05
+OpenSearch,1,0.05
+Network isolation,1,0.05
+Network integration,1,0.05
+Network installation and maintenance,1,0.05
+Mobile robots,1,0.05
+Mobile app development (iOS/Android),1,0.05
+Mobile app testing,1,0.05
+Mobile application architecture,1,0.05
+Mobile application frameworks,1,0.05
+Mobile application security,1,0.05
+Mobile data warehouse,1,0.05
+Mobile engineering,1,0.05
+Mobile game design,1,0.05
+Mobile game operations,1,0.05
+Mobile gaming industry knowledge,1,0.05
+Mobile measurement platforms,1,0.05
+Mobile mini-apps,1,0.05
+Mobile optimization,1,0.05
+Mobile performance optimization,1,0.05
+Mobile security,1,0.05
+Mobile Services,1,0.05
+Mobile software engineering,1,0.05
+Mobile technologies,1,0.05
+Mobile testing (iOS and Android),1,0.05
+Mobile web development,1,0.05
+Mocha,1,0.05
+Mockup,1,0.05
+Model Based Systems Engineering (MBSE),1,0.05
+Model Development,1,0.05
+Model building,1,0.05
+Model compression,1,0.05
+Model development,1,0.05
+Model optimization,1,0.05
+Model performance tracking,1,0.05
+Model-driven apps,1,0.05
+Mobile app advertising,1,0.05
+Mobile SDKs,1,0.05
+ModelCenter,1,0.05
+Microstation,1,0.05
+Microsoft Copilot,1,0.05
+Microsoft Dynamics,1,0.05
+Microsoft ERP,1,0.05
+Microsoft Entra ID,1,0.05
+Microsoft Excel,1,0.05
+Microsoft Fabric,1,0.05
+Microsoft Hyper-V,1,0.05
+Microsoft Power Platform,1,0.05
+Microsoft Security,1,0.05
+Microsoft Word,1,0.05
+Microsoft cloud technologies,1,0.05
+Microsoft ecosystem,1,0.05
+Microsoft on-premises services,1,0.05
+Microsoft tools,1,0.05
+Middle-layer frameworks,1,0.05
+Mobile SDK,1,0.05
+Migration planning,1,0.05
+Migrations,1,0.05
+Mine tailings storage design,1,0.05
+Mini Programs,1,0.05
+Minio,1,0.05
+Mise,1,0.05
+Missile defense systems,1,0.05
+Mixpanel,1,0.05
+Mobile App Design,1,0.05
+Mobile App Development (Android/iOS/Hybrid),1,0.05
+Mobile Development,1,0.05
+Mobile Device Management,1,0.05
+Mobile Engineering,1,0.05
+Mobile OS security,1,0.05
+Model-in-the-loop,1,0.05
+Modeling and Simulation,1,0.05
+Network infrastructure design,1,0.05
+Network Data,1,0.05
+NVLink,1,0.05
+NX,1,0.05
+NX software,1,0.05
+Nakama,1,0.05
+Native mobile application testing (iOS and Android),1,0.05
+Natural language querying,1,0.05
+Nest.js,1,0.05
+Nestjs,1,0.05
+NetApp,1,0.05
+NetOps,1,0.05
+Nette framework,1,0.05
+Network,1,0.05
+Network Architecture,1,0.05
+Network Communications,1,0.05
+Network IO,1,0.05
+NTP servers,1,0.05
+Network Management,1,0.05
+Network Operations,1,0.05
+Network Slicing,1,0.05
+Network analysis,1,0.05
+Network as Code,1,0.05
+Network automation,1,0.05
+Network communication architecture,1,0.05
+Network configuration,1,0.05
+Network data analysis,1,0.05
+Network design,1,0.05
+Network distribution software,1,0.05
+Network documentation,1,0.05
+Network equipment maintenance,1,0.05
+"Network infrastructure (LAN/WAN, VPN, routing, switching, firewall)",1,0.05
+NUnit,1,0.05
+NSSF,1,0.05
+Modeling software,1,0.05
+Multi-tenant infrastructure,1,0.05
+Modem protocols,1,0.05
+Modernization,1,0.05
+Money movement systems,1,0.05
+Mongo,1,0.05
+Monitoring systems,1,0.05
+MuleSoft AnyPoint Platform,1,0.05
+MuleSoft Anypoint Platform,1,0.05
+Mulesoft,1,0.05
+Multi-agent AI workflows,1,0.05
+Multi-channel content systems,1,0.05
+Multi-cloud application services,1,0.05
+Multi-cloud/Hybrid-cloud infrastructure,1,0.05
+Multi-model learning,1,0.05
+Multi-tenancy,1,0.05
+Multimedia,1,0.05
+NRF,1,0.05
+Multiphysics simulations,1,0.05
+Murex,1,0.05
+MyBatis,1,0.05
+Mysql,1,0.05
+NASTRAN,1,0.05
+NAT rules,1,0.05
+NCCL,1,0.05
+NDR,1,0.05
+NEF,1,0.05
+NERC,1,0.05
+NFS,1,0.05
+NFs,1,0.05
+NIST RMF,1,0.05
+NIST security controls,1,0.05
+JSON web-services,1,0.05
+JSOM,1,0.05
+ETL processes,1,0.05
+Foundation models,1,0.05
+Frontend Engineering,1,0.05
+Frontend,1,0.05
+Front end automation testing,1,0.05
+Front End Development,1,0.05
+Frequency and time domain analysis,1,0.05
+Framework development,1,0.05
+Foundation,1,0.05
+Finance function transformation,1,0.05
+Fortinet firewalls,1,0.05
+Fortify,1,0.05
+Forensics,1,0.05
+Forecasting models,1,0.05
+Forecasting,1,0.05
+Flyway/Liquibase,1,0.05
+Frontend Process,1,0.05
+Frontend frameworks,1,0.05
+Frontend performance optimization,1,0.05
+Frontier models,1,0.05
+FuelPHP,1,0.05
+Full Stack development,1,0.05
+Full stack web development,1,0.05
+Full-Stack Development,1,0.05
+Full-stack integration,1,0.05
+Fullstack development,1,0.05
+Function Requirement Specification (FRS),1,0.05
+Function builder,1,0.05
+Functional Programming,1,0.05
+Functional Requirement Specifications,1,0.05
+Functional Tests,1,0.05
+Functional code design,1,0.05
+Functional programming,1,0.05
+FlutterFlow,1,0.05
+Flume,1,0.05
+Fluent,1,0.05
+Firewall Operations,1,0.05
+Financial Planning,1,0.05
+Financial management,1,0.05
+Financial platform infrastructure,1,0.05
+Financial projections,1,0.05
+Financial reconciliation,1,0.05
+Financial risk management,1,0.05
+Financial technology,1,0.05
+Finite-element modelling,1,0.05
+Fire Protection,1,0.05
+Fire Protection System,1,0.05
+Fire and life-safety systems,1,0.05
+Fire protection systems,1,0.05
+Firebase Auth,1,0.05
+Firebase Studio,1,0.05
+Firewall configuration,1,0.05
+Flow Builder,1,0.05
+Firewall management,1,0.05
+Firewall operations,1,0.05
+Firmware debugging,1,0.05
+Firmware development,1,0.05
+Firmware maintenance,1,0.05
+Firmware updates,1,0.05
+Firmware verification,1,0.05
+Fishbone,1,0.05
+Fixed Services,1,0.05
+Fleet,1,0.05
+Fleet Management System (FMS),1,0.05
+Flight dynamics simulation,1,0.05
+Floor planning,1,0.05
+Flow,1,0.05
+Fund accounting,1,0.05
+Funding,1,0.05
+Funnels,1,0.05
+GitLeaks,1,0.05
+Game logic,1,0.05
+Gameplay design,1,0.05
+Gemini,1,0.05
+Geneos,1,0.05
+General-purpose programming languages,1,0.05
+Generative AI (genAI),1,0.05
+Generative models,1,0.05
+Genomics,1,0.05
+Geolocation technology,1,0.05
+Geospatial intelligence,1,0.05
+Geotechnical engineering,1,0.05
+Gherkin,1,0.05
+Git Flow,1,0.05
+Git/GitLab,1,0.05
+Github Action,1,0.05
+Game engine development,1,0.05
+Github actions CI/CD,1,0.05
+Gitlab CI,1,0.05
+GitlabCI,1,0.05
+Glide records,1,0.05
+GlideScript,1,0.05
+Go-lang,1,0.05
+Go-to-market strategy,1,0.05
+Godot,1,0.05
+Golang SDK,1,0.05
+Google Ad Manager,1,0.05
+Google Ads,1,0.05
+Google Analytics,1,0.05
+Google Big Query,1,0.05
+Google BigQuery,1,0.05
+Game engines,1,0.05
+Game economy balancing,1,0.05
+Fusion Compiler,1,0.05
+GPT,1,0.05
+Fuzz testing,1,0.05
+GA layout,1,0.05
+GCC,1,0.05
+GCP Vertex AI,1,0.05
+GE iFIX SCADA,1,0.05
+GEM,1,0.05
+GEO,1,0.05
+GKE,1,0.05
+GO,1,0.05
+GO language,1,0.05
+GOSU,1,0.05
+GPIO,1,0.05
+GPO,1,0.05
+GPS receivers,1,0.05
+GPU acceleration,1,0.05
+Game development,1,0.05
+GPU architecture,1,0.05
+GPU capacity planning,1,0.05
+GPU cluster administration,1,0.05
+GPU computing,1,0.05
+GPU scheduling,1,0.05
+GPU servers,1,0.05
+GRC,1,0.05
+GROK,1,0.05
+GRPC,1,0.05
+GST,1,0.05
+GUI development,1,0.05
+GUI development frameworks,1,0.05
+Game backend development,1,0.05
+Game design,1,0.05
+Financial Engineering,1,0.05
+FinTech,1,0.05
+JSF,1,0.05
+Embedded Software Engineering,1,0.05
+Embedded operating systems,1,0.05
+Embedded firmware,1,0.05
+Embedded finance platform,1,0.05
+Embedded electronics,1,0.05
+Embedded devices,1,0.05
+Embedded development,1,0.05
+Embedded Software,1,0.05
+Filtering/shielding design,1,0.05
+Embedded MCU,1,0.05
+Email marketing platforms,1,0.05
+Email marketing,1,0.05
+Electronics maintenance,1,0.05
+Electronics Engineering,1,0.05
+Electronic warfare,1,0.05
+Embedded real-time control systems,1,0.05
+Embedded software implementation,1,0.05
+Embedded systems software,1,0.05
+Embeddings,1,0.05
+Encryption/Decryption,1,0.05
+End User Compute,1,0.05
+End-to-end testing,1,0.05
+Endpoint Security,1,0.05
+Engineering,1,0.05
+Engineering Management,1,0.05
+Engineering domain knowledge,1,0.05
+Engineering drawings,1,0.05
+Engineering leadership,1,0.05
+Engineering system operations,1,0.05
+Enhancement Points,1,0.05
+Enhancements,1,0.05
+Enterprise CX,1,0.05
+Electronic security systems,1,0.05
+Electronic models,1,0.05
+Electronic engineering,1,0.05
+Elastic Map Reduce,1,0.05
+ETL tools,1,0.05
+ETL workflows,1,0.05
+ETL/ELT frameworks,1,0.05
+EV charging systems,1,0.05
+EVM,1,0.05
+Eclipse Plugins,1,0.05
+Ecommerce,1,0.05
+Ecommerce Platforms,1,0.05
+Ecommerce platforms,1,0.05
+Edge rendering,1,0.05
+Edge robotics,1,0.05
+Edge-to-Cloud architecture,1,0.05
+Elastic,1,0.05
+Elastic Common Schema (ECS),1,0.05
+Elastic Security,1,0.05
+Electronic Visitation Management System,1,0.05
+Elastic load balancing,1,0.05
+ElasticSearch,1,0.05
+Electric machines,1,0.05
+Electrical calculations,1,0.05
+Electrical codes and standards,1,0.05
+Electrical design,1,0.05
+Electrical distribution,1,0.05
+Electrical infrastructure design,1,0.05
+Electrical power monitoring systems (EPMS),1,0.05
+Electrical-test,1,0.05
+Electromagnetic compatibility (EMC),1,0.05
+Electromagnetic interference (EMI),1,0.05
+Electromechanics,1,0.05
+Electron,1,0.05
+Enterprise Contact Center Systems,1,0.05
+Enterprise Data Warehouse,1,0.05
+Enterprise Transformation,1,0.05
+Factory Automation (FA),1,0.05
+Exploratory data analysis,1,0.05
+F2P product management,1,0.05
+F5 load balancer,1,0.05
+FAISS,1,0.05
+FAT/SAT,1,0.05
+FDA compliance,1,0.05
+FEA,1,0.05
+FICO,1,0.05
+FIDO keys,1,0.05
+FMEDA,1,0.05
+"FPGA (Xilinx, Microsemi, Microchip, Vorago)",1,0.05
+FPGA design,1,0.05
+Facility management,1,0.05
+Fact-checking,1,0.05
+FastsTool,1,0.05
+Exploit simulation,1,0.05
+Fault Detection & Classification (FDC),1,0.05
+Fault analysis,1,0.05
+Feature Engineering,1,0.05
+Feature Management,1,0.05
+Feature extraction,1,0.05
+Feature management,1,0.05
+Feature stores,1,0.05
+Fiber Optic assemblies,1,0.05
+Fiber infrastructure planning,1,0.05
+Fiber optic termination,1,0.05
+Fiber technologies,1,0.05
+Fibre Routing,1,0.05
+Field marketing,1,0.05
+File-Aid,1,0.05
+Exploitation software,1,0.05
+Exploit analysis,1,0.05
+Enterprise application development,1,0.05
+Escalation support,1,0.05
+Enterprise sales,1,0.05
+Enterprise security,1,0.05
+Enterprise software,1,0.05
+Entity Framework Core,1,0.05
+Entra,1,0.05
+Environment Monitoring System (EMS),1,0.05
+Environment management,1,0.05
+Environmental management,1,0.05
+Epitaxy,1,0.05
+Equipment capacity planning,1,0.05
+Equipment design,1,0.05
+Equipment specification,1,0.05
+Eraser.io,1,0.05
+Error handling,1,0.05
+Ether.js,1,0.05
+Experiment configuration,1,0.05
+Ethernet,1,0.05
+Evaluation,1,0.05
+Evaluation systems,1,0.05
+Event Tracking,1,0.05
+Event listening,1,0.05
+Event management,1,0.05
+Event tracking,1,0.05
+Event-Driven Architectures (EDA),1,0.05
+Event-Driven architecture,1,0.05
+Event-driven systems,1,0.05
+ExaQuantum,1,0.05
+Exception processing,1,0.05
+Exchange Server,1,0.05
+Experiment analysis,1,0.05
+Google Cloud solutions,1,0.05
+Google Container Engine,1,0.05
+Google Daydream,1,0.05
+Identity WebSDK,1,0.05
+Image algorithms,1,0.05
+Image algorithm,1,0.05
+Identity-Aware Proxy,1,0.05
+Identity systems,1,0.05
+Identity solutions,1,0.05
+Identity protection,1,0.05
+Identity Server,1,0.05
+Google Kubernetes Engine (GKE),1,0.05
+Identity Federation,1,0.05
+Identity & Access Management (IAM),1,0.05
+Identity & Access Management,1,0.05
+IVVQ,1,0.05
+IVR logic,1,0.05
+IV&V,1,0.05
+Image processing,1,0.05
+Imaging,1,0.05
+Incident Investigation,1,0.05
+Incident Response,1,0.05
+Indago,1,0.05
+Industrial Control,1,0.05
+Industrial Networks,1,0.05
+Industrial automation,1,0.05
+Industrial cybersecurity,1,0.05
+Industrial design,1,0.05
+Industrial engineering,1,0.05
+Industrial fiber optic networks,1,0.05
+Industrial plating,1,0.05
+Industrial robotics,1,0.05
+Industrial security,1,0.05
+Inference algorithms,1,0.05
+Inference systems,1,0.05
+ITOM,1,0.05
+ITIL 4,1,0.05
+ITAM,1,0.05
+IT Systems,1,0.05
+ISO 27001,1,0.05
+ISO 27001:2013,1,0.05
+ISO 37301,1,0.05
+ISO 9001:2015,1,0.05
+ISO/IEC 17025,1,0.05
+ISO8583,1,0.05
+ISP installation,1,0.05
+ISR,1,0.05
+ISS Manager,1,0.05
+ISS/ISE datasets,1,0.05
+ISTQB,1,0.05
+IT Project Management,1,0.05
+IT Security,1,0.05
+IT Support,1,0.05
+IT Systems Administration,1,0.05
+IT/OT security,1,0.05
+IT architecture,1,0.05
+IT consulting,1,0.05
+IT ecosystem management,1,0.05
+IT engineering,1,0.05
+IT infrastructure architecture,1,0.05
+IT infrastructure monitoring,1,0.05
+IT management,1,0.05
+IT networking,1,0.05
+IT risk governance,1,0.05
+IT security assessment,1,0.05
+IT solutions sales,1,0.05
+IT systems administration,1,0.05
+IT/OT,1,0.05
+IT/OT Integration,1,0.05
+InfiniBand,1,0.05
+InfluxDB,1,0.05
+Infocomm security management,1,0.05
+Internet marketing,1,0.05
+Integration support,1,0.05
+Integration systems,1,0.05
+Intel Quartus,1,0.05
+IntelliJ,1,0.05
+Intelligent Transportation Systems (ITS),1,0.05
+Intelligent cockpit products,1,0.05
+Interaction analytics,1,0.05
+Interaction design,1,0.05
+Interaction design (HCI),1,0.05
+Interactive design,1,0.05
+Intercom,1,0.05
+Interface design,1,0.05
+Interface die,1,0.05
+Interface software,1,0.05
+Intersystems Cache,1,0.05
+Integration Testing,1,0.05
+Intersystems IRIS,1,0.05
+Intrusion Detection,1,0.05
+Intune,1,0.05
+Inventor,1,0.05
+IoT connectivity protocols,1,0.05
+IoT ecosystems,1,0.05
+IoT integration,1,0.05
+Iron Bank,1,0.05
+Isometric drawings,1,0.05
+Istio service mesh,1,0.05
+JAX,1,0.05
+JBoss,1,0.05
+JMS,1,0.05
+JNode,1,0.05
+Integration patterns,1,0.05
+Integration Suites,1,0.05
+Informatica PowerCenter,1,0.05
+"Infrastructure as Code (CDK, Terraform)",1,0.05
+Informatics,1,0.05
+Information Retrieval,1,0.05
+Information Security Engineering,1,0.05
+Information Systems Security Engineering (ISSE),1,0.05
+Information Warfare,1,0.05
+Information assurance,1,0.05
+Information security engineering,1,0.05
+Infrastructure Engineering,1,0.05
+Infrastructure Monitoring,1,0.05
+Infrastructure Operations,1,0.05
+Infrastructure Security,1,0.05
+Infrastructure Systems Engineering,1,0.05
+Infrastructure architecture,1,0.05
+"Infrastructure as Code (Bicep, Terraform)",1,0.05
+"Infrastructure as Code (Terraform, Bicep)",1,0.05
+Integration Architecture,1,0.05
+Infrastructure auditing,1,0.05
+Infrastructure build out,1,0.05
+Infrastructure modernization,1,0.05
+Infrastructure project management,1,0.05
+Infrastructure provisioning,1,0.05
+Infrastructure renovation,1,0.05
+Infrastructure support,1,0.05
+Inline inspection,1,0.05
+Inspection and Test Plans (ITP),1,0.05
+Instrument control software,1,0.05
+Instrumentation & Controls (I&C),1,0.05
+Insurance industry knowledge,1,0.05
+Insurance/Reinsurance market knowledge,1,0.05
+Integration,1,0.05
+ISA data sheets,1,0.05
+IQ/OQ/PQ,1,0.05
+IPv6,1,0.05
+HTTP stack,1,0.05
+HLSL,1,0.05
+HMI graphics design,1,0.05
+HMI programming,1,0.05
+HMI/SCADA,1,0.05
+HP ALM,1,0.05
+HPC clusters,1,0.05
+HR Data Analytics,1,0.05
+HR Transformation,1,0.05
+HRSD,1,0.05
+HSM,1,0.05
+HSSE standards,1,0.05
+HT/LT electrical system,1,0.05
+HTML/CSS,1,0.05
+HTML/CSS/SCSS,1,0.05
+HVAC systems,1,0.05
+HL7,1,0.05
+HW diagnostics,1,0.05
+Hacking techniques,1,0.05
+Hadoop ecosystem,1,0.05
+Handlebars,1,0.05
+Handler,1,0.05
+Harbor,1,0.05
+Hardhat,1,0.05
+Hardware Abstraction Layer (HAL),1,0.05
+Hardware Development,1,0.05
+Hardware Integration,1,0.05
+Hardware Requirements,1,0.05
+Hardware Security Module (HSM),1,0.05
+Hardware configuration,1,0.05
+Hardware configuration management,1,0.05
+HLS/DASH protocols,1,0.05
+HIPAA compliance,1,0.05
+Hardware engineering,1,0.05
+Grok,1,0.05
+Google Maps,1,0.05
+Google Maps API,1,0.05
+Google Mobile Ads,1,0.05
+Google Pub/Sub,1,0.05
+Google Sheet automation,1,0.05
+Google Workspace,1,0.05
+"Governance, Risk, and Compliance (GRC)",1,0.05
+Grafana LGTM stack,1,0.05
+Graph databases,1,0.05
+GraphQL API,1,0.05
+Graphic design,1,0.05
+Graphical User Interface (GUI) design,1,0.05
+Great Expectations,1,0.05
+Grid & Webdriver,1,0.05
+Groovy,1,0.05
+HIL testing,1,0.05
+Ground control,1,0.05
+Ground software,1,0.05
+GuardDuty,1,0.05
+Guidance laws,1,0.05
+Guidewire,1,0.05
+Guidewire Policy Center,1,0.05
+Gulp,1,0.05
+HAL (Hardware Abstraction Layer),1,0.05
+HANA SQLScript,1,0.05
+HCI products,1,0.05
+HCL BigFix,1,0.05
+HFSS,1,0.05
+HIL,1,0.05
+HIL Infrastructure,1,0.05
+Hardware debugging,1,0.05
+Hardware installation,1,0.05
+IPsec,1,0.05
+IDE development,1,0.05
+I2C,1,0.05
+IAM policies,1,0.05
+IATF16949,1,0.05
+IAVA/B,1,0.05
+IBM CloudPak (CP4D),1,0.05
+IBM MQ,1,0.05
+IBM Mainframe,1,0.05
+IBM Rhapsody,1,0.05
+ICC2,1,0.05
+ICD log capture,1,0.05
+ICIT,1,0.05
+ICT,1,0.05
+ICT security,1,0.05
+ICT solutions,1,0.05
+IDoc,1,0.05
+Hyvä themes,1,0.05
+IEEE,1,0.05
+IIBv10,1,0.05
+IIS,1,0.05
+IIoT,1,0.05
+IM8 Governance,1,0.05
+IM8 ICT Security Standards,1,0.05
+IOT,1,0.05
+IOT devices,1,0.05
+IP Multicast,1,0.05
+IP camera configuration,1,0.05
+IP integration,1,0.05
+IP threat investigation,1,0.05
+IPAM,1,0.05
+IPC streams,1,0.05
+I&C systems design,1,0.05
+Hydrocarbon project design,1,0.05
+"Hardware interfaces (SPI, I2C, UART, GPIO, PCI, PCIe, Ethernet, SpaceWire)",1,0.05
+Helm charts,1,0.05
+Hardware maintenance,1,0.05
+Hardware planning,1,0.05
+Hardware platforms,1,0.05
+Hardware telemetry,1,0.05
+Hardware testing,1,0.05
+Hardware/Software debugging,1,0.05
+Hardware/software configuration,1,0.05
+Hardware/software performance analysis,1,0.05
+Hardware/software tradeoffs,1,0.05
+Harmonics analysis,1,0.05
+HashiCorp Vault,1,0.05
+Headless Commerce,1,0.05
+Healthcare IT systems,1,0.05
+Heat & material balances,1,0.05
+Heroku,1,0.05
+Hydraulics,1,0.05
+Heuristic evaluation,1,0.05
+Hex,1,0.05
+Hibernate JPA,1,0.05
+High-concurrency systems,1,0.05
+High-performance networking,1,0.05
+HubSpot,1,0.05
+Huggingface,1,0.05
+Human-Computer Interaction (HCI),1,0.05
+Human-in-the-loop,1,0.05
+Humanoid robotics,1,0.05
+Humidity control,1,0.05
+Hybrid Cloud,1,0.05
+Hybrid container platform,1,0.05
+Hydraulic balances,1,0.05
+yarn,1,0.05
