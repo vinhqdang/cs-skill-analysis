@@ -24,7 +24,9 @@ def main():
     # ── Dates ──────────────────────────────────────────────────────────────
     df["date"] = pd.to_datetime(df["date_posted"], unit="ms", errors="coerce")
     df_dated   = df.dropna(subset=["date"]).copy()
-    df_dated["quarter"] = df_dated["date"].dt.to_period("Q")
+    # Filter to 2025+ only — 2023/2024 have <5 jobs and add no signal
+    df_dated   = df_dated[df_dated["date"] >= "2025-01-01"]
+    df_dated["month"] = df_dated["date"].dt.to_period("M")
 
     # ── Region from 'region' column or fallback from location ───────────────
     if "region" not in df_dated.columns or df_dated["region"].isnull().all():
@@ -47,28 +49,27 @@ def main():
     df["hard_skills"] = df["hard_skills"].apply(_title_list)
     df["soft_skills"] = df["soft_skills"].apply(_title_list)
 
-    # ── Quarterly totals (use ALL dated rows, no artificial clip) ────────────
-    quarter_totals = df_dated.groupby("quarter").size()
-    MIN_N = 1  # show all quarters; job boards only surface active/recent listings so pre-2025 is sparse
-
-    valid_quarters = quarter_totals[quarter_totals >= MIN_N].index
-    df_q = df_dated[df_dated["quarter"].isin(valid_quarters)].copy()
+    # ── Monthly totals ────────────────────────────────────────────────────────
+    month_totals = df_dated.groupby("month").size()
+    MIN_N = 1
+    valid_months = month_totals[month_totals >= MIN_N].index
+    df_m = df_dated[df_dated["month"].isin(valid_months)].copy()
 
     region_totals = df.groupby("region").size()
 
     # ────────────────────────────────────────────────────────────────────────
     # Helper: quarterly time-series for a skill column
     # ────────────────────────────────────────────────────────────────────────
-    def quarterly_trend(df_source, skill_col, top_n):
+    def monthly_trend(df_source, skill_col, top_n):
         exp = df_source.explode(skill_col).dropna(subset=[skill_col])
         exp = exp[exp[skill_col] != ""]
         top = exp[skill_col].value_counts().head(top_n).index.tolist()
         exp = exp[exp[skill_col].isin(top)]
-        counts = exp.groupby(["quarter", skill_col]).size().reset_index(name="count")
+        counts = exp.groupby(["month", skill_col]).size().reset_index(name="count")
         counts["demand_pct"] = counts.apply(
-            lambda r: r["count"] / quarter_totals[r["quarter"]] * 100, axis=1
+            lambda r: r["count"] / month_totals[r["month"]] * 100, axis=1
         )
-        counts["date_plot"] = counts["quarter"].dt.start_time
+        counts["date_plot"] = counts["month"].dt.start_time
         return counts.rename(columns={skill_col: "skill"})
 
     # ────────────────────────────────────────────────────────────────────────
@@ -89,9 +90,9 @@ def main():
     # Chart 1 – Combined Hard & Soft Skills Over Time (quarterly)
     # ═══════════════════════════════════════════════════════════════════════
     print("Generating Chart 1: Combined skills over time (quarterly)...")
-    hard_t = quarterly_trend(df_q, "hard_skills", 4)
+    hard_t = monthly_trend(df_m, "hard_skills", 4)
     hard_t["type"] = "Hard"
-    soft_t = quarterly_trend(df_q, "soft_skills", 3)
+    soft_t = monthly_trend(df_m, "soft_skills", 3)
     soft_t["type"] = "Soft"
     combined_t = pd.concat([hard_t, soft_t])
 
@@ -190,7 +191,7 @@ def main():
     # Chart 5 – Hard skills over time individually (quarterly)
     # ═══════════════════════════════════════════════════════════════════════
     print("Generating Chart 5: Hard skills trend over time...")
-    hard_t5 = quarterly_trend(df_q, "hard_skills", 6)
+    hard_t5 = monthly_trend(df_m, "hard_skills", 6)
     fig, ax = plt.subplots(figsize=(14, 7))
     sns.lineplot(data=hard_t5, x="date_plot", y="demand_pct", hue="skill",
                  markers=True, linewidth=2.5, palette="tab10", markersize=9, ax=ax)
@@ -209,7 +210,7 @@ def main():
     # Chart 6 – Soft skills over time individually (quarterly)
     # ═══════════════════════════════════════════════════════════════════════
     print("Generating Chart 6: Soft skills trend over time...")
-    soft_t5 = quarterly_trend(df_q, "soft_skills", 5)
+    soft_t5 = monthly_trend(df_m, "soft_skills", 5)
     fig, ax = plt.subplots(figsize=(14, 7))
     sns.lineplot(data=soft_t5, x="date_plot", y="demand_pct", hue="skill",
                  markers=True, linewidth=2.5, palette="tab10", markersize=9, ax=ax)
