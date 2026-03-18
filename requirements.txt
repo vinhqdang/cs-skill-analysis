@@ -9,3 +9,6 @@ matplotlib
 seaborn
 jupyter
 notebook
+google-genai
+python-dotenv
+aiohttp
