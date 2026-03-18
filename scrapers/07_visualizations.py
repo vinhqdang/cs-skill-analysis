@@ -86,8 +86,31 @@ def main():
         )
         return counts.rename(columns={skill_col: "skill"})
 
+    # ────────────────────────────────────────────────────────────────────────
+    # Helper: annotate the last point of each line with the skill name
+    # ────────────────────────────────────────────────────────────────────────
+    def annotate_lines(ax, data, x_col, y_col, label_col, pad_days=10):
+        """Write each skill name at the rightmost data point of its line."""
+        # Extend the x-axis to make room for labels
+        x_max = data[x_col].max()
+        ax.set_xlim(data[x_col].min(), x_max + pd.Timedelta(days=pad_days * len(data[label_col].unique())))
+        palette = dict(zip(
+            ax.get_legend_handles_labels()[1],
+            [h.get_color() for h in ax.get_legend_handles_labels()[0]]
+        ))
+        for skill, grp in data.groupby(label_col):
+            last = grp.sort_values(x_col).iloc[-1]
+            color = palette.get(str(skill), "black")
+            ax.annotate(
+                str(skill),
+                xy=(last[x_col], last[y_col]),
+                xytext=(6, 0), textcoords="offset points",
+                fontsize=9, color=color, fontweight="bold",
+                va="center"
+            )
+
     # ═══════════════════════════════════════════════════════════════════════
-    # Chart 1 – Combined Hard & Soft Skills Over Time (quarterly)
+    # Chart 1 – Combined Hard & Soft Skills Over Time (monthly)
     # ═══════════════════════════════════════════════════════════════════════
     print("Generating Chart 1: Combined skills over time (quarterly)...")
     hard_t = monthly_trend(df_m, "hard_skills", 4)
@@ -103,19 +126,18 @@ def main():
         markers=True, dashes={"Hard": (1,0), "Soft": (3,2)},
         linewidth=2.5, palette="tab10", markersize=9, ax=ax
     )
-    ax.set_title("Quarterly Skill Demand Trends: Hard vs. Soft Skills", fontsize=17, fontweight="bold")
-    ax.set_xlabel("Quarter", fontsize=13)
+    ax.set_title("Monthly Skill Demand Trends: Hard vs. Soft Skills", fontsize=17, fontweight="bold")
+    ax.set_xlabel("Month", fontsize=13)
     ax.set_ylabel("% of Job Postings", fontsize=13)
-    if not combined_t.empty:
-        ax.set_xlim(combined_t["date_plot"].min(), combined_t["date_plot"].max())
     plt.xticks(rotation=45, ha="right")
     ax.annotate(
-        f"Quarters with N ≥ {MIN_N} jobs shown",
+        f"Months from Jan 2025 onwards",
         xy=(0.02, 0.97), xycoords="axes fraction",
         fontsize=10, verticalalignment="top",
         bbox=dict(boxstyle="round,pad=0.3", fc="#f0f0f0", ec="gray")
     )
-    plt.legend(title="Skill  (-- Hard  .. Soft)", bbox_to_anchor=(1.02, 1), loc="upper left", fontsize=11)
+    annotate_lines(ax, combined_t, "date_plot", "demand_pct", "skill")
+    ax.get_legend().remove()
     plt.tight_layout()
     plt.savefig(f"{OUT_DIR}/combined_skills_over_time.png", dpi=300)
     plt.close()
@@ -195,13 +217,12 @@ def main():
     fig, ax = plt.subplots(figsize=(14, 7))
     sns.lineplot(data=hard_t5, x="date_plot", y="demand_pct", hue="skill",
                  markers=True, linewidth=2.5, palette="tab10", markersize=9, ax=ax)
-    ax.set_title("Top Hard Skills — Quarterly Demand Trend", fontsize=17, fontweight="bold")
-    ax.set_xlabel("Quarter", fontsize=13)
+    ax.set_title("Top Hard Skills — Monthly Demand Trend", fontsize=17, fontweight="bold")
+    ax.set_xlabel("Month", fontsize=13)
     ax.set_ylabel("% of Job Postings", fontsize=13)
-    if not hard_t5.empty:
-        ax.set_xlim(hard_t5["date_plot"].min(), hard_t5["date_plot"].max())
     plt.xticks(rotation=45, ha="right")
-    plt.legend(title="Skill", bbox_to_anchor=(1.02, 1), loc="upper left")
+    annotate_lines(ax, hard_t5, "date_plot", "demand_pct", "skill")
+    ax.get_legend().remove()
     plt.tight_layout()
     plt.savefig(f"{OUT_DIR}/hard_skills_over_time.png", dpi=300)
     plt.close()
@@ -214,13 +235,12 @@ def main():
     fig, ax = plt.subplots(figsize=(14, 7))
     sns.lineplot(data=soft_t5, x="date_plot", y="demand_pct", hue="skill",
                  markers=True, linewidth=2.5, palette="tab10", markersize=9, ax=ax)
-    ax.set_title("Top Soft Skills — Quarterly Demand Trend", fontsize=17, fontweight="bold")
-    ax.set_xlabel("Quarter", fontsize=13)
+    ax.set_title("Top Soft Skills — Monthly Demand Trend", fontsize=17, fontweight="bold")
+    ax.set_xlabel("Month", fontsize=13)
     ax.set_ylabel("% of Job Postings", fontsize=13)
-    if not soft_t5.empty:
-        ax.set_xlim(soft_t5["date_plot"].min(), soft_t5["date_plot"].max())
     plt.xticks(rotation=45, ha="right")
-    plt.legend(title="Skill", bbox_to_anchor=(1.02, 1), loc="upper left")
+    annotate_lines(ax, soft_t5, "date_plot", "demand_pct", "skill")
+    ax.get_legend().remove()
     plt.tight_layout()
     plt.savefig(f"{OUT_DIR}/soft_skills_over_time.png", dpi=300)
     plt.close()
