@@ -225,7 +225,63 @@ def main():
     plt.savefig(f"{OUT_DIR}/soft_skills_over_time.png", dpi=300)
     plt.close()
 
-    print(f"\nAll 6 charts saved to {OUT_DIR}/")
+    # ═══════════════════════════════════════════════════════════════════════
+    # Chart 7 – Emerging / Rising Skills (excluding evergreen classics)
+    # ═══════════════════════════════════════════════════════════════════════
+    print("Generating Chart 7: Emerging / Rising skills...")
+
+    # Evergreen skills that have been dominant for 10-20+ years — exclude these
+    EVERGREEN = {
+        "Python", "Java", "Javascript", "Sql", "Html", "Css", "C++", "C#",
+        "Php", "Ruby", "Git", "Linux", "Aws", "Docker", "Mysql", "Postgresql",
+        "Mongodb", "React", "Angular", "Nodejs", "Node.Js", "Springboot",
+        "Spring Boot", "Agile", "Scrum", "Restful Apis", "Rest Api",
+        "Html5", "Css3", "Software Development", "Software Engineering",
+        "Oop", "Object-Oriented", "Ci/Cd", "Devops",
+    }
+
+    exp_em = df_m.explode("hard_skills").dropna(subset=["hard_skills"])
+    exp_em = exp_em[exp_em["hard_skills"].str.strip() != ""]
+    exp_em["skill"] = exp_em["hard_skills"].str.strip().str.title()
+    exp_em = exp_em[~exp_em["skill"].isin(EVERGREEN)]
+
+    # Monthly demand %
+    em_counts = exp_em.groupby(["month", "skill"]).size().reset_index(name="count")
+    em_counts = em_counts[em_counts["month"].isin(valid_months)]
+    em_counts["demand_pct"] = em_counts.apply(
+        lambda r: r["count"] / month_totals[r["month"]] * 100, axis=1
+    )
+
+    # Pick top 15 by recent average (last 3 months)
+    recent_months = sorted(em_counts["month"].unique())[-3:]
+    recent_em = em_counts[em_counts["month"].isin(recent_months)]
+    top_emerging = (
+        recent_em.groupby("skill")["demand_pct"].mean()
+        .sort_values(ascending=False)
+        .head(15).index.tolist()
+    )
+
+    em_top = em_counts[em_counts["skill"].isin(top_emerging)]
+    em_top["date_plot"] = em_top["month"].dt.start_time
+
+    fig, ax = plt.subplots(figsize=(14, 7))
+    sns.lineplot(
+        data=em_top, x="date_plot", y="demand_pct",
+        hue="skill", markers=True, linewidth=2.5,
+        palette="tab20", markersize=9, ax=ax
+    )
+    ax.set_title("Emerging & Rising Skills in 2025–2026\n(Evergreen classics excluded)", fontsize=17, fontweight="bold")
+    ax.set_xlabel("Month", fontsize=13)
+    ax.set_ylabel("% of Job Postings", fontsize=13)
+    if not em_top.empty:
+        ax.set_xlim(em_top["date_plot"].min(), em_top["date_plot"].max())
+    plt.xticks(rotation=45, ha="right")
+    plt.legend(title="Skill", bbox_to_anchor=(1.02, 1), loc="upper left", fontsize=10)
+    plt.tight_layout()
+    plt.savefig(f"{OUT_DIR}/emerging_skills_over_time.png", dpi=300)
+    plt.close()
+
+    print(f"\nAll 7 charts saved to {OUT_DIR}/")
 
 if __name__ == "__main__":
     main()
