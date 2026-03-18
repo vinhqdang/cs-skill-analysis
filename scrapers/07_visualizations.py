@@ -55,9 +55,9 @@ def main():
     out_dir = "data/output/report_figures"
     os.makedirs(out_dir, exist_ok=True)
     
-    # Set seaborn style
-    sns.set_theme(style="darkgrid", context="talk")
-    plt.style.use("dark_background")
+    # Set seaborn style - white/light background for publication
+    sns.set_theme(style="whitegrid", context="talk")
+    plt.rcParams.update({"figure.facecolor": "white", "axes.facecolor": "white"})
 
     # --- Combined Chart: Top 3 Hard vs Soft Skills Over Time ---
     print("Generating Combined Time Series Chart...")
