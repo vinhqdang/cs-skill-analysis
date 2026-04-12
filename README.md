@@ -1,13 +1,13 @@
 # CS Curriculum Skills Gap Analysis
 
-This project aims to build a skills demand dataset to inform the design of a new Computer Science undergraduate program, focusing on the Vietnamese, Southeast Asian, and global markets.
+This project aims to build a skills demand dataset to inform the design of a new Computer Science undergraduate program.
 
 ## Setup Instructions
 
 ### Environment
-The project relies on a Conda environment with Python 3.13. 
+The project relies on a Conda environment with Python 3.13 and CUDA enabled on an Nvidia GPU.
 
-To create and activate the environment:
+To create and activate the environment (if you haven't already):
 ```bash
 conda create -n py313 python=3.13
 conda activate py313
@@ -19,24 +19,28 @@ pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
 
-### Directory Structure
-- `data/` - Contains raw, processed, and framework data.
-- `scrapers/` - Custom scraping scripts (`jobspy_scraper.py`, `itviec_scraper.py`, `vietnamworks_scraper.py`).
-- `notebooks/` - Jupyter notebooks for analysis (to be implemented).
+## Collaborator Instructions & Directory Structure
 
-## Job Scrapers
+To keep the repository clean and maintainable, please follow these guidelines when contributing:
 
-The project includes three distinct scrapers to collect job postings:
-1. **JobSpy Scraper** (`scrapers/jobspy_scraper.py`): Scrapes LinkedIn, Indeed, and Google Jobs using `python-jobspy`.
-2. **ITviec Scraper** (`scrapers/itviec_scraper.py`): Custom scraper for ITviec, targeting specific programming keywords.
-3. **VietnamWorks Scraper** (`scrapers/vietnamworks_scraper.py`): Custom scraper utilizing the VietnamWorks Algolia API (or HTML fallback) to extract job listings.
+1. **`code/`**: All your source code belongs here.
+   - **`code/scrapper/`**: Place all data gathering and web scraping scripts here.
+   - **`code/analytics/`**: Place all analytics, modeling, and data processing scripts here.
+   
+2. **`data/`**: Keep data meticulously organized. 
+   - **`data/job_description/`**: Store job market data here.
+   - **`data/education_program/`**: Store university program/curriculum data here.
+   - **Country-Specific Folders**: Inside both `job_description` and `education_program`, place your data in the respective country folders:
+     - `/us/`
+     - `/uk/`
+     - `/singapore/`
+     - `/vn/`
+     - Create a new explicit country folder if your target region isn't listed above.
 
-Run the scrapers individually:
-```bash
-python scrapers/jobspy_scraper.py
-python scrapers/itviec_scraper.py
-python scrapers/vietnamworks_scraper.py
-```
+3. **`manuscripts/`**: All drafts, papers, and TeX documents associated with publications should be kept in this directory.
 
-## Work Plan
-Detailed project timeline, data collection targets, and step-by-step methodologies are outlined in the [`work_plan.md`](work_plan.md) document.
+**Important:** Please ensure you only commit to the correct directories according to the structure above. 
+
+## Git Instructions
+- Always push code to the `main` branch after modification.
+- Make sure to document any new dependencies in `requirements.txt`.
