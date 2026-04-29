@@ -1,0 +1,31 @@
+# Environment variables (API keys - DO NOT commit)
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Large cache files (exceeds GitHub 100MB limit)
+data/embed_cache.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Claude Code internal
+.claude/
+
+# Logs (optional - remove if you want to track logs)
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
