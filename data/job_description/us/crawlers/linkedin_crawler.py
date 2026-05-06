@@ -1,31 +1,16 @@
 # type: ignore
 
 import re
+import os
+import json
 import time
 import random
 import logging
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeout
-from utils.data_cleaner import clean, clean_job_entry
+from utils.data_cleaner import clean
 
 logger = logging.getLogger(__name__)
-
-ALL_SKILLS = [
-    "Python", "Java", "JavaScript", "TypeScript", "C++", "C#", "Go",
-    "Rust", "Kotlin", "Swift", "PHP", "Ruby", "Scala", "R", "MATLAB",
-    "React", "Vue", "Angular",
-    "Node.js", "Django", "FastAPI", "Spring Boot", ".NET",
-    "SQL", "MySQL", "PostgreSQL", "MongoDB", "Redis", "Elasticsearch",
-    "AWS", "GCP", "Azure",
-    "Docker", "Kubernetes", "Terraform", "Ansible", "Jenkins",
-    "Git", "CI/CD", "Linux",
-    "Machine Learning", "Deep Learning", "TensorFlow", "PyTorch",
-    "Pandas", "Spark", "Kafka", "Hadoop", "Tableau", "Power BI",
-    "OpenCV",
-    "REST", "GraphQL",
-    "Figma", "Agile", "Scrum",
-    "Flutter",
-]
 
 TRIGGERS = (
     "develop", "design", "build", "maintain", "manage", "implement",
@@ -55,13 +40,6 @@ def extract_key_points(description: str, max_points: int = 7) -> str:
         if len(points) >= max_points:
             break
     return "\n".join(points) if points else ""
-
-
-def extract_skills(text: str) -> str:
-    if not text:
-        return ""
-    found = [s for s in ALL_SKILLS if re.search(rf"\b{re.escape(s)}\b", text, re.I)]
-    return ", ".join(found)
 
 
 def parse_search_page(html: str, keyword: str, seen_ids: set) -> list:
@@ -196,9 +174,6 @@ def parse_job_detail(html: str) -> dict:
         if clean(s.get_text()) and len(clean(s.get_text())) < 50
     )
 
-    if not skills_from_page and desc_text:
-        skills_from_page = extract_skills(desc_text)
-
     result["skills"] = skills_from_page
     return result
 
@@ -214,16 +189,17 @@ class LinkedInCrawler:
 
     def __init__(
         self,
-        location : str   = "United States",
-        headless : bool  = True,
-        delay_min: float = 3.0,
-        delay_max: float = 5.5,
+        location    : str   = "United States",
+        headless    : bool  = True,
+        delay_min   : float = 3.0,
+        delay_max   : float = 5.5,
+        existing_ids: set   = None,
     ):
         self.location  = location
         self.headless  = headless
         self.delay_min = delay_min
         self.delay_max = delay_max
-        self.seen_ids: set = set()
+        self.seen_ids: set = set(existing_ids) if existing_ids else set()
 
     def _launch_browser(self, playwright):
         browser = playwright.chromium.launch(
@@ -250,7 +226,7 @@ class LinkedInCrawler:
         all_cards = []
 
         for keyword in keywords:
-            logger.info(f"LinkedIn - keyword: '{keyword}'")
+            logger.info(f"[{self.location}] keyword: '{keyword}'")
             kw_count = 0
             start    = 0
 
@@ -286,40 +262,112 @@ class LinkedInCrawler:
                 start    += 25
                 time.sleep(random.uniform(self.delay_min, self.delay_max))
 
-            logger.info(f"   {kw_count} cards collected for '{keyword}'")
+            logger.info(f"   [{self.location}] {kw_count} cards for '{keyword}'")
 
         return all_cards
 
-    def _enrich_jobs(self, page, jobs: list) -> list:
-        total = len(jobs)
-        logger.info(f"Fetching details for {total} jobs...")
+    BROWSER_RESTART_EVERY = 100
+
+    def _enrich_jobs(self, playwright, jobs: list, checkpoint_path: str = None) -> list:
+        loc = self.location
+        checkpoint = {}
+        if checkpoint_path and os.path.exists(checkpoint_path):
+            try:
+                with open(checkpoint_path, "r", encoding="utf-8") as f:
+                    checkpoint = json.load(f)
+                logger.info(f"[{loc}] Enrich checkpoint loaded: {len(checkpoint)} jobs cached")
+            except Exception:
+                checkpoint = {}
+
+        total       = len(jobs)
+        cached_count = sum(1 for j in jobs if str(j["job_id"]) in checkpoint)
+        logger.info(f"[{loc}] Enriching {total} jobs — {cached_count} from cache, {total - cached_count} to fetch")
+
+        browser, context = self._launch_browser(playwright)
+        page = context.new_page()
+        fetch_count = 0
+        restarts    = 0
 
         for i, job in enumerate(jobs):
-            detail_url = self.DETAIL_API.format(job_id=job["job_id"])
+            job_id = str(job["job_id"])
+
+            if job_id in checkpoint:
+                job.update(checkpoint[job_id])
+                logger.info(f"   [{loc}] [{i+1:>3}/{total}] {job['job_title'][:38]:<38} [cached]")
+                continue
+
+            if fetch_count > 0 and fetch_count % self.BROWSER_RESTART_EVERY == 0:
+                try:
+                    browser.close()
+                except Exception:
+                    pass
+                restarts += 1
+                logger.info(f"   [{loc}] Browser restart #{restarts} at fetch {fetch_count}")
+                browser, context = self._launch_browser(playwright)
+                page = context.new_page()
+
+            detail_url = self.DETAIL_API.format(job_id=job_id)
 
             try:
                 page.goto(detail_url, wait_until="domcontentloaded", timeout=25000)
                 page.wait_for_timeout(2000)
                 html = page.content()
             except PlaywrightTimeout:
-                logger.warning(f"   Timeout - job_id {job['job_id']}")
+                logger.warning(f"   [{loc}] Timeout - job_id {job_id}")
+                fetch_count += 1
                 continue
+            except Exception as e:
+                if "Connection closed" in str(e) or "Target closed" in str(e):
+                    logger.warning(f"   [{loc}] Browser disconnected at job {i} — restarting")
+                    try:
+                        browser.close()
+                    except Exception:
+                        pass
+                    browser, context = self._launch_browser(playwright)
+                    page = context.new_page()
+                    try:
+                        page.goto(detail_url, wait_until="domcontentloaded", timeout=25000)
+                        page.wait_for_timeout(2000)
+                        html = page.content()
+                    except Exception:
+                        logger.warning(f"   [{loc}] Retry failed - job_id {job_id}")
+                        fetch_count += 1
+                        continue
+                else:
+                    logger.warning(f"   [{loc}] Error fetching job_id {job_id}: {e}")
+                    fetch_count += 1
+                    continue
 
             details = parse_job_detail(html)
             job.update(details)
+            fetch_count += 1
+
+            if checkpoint_path:
+                checkpoint[job_id] = details
+                try:
+                    with open(checkpoint_path, "w", encoding="utf-8") as f:
+                        json.dump(checkpoint, f, ensure_ascii=False)
+                except Exception:
+                    pass
 
             logger.info(
-                f"   [{i+1:>3}/{total}] {job['job_title'][:38]:<38} "
+                f"   [{loc}] [{i+1:>3}/{total}] {job['job_title'][:38]:<38} "
                 f"skills={len(job['skills'].split(',')) if job['skills'] else 0} "
                 f"desc={len(job['full_description']):>4}ch"
             )
             time.sleep(random.uniform(self.delay_min, self.delay_max))
 
+        try:
+            browser.close()
+        except Exception:
+            pass
+
         return jobs
 
-    def crawl(self, keywords: list, max_pages: int = 3) -> list:
+    def crawl(self, keywords: list, max_pages: int = 3, checkpoint_path: str = None) -> list:
         jobs_per_keyword = max_pages * 25
         all_jobs = []
+        loc = self.location
 
         with sync_playwright() as p:
             browser, context = self._launch_browser(p)
@@ -327,11 +375,18 @@ class LinkedInCrawler:
 
             try:
                 all_jobs = self._collect_cards(page, keywords, jobs_per_keyword)
-                logger.info(f"Total cards collected: {len(all_jobs)}")
-                all_jobs = self._enrich_jobs(page, all_jobs)
+                logger.info(f"[{loc}] Total cards collected: {len(all_jobs)}")
             except Exception as e:
-                logger.error(f"LinkedIn crawl error: {e}")
+                logger.error(f"[{loc}] LinkedIn crawl error (collect): {e}")
             finally:
-                browser.close()
+                try:
+                    browser.close()
+                except Exception:
+                    pass
+
+            try:
+                all_jobs = self._enrich_jobs(p, all_jobs, checkpoint_path=checkpoint_path)
+            except Exception as e:
+                logger.error(f"[{loc}] LinkedIn crawl error (enrich): {e}")
 
         return all_jobs

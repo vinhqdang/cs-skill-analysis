@@ -6,6 +6,7 @@ import hashlib
 import requests
 import pandas as pd
 from tqdm import tqdm
+from tqdm.contrib.logging import logging_redirect_tqdm
 
 logger = logging.getLogger(__name__)
 
@@ -225,7 +226,7 @@ def build_batch_prompt(jobs_batch: list, max_desc_len: int) -> str:
     return f"Parse these {len(entries)} jobs. Extract all skills and meticulously search the description_body for missing salaries.\n\n" + "\n".join(entries)
 
 
-def call_llm(prompt: str, system_prompt: str, config: dict, retry_count: int = 0) -> list:
+def call_llm(prompt: str, system_prompt: str, config: dict, retry_count: int = 0) -> tuple[list, bool]:
     MAX_RETRIES = 5
     api_key = config["google_api_key"]
     model   = config["llm_model"]
@@ -267,19 +268,20 @@ def call_llm(prompt: str, system_prompt: str, config: dict, retry_count: int = 0
         text = text.strip()
 
         parsed = json.loads(text)
+        had_retry = retry_count > 0
         if isinstance(parsed, list):
-            return parsed
+            return parsed, had_retry
         elif isinstance(parsed, dict):
-            return [parsed]
-        return []
+            return [parsed], had_retry
+        return [], had_retry
 
     except json.JSONDecodeError as e:
         logger.error(f"JSON parse error: {e}\nRaw: {text[:500]}")
-        return []
+        return [], retry_count > 0
     except (requests.exceptions.HTTPError, requests.exceptions.ReadTimeout, requests.exceptions.ConnectionError) as e:
         status_code = getattr(e.response, 'status_code', None) if hasattr(e, 'response') else 'Network Error'
-        
-        if status_code in (429, 500, 502, 503, 504) or status_code == 'Network Error':
+
+        if status_code in (429, 500, 502, 503, 504) or status_code in ('Network Error', None):
             if retry_count < MAX_RETRIES:
                 sleep_time = 30 * (2 ** retry_count)  # 30s, 60s, 120s, 240s, 480s
                 logger.warning(f"Error {status_code} — waiting {sleep_time}s then retrying (Attempt {retry_count + 1}/{MAX_RETRIES})...")
@@ -287,10 +289,10 @@ def call_llm(prompt: str, system_prompt: str, config: dict, retry_count: int = 0
                 return call_llm(prompt, system_prompt, config, retry_count + 1)
             else:
                 logger.error(f"Max retries reached. Error {status_code}")
-                return []
-        
+                return [], True
+
         logger.error(f"Gemini API error {status_code}: {e}")
-        return []
+        return [], False
 
 
 def parse_jobs(
@@ -338,23 +340,25 @@ def parse_jobs(
 
     logger.info(f"Processing {total_batches} batches of {batch_size}")
 
-    for i in tqdm(range(0, len(jobs_to_parse), batch_size),
-                  desc="LLM parsing", total=total_batches):
+    with logging_redirect_tqdm():
+        for i in tqdm(range(0, len(jobs_to_parse), batch_size),
+                      desc="LLM parsing", total=total_batches):
 
-        batch = jobs_to_parse[i : i + batch_size]
-        prompt = build_batch_prompt(batch, max_desc_len)
-        results = call_llm(prompt, system_prompt, config)
+            batch = jobs_to_parse[i : i + batch_size]
+            prompt = build_batch_prompt(batch, max_desc_len)
+            results, had_retry = call_llm(prompt, system_prompt, config)
 
-        for idx, job in enumerate(batch):
-            if idx < len(results):
-                parsed = results[idx]
-                if parsed and parsed.get("parsed_title"):
-                    cache[job["_hash"]] = parsed
+            for idx, job in enumerate(batch):
+                if idx < len(results):
+                    parsed = results[idx]
+                    if parsed and parsed.get("parsed_title"):
+                        cache[job["_hash"]] = parsed
 
-        save_cache(cache, cache_path)
+            save_cache(cache, cache_path)
 
-        if i + batch_size < len(jobs_to_parse):
-            time.sleep(rate_delay)
+            if i + batch_size < len(jobs_to_parse):
+                delay = rate_delay * 4 if had_retry else rate_delay
+                time.sleep(delay)
 
     return _build_final_df(df, cache, parsed_csv_path)
 
@@ -375,6 +379,7 @@ def _build_final_df(
 
         rows.append({
             "source"            : job.get("source", ""),
+            "country"           : job.get("country", ""),
             "job_id"            : job.get("job_id", ""),
             "job_title"         : job.get("job_title", ""),
             "company"           : job.get("company", ""),

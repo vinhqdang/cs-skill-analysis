@@ -46,17 +46,13 @@ CONFIG = {
     "dedup_desc_overlap"    : _env("DEDUP_DESCRIPTION_OVERLAP", "0.40", float),
     "embed_batch_size"      : _env("EMBED_BATCH_SIZE", "100", int),
 
-    "us_location"           : _env("CRAWL_LOCATION", "United States"),
+    "locations"             : [loc.strip() for loc in _env("CRAWL_LOCATIONS", _env("CRAWL_LOCATION", "Vietnam, Singapore")).split(",") if loc.strip()],
     "delay_min"             : _env("CRAWL_DELAY_MIN", "3.0", float),
     "delay_max"             : _env("CRAWL_DELAY_MAX", "5.5", float),
     "max_pages"             : _env("CRAWL_MAX_PAGES", "5", int),
     "usajobs_max_pages"     : _env("USAJOBS_MAX_PAGES", "3", int),
 
     "output_dir"            : _env("OUTPUT_DIR", "data/"),
-    "raw_csv"               : _env("RAW_CSV", "data/us_jobs_raw.csv"),
-    "parsed_csv"            : _env("PARSED_CSV", "data/us_jobs_parsed.csv"),
-    "parse_cache"           : _env("PARSE_CACHE", "data/parse_cache.json"),
-    "embed_cache_path"      : _env("EMBED_CACHE", "data/embed_cache.json"),
 
     "job_keywords": [
         "software engineer",
